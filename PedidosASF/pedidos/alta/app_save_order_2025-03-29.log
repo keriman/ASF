@@ -1,0 +1,20 @@
+=== NUEVA PETICIÓN: 2025-03-29 02:44:14 ===
+POST: Array
+(
+    [ff] => 3791003
+    [vv] => GERMAN
+    [cc] => Julieta Barrera
+    [rr] => Querendaro
+    [fs] => 2025/03/31
+    [cm] => 
+    [usuario] => Oficina4
+)
+
+Parámetros recibidos - Vendedor: 'GERMAN', Usuario: 'Oficina4'
+Comentarios encontrados en 'cm': ''
+SQL a ejecutar: INSERT INTO adm_pedidos (folio, vendedor, cliente, destino, fecha_salida, status, usuario) 
+            VALUES ('3791003', 'GERMAN', 'Julieta Barrera', 'Querendaro', '2025/03/31', 10, 'Oficina4')
+No se guardó ninguna observación porque no había comentarios
+Respuesta: {"status":"success","folio":"3791003","message":"Pedido guardado correctamente"}
+=== FIN DE PETICIÓN ===
+

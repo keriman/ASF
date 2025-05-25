@@ -1,0 +1,36 @@
+=== NUEVA PETICIÓN: 2025-03-14 00:07:14 ===
+POST: Array
+(
+    [ff] => 16
+    [vv] => Oscar Barrera
+    [cc] => Edson Keri Barrera 
+    [rr] => Morelia 
+    [fs] => 2025/03/14
+    [cm] => 
+)
+
+Comentarios encontrados en 'cm': ''
+SQL a ejecutar: INSERT INTO adm_pedidos (folio, vendedor, cliente, destino, fecha_salida, status, usuario) 
+            VALUES ('16', 'Oscar Barrera', 'Edson Keri Barrera ', 'Morelia ', '2025/03/14', 10, 'oficina')
+No se guardó ninguna observación porque no había comentarios
+Respuesta: {"status":"success","folio":"16","message":"Pedido guardado correctamente"}
+=== FIN DE PETICIÓN ===
+
+=== NUEVA PETICIÓN: 2025-03-14 00:13:34 ===
+POST: Array
+(
+    [ff] => 17
+    [vv] => Oscar Barrera
+    [cc] => Edson Keri Barrera Mendoza
+    [rr] => Pátzcuaro
+    [fs] => 2025/05/01
+    [cm] => 
+)
+
+Comentarios encontrados en 'cm': ''
+SQL a ejecutar: INSERT INTO adm_pedidos (folio, vendedor, cliente, destino, fecha_salida, status, usuario) 
+            VALUES ('17', 'Oscar Barrera', 'Edson Keri Barrera Mendoza', 'Pátzcuaro', '2025/05/01', 10, 'oficina')
+No se guardó ninguna observación porque no había comentarios
+Respuesta: {"status":"success","folio":"17","message":"Pedido guardado correctamente"}
+=== FIN DE PETICIÓN ===
+

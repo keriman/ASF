@@ -1,0 +1,40 @@
+=== NUEVA PETICIÓN: 2025-05-13 22:24:57 ===
+POST: Array
+(
+    [ff] => 4035047
+    [vv] => Quinagro
+    [cc] => Prueba
+    [rr] => Prueba
+    [rt] => Prueba
+    [fs] => 2025/05/14
+    [cm] => 
+    [usuario] => Quinagro
+)
+
+Variables de conexión disponibles:
+- host: localhost
+- username: disponible
+- dbname: agrosant_pedidos
+- pdo: disponible
+Fecha recibida: '2025/05/14'
+Fecha convertida a formato MySQL: '2025-05-14'
+Parámetros recibidos - Vendedor: 'Quinagro', Usuario: 'Quinagro', Ruta: 'Prueba', Fecha salida: '2025-05-14'
+Comentarios encontrados en 'cm': ''
+Usando conexión PDO
+Columnas encontradas en adm_pedidos: folio, vendedor, destino, fecha_salida, status, usuario, FR, cliente, ruta
+SQL a ejecutar (PDO): INSERT INTO adm_pedidos (folio, vendedor, destino, cliente, ruta, fecha_salida, status, usuario) VALUES (:folio, :vendedor, :destino, :cliente, :ruta, :fecha_salida, :status, :usuario)
+Parámetros: Array
+(
+    [:folio] => 4035047
+    [:vendedor] => Quinagro
+    [:destino] => Prueba
+    [:cliente] => Prueba
+    [:ruta] => Prueba
+    [:fecha_salida] => 2025-05-14
+    [:status] => 10
+    [:usuario] => Quinagro
+)
+
+Respuesta: {"status":"success","folio":"4035047","message":"Pedido guardado correctamente"}
+=== FIN DE PETICIÓN ===
+

@@ -1,0 +1,5 @@
+[09-Dec-2024 20:25:46 America/Mexico_City] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in C:\ASF\htdocs\PedidosASF\gerencia\index.php on line 13
+[09-Dec-2024 20:25:46 America/Mexico_City] PHP Notice:  Undefined variable: usuario in C:\ASF\htdocs\PedidosASF\gerencia\index.php on line 17
+[09-Dec-2024 20:25:46 America/Mexico_City] PHP Notice:  Undefined variable: usuario in C:\ASF\htdocs\PedidosASF\gerencia\index.php on line 19
+[09-Dec-2024 20:25:46 America/Mexico_City] PHP Notice:  Undefined variable: dato_cons in C:\ASF\htdocs\PedidosASF\gerencia\index.php on line 26
+[09-Dec-2024 20:25:46 America/Mexico_City] PHP Notice:  Undefined variable: anterior in C:\ASF\htdocs\PedidosASF\gerencia\index.php on line 282

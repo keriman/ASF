@@ -1,0 +1,1328 @@
+=== NUEVA PETICIÓN: 2025-04-02 04:40:45 ===
+PHP VERSION: 5.6.28
+Después de incluir database.php
+Usuario solicitado: EDSON BARRERA
+Conexión establecida correctamente
+SQL: SELECT folio, vendedor, cliente, destino, ruta, fecha_salida, FR 
+            FROM adm_pedidos 
+            WHERE vendedor = 'EDSON BARRERA' 
+            ORDER BY FR DESC
+Ventas encontradas: 5
+=== FIN DE PETICIÓN ===
+
+=== NUEVA PETICIÓN: 2025-04-02 04:40:53 ===
+PHP VERSION: 5.6.28
+Después de incluir database.php
+Usuario solicitado: 
+Error: usuario vacío
+=== NUEVA PETICIÓN: 2025-04-02 04:43:50 ===
+PHP VERSION: 5.6.28
+Después de incluir database.php
+Usuario solicitado: 
+Error: usuario vacío
+=== NUEVA PETICIÓN: 2025-04-02 04:51:27 ===
+PHP VERSION: 5.6.28
+Después de incluir database.php
+Usuario solicitado: 
+Error: usuario vacío
+=== NUEVA PETICIÓN: 2025-04-02 04:56:32 ===
+PHP VERSION: 5.6.28
+Después de incluir database.php
+Usuario solicitado: EDSON BARRERA
+Conexión establecida correctamente
+SQL: SELECT folio, vendedor, cliente, destino, ruta, fecha_salida, FR 
+            FROM adm_pedidos 
+            WHERE vendedor = 'EDSON BARRERA' 
+            ORDER BY FR DESC
+Ventas encontradas: 5
+=== FIN DE PETICIÓN ===
+
+=== NUEVA PETICIÓN: 2025-04-02 04:57:20 ===
+PHP VERSION: 5.6.28
+Después de incluir database.php
+Usuario solicitado: EDSON BARRERA
+Conexión establecida correctamente
+SQL: SELECT folio, vendedor, cliente, destino, ruta, fecha_salida, FR 
+            FROM adm_pedidos 
+            WHERE vendedor = 'EDSON BARRERA' 
+            ORDER BY FR DESC
+Ventas encontradas: 5
+=== FIN DE PETICIÓN ===
+
+=== NUEVA PETICIÓN: 2025-04-02 04:57:32 ===
+PHP VERSION: 5.6.28
+Después de incluir database.php
+Usuario solicitado: EDSON BARRERA
+Conexión establecida correctamente
+SQL: SELECT folio, vendedor, cliente, destino, ruta, fecha_salida, FR 
+            FROM adm_pedidos 
+            WHERE vendedor = 'EDSON BARRERA' 
+            ORDER BY FR DESC
+Ventas encontradas: 5
+=== FIN DE PETICIÓN ===
+
+=== NUEVA PETICIÓN: 2025-04-02 04:59:58 ===
+PHP VERSION: 5.6.28
+Después de incluir database.php
+Usuario solicitado: EDSON BARRERA
+Conexión establecida correctamente
+SQL: SELECT folio, vendedor, cliente, destino, ruta, fecha_salida, FR 
+            FROM adm_pedidos 
+            WHERE vendedor = 'EDSON BARRERA' 
+            ORDER BY FR DESC
+Ventas encontradas: 5
+=== FIN DE PETICIÓN ===
+
+=== NUEVA PETICIÓN: 2025-04-02 05:00:37 ===
+PHP VERSION: 5.6.28
+Después de incluir database.php
+Usuario solicitado: 
+Error: usuario vacío
+=== NUEVA PETICIÓN: 2025-04-02 05:03:55 ===
+PHP VERSION: 5.6.28
+Después de incluir database.php
+Usuario solicitado: MARTIN VACA
+Conexión establecida correctamente
+SQL: SELECT folio, vendedor, cliente, destino, ruta, fecha_salida, FR 
+            FROM adm_pedidos 
+            WHERE vendedor = 'MARTIN VACA' 
+            ORDER BY FR DESC
+Ventas encontradas: 243
+=== FIN DE PETICIÓN ===
+
+=== NUEVA PETICIÓN: 2025-04-02 05:13:57 ===
+PHP VERSION: 5.6.28
+Después de incluir database.php
+Usuario solicitado: MARTIN VACA
+Conexión establecida correctamente
+SQL: SELECT folio, vendedor, cliente, destino, ruta, fecha_salida, FR 
+            FROM adm_pedidos 
+            WHERE vendedor = 'MARTIN VACA' 
+            ORDER BY FR DESC
+Ventas encontradas: 243
+=== FIN DE PETICIÓN ===
+
+=== NUEVA PETICIÓN: 2025-04-02 05:20:55 ===
+Parámetros recibidos:
+Vendedor: EDSON BARRERA
+Página: 1
+Por página: 10
+Consulta SQL: SELECT SQL_CALC_FOUND_ROWS 
+                folio, vendedor, cliente, destino, ruta, 
+                DATE_FORMAT(fecha_salida, '%d/%m/%Y') as fecha_salida, 
+                FR 
+            FROM adm_pedidos 
+            WHERE vendedor = 'EDSON BARRERA' 
+            ORDER BY FR DESC, fecha_salida DESC
+            LIMIT 0, 10
+=== FIN DE PETICIÓN ===
+
+=== NUEVA PETICIÓN: 2025-04-02 05:21:10 ===
+Parámetros recibidos:
+Vendedor: MARTIN VACA
+Página: 1
+Por página: 10
+Consulta SQL: SELECT SQL_CALC_FOUND_ROWS 
+                folio, vendedor, cliente, destino, ruta, 
+                DATE_FORMAT(fecha_salida, '%d/%m/%Y') as fecha_salida, 
+                FR 
+            FROM adm_pedidos 
+            WHERE vendedor = 'MARTIN VACA' 
+            ORDER BY FR DESC, fecha_salida DESC
+            LIMIT 0, 10
+=== FIN DE PETICIÓN ===
+
+=== NUEVA PETICIÓN: 2025-04-02 05:22:16 ===
+Parámetros recibidos:
+Vendedor: MARTIN VACA
+Página: 1
+Por página: 10
+Consulta SQL: SELECT SQL_CALC_FOUND_ROWS 
+                folio, vendedor, cliente, destino, ruta, 
+                DATE_FORMAT(fecha_salida, '%d/%m/%Y') as fecha_salida, 
+                FR 
+            FROM adm_pedidos 
+            WHERE vendedor = 'MARTIN VACA' 
+            ORDER BY FR DESC, fecha_salida DESC
+            LIMIT 0, 10
+=== FIN DE PETICIÓN ===
+
+=== NUEVA PETICIÓN: 2025-04-02 05:24:07 ===
+Parámetros recibidos:
+Vendedor: MARTIN VACA
+Página: 1
+Por página: 10
+Consulta SQL: SELECT SQL_CALC_FOUND_ROWS 
+                folio, vendedor, cliente, destino, ruta, 
+                DATE_FORMAT(fecha_salida, '%d/%m/%Y') as fecha_salida, 
+                FR 
+            FROM adm_pedidos 
+            WHERE vendedor = 'MARTIN VACA' 
+            ORDER BY FR DESC, fecha_salida DESC
+            LIMIT 0, 10
+=== FIN DE PETICIÓN ===
+
+=== NUEVA PETICIÓN: 2025-04-02 05:25:29 ===
+Parámetros recibidos:
+Vendedor: MARTIN VACA
+Página: 1
+Por página: 10
+Consulta SQL: SELECT SQL_CALC_FOUND_ROWS 
+                folio, vendedor, cliente, destino, ruta, 
+                DATE_FORMAT(fecha_salida, '%d/%m/%Y') as fecha_salida, 
+                FR 
+            FROM adm_pedidos 
+            WHERE vendedor = 'MARTIN VACA' 
+            ORDER BY FR DESC, fecha_salida DESC
+            LIMIT 0, 10
+=== FIN DE PETICIÓN ===
+
+=== NUEVA PETICIÓN: 2025-04-02 05:25:36 ===
+Parámetros recibidos:
+Vendedor: MARTIN VACA
+Página: 2
+Por página: 10
+Consulta SQL: SELECT SQL_CALC_FOUND_ROWS 
+                folio, vendedor, cliente, destino, ruta, 
+                DATE_FORMAT(fecha_salida, '%d/%m/%Y') as fecha_salida, 
+                FR 
+            FROM adm_pedidos 
+            WHERE vendedor = 'MARTIN VACA' 
+            ORDER BY FR DESC, fecha_salida DESC
+            LIMIT 10, 10
+=== FIN DE PETICIÓN ===
+
+=== NUEVA PETICIÓN: 2025-04-02 05:25:45 ===
+Parámetros recibidos:
+Vendedor: MARTIN VACA
+Página: 3
+Por página: 10
+Consulta SQL: SELECT SQL_CALC_FOUND_ROWS 
+                folio, vendedor, cliente, destino, ruta, 
+                DATE_FORMAT(fecha_salida, '%d/%m/%Y') as fecha_salida, 
+                FR 
+            FROM adm_pedidos 
+            WHERE vendedor = 'MARTIN VACA' 
+            ORDER BY FR DESC, fecha_salida DESC
+            LIMIT 20, 10
+=== FIN DE PETICIÓN ===
+
+=== NUEVA PETICIÓN: 2025-04-02 05:26:31 ===
+Parámetros recibidos:
+Vendedor: MARTIN VACA
+Página: 1
+Por página: 10
+Consulta SQL: SELECT SQL_CALC_FOUND_ROWS 
+                folio, vendedor, cliente, destino, ruta, 
+                DATE_FORMAT(fecha_salida, '%d/%m/%Y') as fecha_salida, 
+                FR 
+            FROM adm_pedidos 
+            WHERE vendedor = 'MARTIN VACA' 
+            ORDER BY FR DESC, fecha_salida DESC
+            LIMIT 0, 10
+=== FIN DE PETICIÓN ===
+
+=== NUEVA PETICIÓN: 2025-04-02 05:38:11 ===
+Parámetros recibidos:
+Vendedor: MARTIN VACA
+Página: 1
+Por página: 10
+Consulta SQL: SELECT SQL_CALC_FOUND_ROWS 
+                folio, vendedor, cliente, destino, ruta, 
+                DATE_FORMAT(fecha_salida, '%d/%m/%Y') as fecha_salida, 
+                FR 
+            FROM adm_pedidos 
+            WHERE vendedor = 'MARTIN VACA' 
+            ORDER BY FR DESC, fecha_salida DESC
+            LIMIT 0, 10
+=== FIN DE PETICIÓN ===
+
+=== NUEVA PETICIÓN: 2025-04-02 05:38:16 ===
+Parámetros recibidos:
+Vendedor: MARTIN VACA
+Página: 2
+Por página: 10
+Consulta SQL: SELECT SQL_CALC_FOUND_ROWS 
+                folio, vendedor, cliente, destino, ruta, 
+                DATE_FORMAT(fecha_salida, '%d/%m/%Y') as fecha_salida, 
+                FR 
+            FROM adm_pedidos 
+            WHERE vendedor = 'MARTIN VACA' 
+            ORDER BY FR DESC, fecha_salida DESC
+            LIMIT 10, 10
+=== FIN DE PETICIÓN ===
+
+=== NUEVA PETICIÓN: 2025-04-02 05:38:21 ===
+Parámetros recibidos:
+Vendedor: MARTIN VACA
+Página: 3
+Por página: 10
+Consulta SQL: SELECT SQL_CALC_FOUND_ROWS 
+                folio, vendedor, cliente, destino, ruta, 
+                DATE_FORMAT(fecha_salida, '%d/%m/%Y') as fecha_salida, 
+                FR 
+            FROM adm_pedidos 
+            WHERE vendedor = 'MARTIN VACA' 
+            ORDER BY FR DESC, fecha_salida DESC
+            LIMIT 20, 10
+=== FIN DE PETICIÓN ===
+
+=== NUEVA PETICIÓN: 2025-04-02 05:38:23 ===
+Parámetros recibidos:
+Vendedor: MARTIN VACA
+Página: 4
+Por página: 10
+Consulta SQL: SELECT SQL_CALC_FOUND_ROWS 
+                folio, vendedor, cliente, destino, ruta, 
+                DATE_FORMAT(fecha_salida, '%d/%m/%Y') as fecha_salida, 
+                FR 
+            FROM adm_pedidos 
+            WHERE vendedor = 'MARTIN VACA' 
+            ORDER BY FR DESC, fecha_salida DESC
+            LIMIT 30, 10
+=== FIN DE PETICIÓN ===
+
+=== NUEVA PETICIÓN: 2025-04-02 05:38:24 ===
+Parámetros recibidos:
+Vendedor: MARTIN VACA
+Página: 5
+Por página: 10
+Consulta SQL: SELECT SQL_CALC_FOUND_ROWS 
+                folio, vendedor, cliente, destino, ruta, 
+                DATE_FORMAT(fecha_salida, '%d/%m/%Y') as fecha_salida, 
+                FR 
+            FROM adm_pedidos 
+            WHERE vendedor = 'MARTIN VACA' 
+            ORDER BY FR DESC, fecha_salida DESC
+            LIMIT 40, 10
+=== FIN DE PETICIÓN ===
+
+=== NUEVA PETICIÓN: 2025-04-02 05:55:14 ===
+Parámetros recibidos:
+Vendedor: MARTIN VACA
+Página: 1
+Por página: 10
+Consulta SQL: SELECT SQL_CALC_FOUND_ROWS 
+                folio, vendedor, cliente, destino, ruta, 
+                DATE_FORMAT(fecha_salida, '%d/%m/%Y') as fecha_salida, 
+                FR 
+            FROM adm_pedidos 
+            WHERE vendedor = 'MARTIN VACA' 
+            ORDER BY FR DESC, fecha_salida DESC
+            LIMIT 0, 10
+=== FIN DE PETICIÓN ===
+
+=== NUEVA PETICIÓN: 2025-04-02 05:57:46 ===
+Parámetros recibidos:
+Vendedor: MARTIN VACA
+Página: 1
+Por página: 10
+Consulta SQL: SELECT SQL_CALC_FOUND_ROWS 
+                folio, vendedor, cliente, destino, ruta, 
+                DATE_FORMAT(fecha_salida, '%d/%m/%Y') as fecha_salida, 
+                FR 
+            FROM adm_pedidos 
+            WHERE vendedor = 'MARTIN VACA' 
+            ORDER BY FR DESC, fecha_salida DESC
+            LIMIT 0, 10
+=== FIN DE PETICIÓN ===
+
+=== NUEVA PETICIÓN: 2025-04-02 06:01:55 ===
+Parámetros recibidos:
+Vendedor: MARTIN VACA
+Página: 1
+Por página: 10
+Consulta SQL: SELECT SQL_CALC_FOUND_ROWS 
+                folio, vendedor, cliente, destino, ruta, 
+                DATE_FORMAT(fecha_salida, '%d/%m/%Y') as fecha_salida, 
+                FR 
+            FROM adm_pedidos 
+            WHERE vendedor = 'MARTIN VACA' 
+            ORDER BY FR DESC, fecha_salida DESC
+            LIMIT 0, 10
+=== FIN DE PETICIÓN ===
+
+=== NUEVA PETICIÓN: 2025-04-02 06:05:09 ===
+Parámetros recibidos:
+Vendedor: MARTIN VACA
+Página: 1
+Por página: 10
+Consulta SQL: SELECT SQL_CALC_FOUND_ROWS 
+                folio, vendedor, cliente, destino, ruta, 
+                DATE_FORMAT(fecha_salida, '%d/%m/%Y') as fecha_salida, 
+                FR 
+            FROM adm_pedidos 
+            WHERE vendedor = 'MARTIN VACA' 
+            ORDER BY FR DESC, fecha_salida DESC
+            LIMIT 0, 10
+=== FIN DE PETICIÓN ===
+
+=== NUEVA PETICIÓN: 2025-04-02 06:13:28 ===
+Parámetros recibidos:
+Vendedor: MARTIN VACA
+Página: 1
+Por página: 10
+Consulta SQL: SELECT SQL_CALC_FOUND_ROWS 
+                folio, vendedor, cliente, destino, ruta, 
+                DATE_FORMAT(fecha_salida, '%d/%m/%Y') as fecha_salida, 
+                FR 
+            FROM adm_pedidos 
+            WHERE vendedor = 'MARTIN VACA' 
+            ORDER BY FR DESC, fecha_salida DESC
+            LIMIT 0, 10
+=== FIN DE PETICIÓN ===
+
+=== NUEVA PETICIÓN: 2025-04-02 06:15:51 ===
+Parámetros recibidos:
+Vendedor: MARTIN VACA
+Página: 1
+Por página: 10
+Consulta SQL: SELECT SQL_CALC_FOUND_ROWS 
+                folio, vendedor, cliente, destino, ruta, 
+                DATE_FORMAT(fecha_salida, '%d/%m/%Y') as fecha_salida, 
+                FR 
+            FROM adm_pedidos 
+            WHERE vendedor = 'MARTIN VACA' 
+            ORDER BY FR DESC, fecha_salida DESC
+            LIMIT 0, 10
+=== FIN DE PETICIÓN ===
+
+=== NUEVA PETICIÓN: 2025-04-02 06:18:53 ===
+Parámetros recibidos:
+Vendedor: MARTIN VACA
+Página: 1
+Por página: 10
+Consulta SQL: SELECT SQL_CALC_FOUND_ROWS 
+                folio, vendedor, cliente, destino, ruta, 
+                DATE_FORMAT(fecha_salida, '%d/%m/%Y') as fecha_salida, 
+                FR 
+            FROM adm_pedidos 
+            WHERE vendedor = 'MARTIN VACA' 
+            ORDER BY FR DESC, fecha_salida DESC
+            LIMIT 0, 10
+=== FIN DE PETICIÓN ===
+
+=== NUEVA PETICIÓN: 2025-04-02 06:20:18 ===
+Parámetros recibidos:
+Vendedor: MARTIN VACA
+Página: 1
+Por página: 10
+Consulta SQL: SELECT SQL_CALC_FOUND_ROWS 
+                folio, vendedor, cliente, destino, ruta, 
+                DATE_FORMAT(fecha_salida, '%d/%m/%Y') as fecha_salida, 
+                FR 
+            FROM adm_pedidos 
+            WHERE vendedor = 'MARTIN VACA' 
+            ORDER BY FR DESC, fecha_salida DESC
+            LIMIT 0, 10
+=== FIN DE PETICIÓN ===
+
+=== NUEVA PETICIÓN: 2025-04-02 06:26:20 ===
+Parámetros recibidos:
+Vendedor: MARTIN VACA
+Página: 1
+Por página: 10
+Consulta SQL: SELECT SQL_CALC_FOUND_ROWS 
+                folio, vendedor, cliente, destino, ruta, 
+                DATE_FORMAT(fecha_salida, '%d/%m/%Y') as fecha_salida, 
+                FR 
+            FROM adm_pedidos 
+            WHERE vendedor = 'MARTIN VACA' 
+            ORDER BY FR DESC, fecha_salida DESC
+            LIMIT 0, 10
+=== FIN DE PETICIÓN ===
+
+=== NUEVA PETICIÓN: 2025-04-02 06:26:48 ===
+Parámetros recibidos:
+Vendedor: MARTIN VACA
+Página: 1
+Por página: 10
+Consulta SQL: SELECT SQL_CALC_FOUND_ROWS 
+                folio, vendedor, cliente, destino, ruta, 
+                DATE_FORMAT(fecha_salida, '%d/%m/%Y') as fecha_salida, 
+                FR 
+            FROM adm_pedidos 
+            WHERE vendedor = 'MARTIN VACA' 
+            ORDER BY FR DESC, fecha_salida DESC
+            LIMIT 0, 10
+=== FIN DE PETICIÓN ===
+
+=== NUEVA PETICIÓN: 2025-04-02 06:39:44 ===
+Parámetros recibidos:
+Vendedor: MARTIN VACA
+Página: 1
+Por página: 10
+Consulta SQL: SELECT SQL_CALC_FOUND_ROWS 
+                folio, vendedor, cliente, destino, ruta, 
+                DATE_FORMAT(fecha_salida, '%d/%m/%Y') as fecha_salida, 
+                FR 
+            FROM adm_pedidos 
+            WHERE vendedor = 'MARTIN VACA' 
+            ORDER BY FR DESC, fecha_salida DESC
+            LIMIT 0, 10
+=== FIN DE PETICIÓN ===
+
+=== NUEVA PETICIÓN: 2025-04-02 07:32:05 ===
+Parámetros recibidos:
+Vendedor: MARTIN VACA
+Página: 1
+Por página: 10
+Consulta SQL: SELECT SQL_CALC_FOUND_ROWS 
+                folio, vendedor, cliente, destino, ruta, 
+                DATE_FORMAT(fecha_salida, '%d/%m/%Y') as fecha_salida, 
+                FR 
+            FROM adm_pedidos 
+            WHERE vendedor = 'MARTIN VACA' 
+            ORDER BY FR DESC, fecha_salida DESC
+            LIMIT 0, 10
+=== FIN DE PETICIÓN ===
+
+=== NUEVA PETICIÓN: 2025-04-02 07:33:50 ===
+Parámetros recibidos:
+Vendedor: MARTIN VACA
+Página: 1
+Por página: 10
+Consulta SQL: SELECT SQL_CALC_FOUND_ROWS 
+                folio, vendedor, cliente, destino, ruta, 
+                DATE_FORMAT(fecha_salida, '%d/%m/%Y') as fecha_salida, 
+                FR 
+            FROM adm_pedidos 
+            WHERE vendedor = 'MARTIN VACA' 
+            ORDER BY FR DESC, fecha_salida DESC
+            LIMIT 0, 10
+=== FIN DE PETICIÓN ===
+
+=== NUEVA PETICIÓN: 2025-04-02 07:34:59 ===
+Parámetros recibidos:
+Vendedor: MARTIN VACA
+Página: 1
+Por página: 10
+Consulta SQL: SELECT SQL_CALC_FOUND_ROWS 
+                folio, vendedor, cliente, destino, ruta, 
+                DATE_FORMAT(fecha_salida, '%d/%m/%Y') as fecha_salida, 
+                FR 
+            FROM adm_pedidos 
+            WHERE vendedor = 'MARTIN VACA' 
+            ORDER BY FR DESC, fecha_salida DESC
+            LIMIT 0, 10
+=== FIN DE PETICIÓN ===
+
+=== NUEVA PETICIÓN: 2025-04-02 07:38:26 ===
+Parámetros recibidos:
+Vendedor: MARTIN VACA
+Página: 1
+Por página: 10
+Consulta SQL: SELECT SQL_CALC_FOUND_ROWS 
+                folio, vendedor, cliente, destino, ruta, 
+                DATE_FORMAT(fecha_salida, '%d/%m/%Y') as fecha_salida, 
+                FR 
+            FROM adm_pedidos 
+            WHERE vendedor = 'MARTIN VACA' 
+            ORDER BY FR DESC, fecha_salida DESC
+            LIMIT 0, 10
+=== FIN DE PETICIÓN ===
+
+=== NUEVA PETICIÓN: 2025-04-02 07:40:41 ===
+Parámetros recibidos:
+Vendedor: MARTIN VACA
+Página: 1
+Por página: 10
+Consulta SQL: SELECT SQL_CALC_FOUND_ROWS 
+                folio, vendedor, cliente, destino, ruta, 
+                DATE_FORMAT(fecha_salida, '%d/%m/%Y') as fecha_salida, 
+                FR 
+            FROM adm_pedidos 
+            WHERE vendedor = 'MARTIN VACA' 
+            ORDER BY FR DESC, fecha_salida DESC
+            LIMIT 0, 10
+=== FIN DE PETICIÓN ===
+
+=== NUEVA PETICIÓN: 2025-04-02 07:41:37 ===
+Parámetros recibidos:
+Vendedor: MARTIN VACA
+Página: 1
+Por página: 10
+Consulta SQL: SELECT SQL_CALC_FOUND_ROWS 
+                folio, vendedor, cliente, destino, ruta, 
+                DATE_FORMAT(fecha_salida, '%d/%m/%Y') as fecha_salida, 
+                FR 
+            FROM adm_pedidos 
+            WHERE vendedor = 'MARTIN VACA' 
+            ORDER BY FR DESC, fecha_salida DESC
+            LIMIT 0, 10
+=== FIN DE PETICIÓN ===
+
+=== NUEVA PETICIÓN: 2025-04-02 07:41:39 ===
+Parámetros recibidos:
+Vendedor: 
+Página: 1
+Por página: 10
+Error: vendedor vacío
+=== NUEVA PETICIÓN: 2025-04-02 07:41:51 ===
+Parámetros recibidos:
+Vendedor: 
+Página: 1
+Por página: 10
+Error: vendedor vacío
+=== NUEVA PETICIÓN: 2025-04-02 07:41:52 ===
+Parámetros recibidos:
+Vendedor: 
+Página: 1
+Por página: 10
+Error: vendedor vacío
+=== NUEVA PETICIÓN: 2025-04-02 07:41:57 ===
+Parámetros recibidos:
+Vendedor: Oficina1
+Página: 1
+Por página: 10
+Consulta SQL: SELECT SQL_CALC_FOUND_ROWS 
+                folio, vendedor, cliente, destino, ruta, 
+                DATE_FORMAT(fecha_salida, '%d/%m/%Y') as fecha_salida, 
+                FR 
+            FROM adm_pedidos 
+            WHERE vendedor = 'Oficina1' 
+            ORDER BY FR DESC, fecha_salida DESC
+            LIMIT 0, 10
+=== FIN DE PETICIÓN ===
+
+=== NUEVA PETICIÓN: 2025-04-02 07:42:08 ===
+Parámetros recibidos:
+Vendedor: "MARTIN VACA"
+Página: 1
+Por página: 10
+Consulta SQL: SELECT SQL_CALC_FOUND_ROWS 
+                folio, vendedor, cliente, destino, ruta, 
+                DATE_FORMAT(fecha_salida, '%d/%m/%Y') as fecha_salida, 
+                FR 
+            FROM adm_pedidos 
+            WHERE vendedor = '\"MARTIN VACA\"' 
+            ORDER BY FR DESC, fecha_salida DESC
+            LIMIT 0, 10
+=== FIN DE PETICIÓN ===
+
+=== NUEVA PETICIÓN: 2025-04-02 07:42:12 ===
+Parámetros recibidos:
+Vendedor: "MARTIN VACA"
+Página: 1
+Por página: 10
+Consulta SQL: SELECT SQL_CALC_FOUND_ROWS 
+                folio, vendedor, cliente, destino, ruta, 
+                DATE_FORMAT(fecha_salida, '%d/%m/%Y') as fecha_salida, 
+                FR 
+            FROM adm_pedidos 
+            WHERE vendedor = '\"MARTIN VACA\"' 
+            ORDER BY FR DESC, fecha_salida DESC
+            LIMIT 0, 10
+=== FIN DE PETICIÓN ===
+
+=== NUEVA PETICIÓN: 2025-04-02 07:42:17 ===
+Parámetros recibidos:
+Vendedor: "MARTIN VACA"
+Página: 1
+Por página: 10
+Consulta SQL: SELECT SQL_CALC_FOUND_ROWS 
+                folio, vendedor, cliente, destino, ruta, 
+                DATE_FORMAT(fecha_salida, '%d/%m/%Y') as fecha_salida, 
+                FR 
+            FROM adm_pedidos 
+            WHERE vendedor = '\"MARTIN VACA\"' 
+            ORDER BY FR DESC, fecha_salida DESC
+            LIMIT 0, 10
+=== FIN DE PETICIÓN ===
+
+=== NUEVA PETICIÓN: 2025-04-02 07:42:29 ===
+Parámetros recibidos:
+Vendedor: "EDSON BARRERA"
+Página: 1
+Por página: 10
+Consulta SQL: SELECT SQL_CALC_FOUND_ROWS 
+                folio, vendedor, cliente, destino, ruta, 
+                DATE_FORMAT(fecha_salida, '%d/%m/%Y') as fecha_salida, 
+                FR 
+            FROM adm_pedidos 
+            WHERE vendedor = '\"EDSON BARRERA\"' 
+            ORDER BY FR DESC, fecha_salida DESC
+            LIMIT 0, 10
+=== FIN DE PETICIÓN ===
+
+=== NUEVA PETICIÓN: 2025-04-02 07:42:34 ===
+Parámetros recibidos:
+Vendedor: EDSON BARRERA
+Página: 1
+Por página: 10
+Consulta SQL: SELECT SQL_CALC_FOUND_ROWS 
+                folio, vendedor, cliente, destino, ruta, 
+                DATE_FORMAT(fecha_salida, '%d/%m/%Y') as fecha_salida, 
+                FR 
+            FROM adm_pedidos 
+            WHERE vendedor = 'EDSON BARRERA' 
+            ORDER BY FR DESC, fecha_salida DESC
+            LIMIT 0, 10
+=== FIN DE PETICIÓN ===
+
+=== NUEVA PETICIÓN: 2025-04-02 07:42:51 ===
+Parámetros recibidos:
+Vendedor: MARTIN VACA
+Página: 1
+Por página: 10
+Consulta SQL: SELECT SQL_CALC_FOUND_ROWS 
+                folio, vendedor, cliente, destino, ruta, 
+                DATE_FORMAT(fecha_salida, '%d/%m/%Y') as fecha_salida, 
+                FR 
+            FROM adm_pedidos 
+            WHERE vendedor = 'MARTIN VACA' 
+            ORDER BY FR DESC, fecha_salida DESC
+            LIMIT 0, 10
+=== FIN DE PETICIÓN ===
+
+=== NUEVA PETICIÓN: 2025-04-02 07:43:13 ===
+Parámetros recibidos:
+Vendedor: MARTIN VACA
+Página: 1
+Por página: 10
+Consulta SQL: SELECT SQL_CALC_FOUND_ROWS 
+                folio, vendedor, cliente, destino, ruta, 
+                DATE_FORMAT(fecha_salida, '%d/%m/%Y') as fecha_salida, 
+                FR 
+            FROM adm_pedidos 
+            WHERE vendedor = 'MARTIN VACA' 
+            ORDER BY FR DESC, fecha_salida DESC
+            LIMIT 0, 10
+=== FIN DE PETICIÓN ===
+
+=== NUEVA PETICIÓN: 2025-04-02 07:43:15 ===
+Parámetros recibidos:
+Vendedor: Oficina1
+Página: 1
+Por página: 10
+Consulta SQL: SELECT SQL_CALC_FOUND_ROWS 
+                folio, vendedor, cliente, destino, ruta, 
+                DATE_FORMAT(fecha_salida, '%d/%m/%Y') as fecha_salida, 
+                FR 
+            FROM adm_pedidos 
+            WHERE vendedor = 'Oficina1' 
+            ORDER BY FR DESC, fecha_salida DESC
+            LIMIT 0, 10
+=== FIN DE PETICIÓN ===
+
+=== NUEVA PETICIÓN: 2025-04-02 07:43:35 ===
+Parámetros recibidos:
+Vendedor: Oficina1
+Página: 1
+Por página: 10
+Consulta SQL: SELECT SQL_CALC_FOUND_ROWS 
+                folio, vendedor, cliente, destino, ruta, 
+                DATE_FORMAT(fecha_salida, '%d/%m/%Y') as fecha_salida, 
+                FR 
+            FROM adm_pedidos 
+            WHERE vendedor = 'Oficina1' 
+            ORDER BY FR DESC, fecha_salida DESC
+            LIMIT 0, 10
+=== FIN DE PETICIÓN ===
+
+=== NUEVA PETICIÓN: 2025-04-02 07:43:35 ===
+Parámetros recibidos:
+Vendedor: Oficina1
+Página: 1
+Por página: 10
+Consulta SQL: SELECT SQL_CALC_FOUND_ROWS 
+                folio, vendedor, cliente, destino, ruta, 
+                DATE_FORMAT(fecha_salida, '%d/%m/%Y') as fecha_salida, 
+                FR 
+            FROM adm_pedidos 
+            WHERE vendedor = 'Oficina1' 
+            ORDER BY FR DESC, fecha_salida DESC
+            LIMIT 0, 10
+=== FIN DE PETICIÓN ===
+
+=== NUEVA PETICIÓN: 2025-04-02 07:44:02 ===
+Parámetros recibidos:
+Vendedor: MARTIN VACA
+Página: 1
+Por página: 10
+Consulta SQL: SELECT SQL_CALC_FOUND_ROWS 
+                folio, vendedor, cliente, destino, ruta, 
+                DATE_FORMAT(fecha_salida, '%d/%m/%Y') as fecha_salida, 
+                FR 
+            FROM adm_pedidos 
+            WHERE vendedor = 'MARTIN VACA' 
+            ORDER BY FR DESC, fecha_salida DESC
+            LIMIT 0, 10
+=== FIN DE PETICIÓN ===
+
+=== NUEVA PETICIÓN: 2025-04-02 07:44:04 ===
+Parámetros recibidos:
+Vendedor: Oficina1
+Página: 1
+Por página: 10
+Consulta SQL: SELECT SQL_CALC_FOUND_ROWS 
+                folio, vendedor, cliente, destino, ruta, 
+                DATE_FORMAT(fecha_salida, '%d/%m/%Y') as fecha_salida, 
+                FR 
+            FROM adm_pedidos 
+            WHERE vendedor = 'Oficina1' 
+            ORDER BY FR DESC, fecha_salida DESC
+            LIMIT 0, 10
+=== FIN DE PETICIÓN ===
+
+=== NUEVA PETICIÓN: 2025-04-02 07:44:13 ===
+Parámetros recibidos:
+Vendedor: Oficina1
+Página: 1
+Por página: 10
+Consulta SQL: SELECT SQL_CALC_FOUND_ROWS 
+                folio, vendedor, cliente, destino, ruta, 
+                DATE_FORMAT(fecha_salida, '%d/%m/%Y') as fecha_salida, 
+                FR 
+            FROM adm_pedidos 
+            WHERE vendedor = 'Oficina1' 
+            ORDER BY FR DESC, fecha_salida DESC
+            LIMIT 0, 10
+=== FIN DE PETICIÓN ===
+
+=== NUEVA PETICIÓN: 2025-04-02 07:44:13 ===
+Parámetros recibidos:
+Vendedor: Oficina1
+Página: 1
+Por página: 10
+Consulta SQL: SELECT SQL_CALC_FOUND_ROWS 
+                folio, vendedor, cliente, destino, ruta, 
+                DATE_FORMAT(fecha_salida, '%d/%m/%Y') as fecha_salida, 
+                FR 
+            FROM adm_pedidos 
+            WHERE vendedor = 'Oficina1' 
+            ORDER BY FR DESC, fecha_salida DESC
+            LIMIT 0, 10
+=== FIN DE PETICIÓN ===
+
+=== NUEVA PETICIÓN: 2025-04-02 07:46:22 ===
+Parámetros recibidos:
+Vendedor: MARTIN VACA
+Página: 1
+Por página: 10
+Consulta SQL: SELECT SQL_CALC_FOUND_ROWS 
+                folio, vendedor, cliente, destino, ruta, 
+                DATE_FORMAT(fecha_salida, '%d/%m/%Y') as fecha_salida, 
+                FR 
+            FROM adm_pedidos 
+            WHERE vendedor = 'MARTIN VACA' 
+            ORDER BY FR DESC, fecha_salida DESC
+            LIMIT 0, 10
+=== FIN DE PETICIÓN ===
+
+=== NUEVA PETICIÓN: 2025-04-02 07:46:25 ===
+Parámetros recibidos:
+Vendedor: MARTIN VACA
+Página: 1
+Por página: 10
+Consulta SQL: SELECT SQL_CALC_FOUND_ROWS 
+                folio, vendedor, cliente, destino, ruta, 
+                DATE_FORMAT(fecha_salida, '%d/%m/%Y') as fecha_salida, 
+                FR 
+            FROM adm_pedidos 
+            WHERE vendedor = 'MARTIN VACA' 
+            ORDER BY FR DESC, fecha_salida DESC
+            LIMIT 0, 10
+=== FIN DE PETICIÓN ===
+
+=== NUEVA PETICIÓN: 2025-04-02 07:46:31 ===
+Parámetros recibidos:
+Vendedor: MARTIN VACA
+Página: 1
+Por página: 10
+Consulta SQL: SELECT SQL_CALC_FOUND_ROWS 
+                folio, vendedor, cliente, destino, ruta, 
+                DATE_FORMAT(fecha_salida, '%d/%m/%Y') as fecha_salida, 
+                FR 
+            FROM adm_pedidos 
+            WHERE vendedor = 'MARTIN VACA' 
+            ORDER BY FR DESC, fecha_salida DESC
+            LIMIT 0, 10
+=== FIN DE PETICIÓN ===
+
+=== NUEVA PETICIÓN: 2025-04-02 07:46:31 ===
+Parámetros recibidos:
+Vendedor: MARTIN VACA
+Página: 1
+Por página: 10
+Consulta SQL: SELECT SQL_CALC_FOUND_ROWS 
+                folio, vendedor, cliente, destino, ruta, 
+                DATE_FORMAT(fecha_salida, '%d/%m/%Y') as fecha_salida, 
+                FR 
+            FROM adm_pedidos 
+            WHERE vendedor = 'MARTIN VACA' 
+            ORDER BY FR DESC, fecha_salida DESC
+            LIMIT 0, 10
+=== FIN DE PETICIÓN ===
+
+=== NUEVA PETICIÓN: 2025-04-02 07:47:13 ===
+Parámetros recibidos:
+Vendedor: MARTIN VACA
+Página: 1
+Por página: 10
+Consulta SQL: SELECT SQL_CALC_FOUND_ROWS 
+                folio, vendedor, cliente, destino, ruta, 
+                DATE_FORMAT(fecha_salida, '%d/%m/%Y') as fecha_salida, 
+                FR 
+            FROM adm_pedidos 
+            WHERE vendedor = 'MARTIN VACA' 
+            ORDER BY FR DESC, fecha_salida DESC
+            LIMIT 0, 10
+=== FIN DE PETICIÓN ===
+
+=== NUEVA PETICIÓN: 2025-04-02 07:49:05 ===
+Parámetros recibidos:
+Vendedor: MARTIN VACA
+Página: 1
+Por página: 10
+Consulta SQL: SELECT SQL_CALC_FOUND_ROWS 
+                folio, vendedor, cliente, destino, ruta, 
+                DATE_FORMAT(fecha_salida, '%d/%m/%Y') as fecha_salida, 
+                FR 
+            FROM adm_pedidos 
+            WHERE vendedor = 'MARTIN VACA' 
+            ORDER BY FR DESC, fecha_salida DESC
+            LIMIT 0, 10
+=== FIN DE PETICIÓN ===
+
+=== NUEVA PETICIÓN: 2025-04-02 07:54:44 ===
+Parámetros recibidos:
+Vendedor: 
+Página: 1
+Por página: 10
+Error: vendedor vacío
+=== NUEVA PETICIÓN: 2025-04-02 08:18:16 ===
+Parámetros recibidos:
+Vendedor: MARTIN VACA
+Página: 1
+Por página: 10
+Consulta SQL: SELECT SQL_CALC_FOUND_ROWS 
+                folio, vendedor, cliente, destino, ruta, 
+                DATE_FORMAT(fecha_salida, '%d/%m/%Y') as fecha_salida, 
+                FR 
+            FROM adm_pedidos 
+            WHERE vendedor = 'MARTIN VACA' 
+            ORDER BY FR DESC, fecha_salida DESC
+            LIMIT 0, 10
+=== FIN DE PETICIÓN ===
+
+=== NUEVA PETICIÓN: 2025-04-02 08:19:16 ===
+Parámetros recibidos:
+Vendedor: MARTIN VACA
+Página: 1
+Por página: 10
+Consulta SQL: SELECT SQL_CALC_FOUND_ROWS 
+                folio, vendedor, cliente, destino, ruta, 
+                DATE_FORMAT(fecha_salida, '%d/%m/%Y') as fecha_salida, 
+                FR 
+            FROM adm_pedidos 
+            WHERE vendedor = 'MARTIN VACA' 
+            ORDER BY FR DESC, fecha_salida DESC
+            LIMIT 0, 10
+=== FIN DE PETICIÓN ===
+
+=== NUEVA PETICIÓN: 2025-04-02 08:29:00 ===
+Parámetros recibidos:
+Vendedor: MARTIN VACA
+Página: 1
+Por página: 10
+Consulta SQL: SELECT SQL_CALC_FOUND_ROWS 
+                folio, vendedor, cliente, destino, ruta, 
+                DATE_FORMAT(fecha_salida, '%d/%m/%Y') as fecha_salida, 
+                FR 
+            FROM adm_pedidos 
+            WHERE vendedor = 'MARTIN VACA' 
+            ORDER BY FR DESC, fecha_salida DESC
+            LIMIT 0, 10
+=== FIN DE PETICIÓN ===
+
+=== NUEVA PETICIÓN: 2025-04-02 08:29:38 ===
+Parámetros recibidos:
+Vendedor: MARTIN VACA
+Página: 1
+Por página: 10
+Consulta SQL: SELECT SQL_CALC_FOUND_ROWS 
+                folio, vendedor, cliente, destino, ruta, 
+                DATE_FORMAT(fecha_salida, '%d/%m/%Y') as fecha_salida, 
+                FR 
+            FROM adm_pedidos 
+            WHERE vendedor = 'MARTIN VACA' 
+            ORDER BY FR DESC, fecha_salida DESC
+            LIMIT 0, 10
+=== FIN DE PETICIÓN ===
+
+=== NUEVA PETICIÓN: 2025-04-02 08:43:16 ===
+Parámetros recibidos:
+Vendedor: MARTIN VACA
+Página: 1
+Por página: 10
+Consulta SQL: SELECT SQL_CALC_FOUND_ROWS 
+                folio, vendedor, cliente, destino, ruta, 
+                DATE_FORMAT(fecha_salida, '%d/%m/%Y') as fecha_salida, 
+                FR 
+            FROM adm_pedidos 
+            WHERE vendedor = 'MARTIN VACA' 
+            ORDER BY FR DESC, fecha_salida DESC
+            LIMIT 0, 10
+=== FIN DE PETICIÓN ===
+
+=== NUEVA PETICIÓN: 2025-04-02 08:48:30 ===
+Parámetros recibidos:
+Vendedor: EDSON BARRERA
+Página: 1
+Por página: 10
+Consulta SQL: SELECT SQL_CALC_FOUND_ROWS 
+                folio, vendedor, cliente, destino, ruta, 
+                DATE_FORMAT(fecha_salida, '%d/%m/%Y') as fecha_salida, 
+                FR 
+            FROM adm_pedidos 
+            WHERE vendedor = 'EDSON BARRERA' 
+            ORDER BY FR DESC, fecha_salida DESC
+            LIMIT 0, 10
+=== FIN DE PETICIÓN ===
+
+=== NUEVA PETICIÓN: 2025-04-02 08:49:23 ===
+Parámetros recibidos:
+Vendedor: EDSON BARRERA
+Página: 1
+Por página: 10
+Consulta SQL: SELECT SQL_CALC_FOUND_ROWS 
+                folio, vendedor, cliente, destino, ruta, 
+                DATE_FORMAT(fecha_salida, '%d/%m/%Y') as fecha_salida, 
+                FR 
+            FROM adm_pedidos 
+            WHERE vendedor = 'EDSON BARRERA' 
+            ORDER BY FR DESC, fecha_salida DESC
+            LIMIT 0, 10
+=== FIN DE PETICIÓN ===
+
+=== NUEVA PETICIÓN: 2025-04-07 21:04:34 ===
+Parámetros recibidos:
+Vendedor: EDSON BARRERA
+Página: 1
+Por página: 10
+Consulta SQL: SELECT SQL_CALC_FOUND_ROWS 
+                folio, vendedor, cliente, destino, ruta, 
+                DATE_FORMAT(fecha_salida, '%d/%m/%Y') as fecha_salida, 
+                FR 
+            FROM adm_pedidos 
+            WHERE vendedor = 'EDSON BARRERA' 
+            ORDER BY FR DESC, fecha_salida DESC
+            LIMIT 0, 10
+=== FIN DE PETICIÓN ===
+
+=== NUEVA PETICIÓN: 2025-04-07 21:05:57 ===
+Parámetros recibidos:
+Vendedor: EDSON BARRERA
+Página: 1
+Por página: 10
+Consulta SQL: SELECT SQL_CALC_FOUND_ROWS 
+                folio, vendedor, cliente, destino, ruta, 
+                DATE_FORMAT(fecha_salida, '%d/%m/%Y') as fecha_salida, 
+                FR 
+            FROM adm_pedidos 
+            WHERE vendedor = 'EDSON BARRERA' 
+            ORDER BY FR DESC, fecha_salida DESC
+            LIMIT 0, 10
+=== FIN DE PETICIÓN ===
+
+=== NUEVA PETICIÓN: 2025-04-07 21:16:59 ===
+Parámetros recibidos:
+Vendedor: MARTIN VACA
+Página: 1
+Por página: 10
+Consulta SQL: SELECT SQL_CALC_FOUND_ROWS 
+                folio, vendedor, cliente, destino, ruta, 
+                DATE_FORMAT(fecha_salida, '%d/%m/%Y') as fecha_salida, 
+                FR 
+            FROM adm_pedidos 
+            WHERE vendedor = 'MARTIN VACA' 
+            ORDER BY FR DESC, fecha_salida DESC
+            LIMIT 0, 10
+=== FIN DE PETICIÓN ===
+
+=== NUEVA PETICIÓN: 2025-04-07 21:18:00 ===
+Parámetros recibidos:
+Vendedor: MARCOS SANCHEZ
+Página: 1
+Por página: 10
+Consulta SQL: SELECT SQL_CALC_FOUND_ROWS 
+                folio, vendedor, cliente, destino, ruta, 
+                DATE_FORMAT(fecha_salida, '%d/%m/%Y') as fecha_salida, 
+                FR 
+            FROM adm_pedidos 
+            WHERE vendedor = 'MARCOS SANCHEZ' 
+            ORDER BY FR DESC, fecha_salida DESC
+            LIMIT 0, 10
+=== FIN DE PETICIÓN ===
+
+=== NUEVA PETICIÓN: 2025-04-07 21:19:24 ===
+Parámetros recibidos:
+Vendedor: GERMAN
+Página: 1
+Por página: 10
+Consulta SQL: SELECT SQL_CALC_FOUND_ROWS 
+                folio, vendedor, cliente, destino, ruta, 
+                DATE_FORMAT(fecha_salida, '%d/%m/%Y') as fecha_salida, 
+                FR 
+            FROM adm_pedidos 
+            WHERE vendedor = 'GERMAN' 
+            ORDER BY FR DESC, fecha_salida DESC
+            LIMIT 0, 10
+=== FIN DE PETICIÓN ===
+
+=== NUEVA PETICIÓN: 2025-04-07 21:19:34 ===
+Parámetros recibidos:
+Vendedor: EDSON BARRERA
+Página: 1
+Por página: 10
+Consulta SQL: SELECT SQL_CALC_FOUND_ROWS 
+                folio, vendedor, cliente, destino, ruta, 
+                DATE_FORMAT(fecha_salida, '%d/%m/%Y') as fecha_salida, 
+                FR 
+            FROM adm_pedidos 
+            WHERE vendedor = 'EDSON BARRERA' 
+            ORDER BY FR DESC, fecha_salida DESC
+            LIMIT 0, 10
+=== FIN DE PETICIÓN ===
+
+=== NUEVA PETICIÓN: 2025-04-07 21:20:43 ===
+Parámetros recibidos:
+Vendedor: SAUL PRADO
+Página: 1
+Por página: 10
+Consulta SQL: SELECT SQL_CALC_FOUND_ROWS 
+                folio, vendedor, cliente, destino, ruta, 
+                DATE_FORMAT(fecha_salida, '%d/%m/%Y') as fecha_salida, 
+                FR 
+            FROM adm_pedidos 
+            WHERE vendedor = 'SAUL PRADO' 
+            ORDER BY FR DESC, fecha_salida DESC
+            LIMIT 0, 10
+=== FIN DE PETICIÓN ===
+
+=== NUEVA PETICIÓN: 2025-04-07 21:21:34 ===
+Parámetros recibidos:
+Vendedor: ADRIAN BANDERAS
+Página: 1
+Por página: 10
+Consulta SQL: SELECT SQL_CALC_FOUND_ROWS 
+                folio, vendedor, cliente, destino, ruta, 
+                DATE_FORMAT(fecha_salida, '%d/%m/%Y') as fecha_salida, 
+                FR 
+            FROM adm_pedidos 
+            WHERE vendedor = 'ADRIAN BANDERAS' 
+            ORDER BY FR DESC, fecha_salida DESC
+            LIMIT 0, 10
+=== FIN DE PETICIÓN ===
+
+=== NUEVA PETICIÓN: 2025-04-07 21:47:13 ===
+Parámetros recibidos:
+Vendedor: EDSON BARRERA
+Página: 1
+Por página: 10
+Consulta SQL: SELECT SQL_CALC_FOUND_ROWS 
+                folio, vendedor, cliente, destino, ruta, 
+                DATE_FORMAT(fecha_salida, '%d/%m/%Y') as fecha_salida, 
+                FR 
+            FROM adm_pedidos 
+            WHERE vendedor = 'EDSON BARRERA' 
+            ORDER BY FR DESC, fecha_salida DESC
+            LIMIT 0, 10
+=== FIN DE PETICIÓN ===
+
+=== NUEVA PETICIÓN: 2025-04-07 21:49:17 ===
+Parámetros recibidos:
+Vendedor: EDSON BARRERA
+Página: 1
+Por página: 10
+Consulta SQL: SELECT SQL_CALC_FOUND_ROWS 
+                folio, vendedor, cliente, destino, ruta, 
+                DATE_FORMAT(fecha_salida, '%d/%m/%Y') as fecha_salida, 
+                FR 
+            FROM adm_pedidos 
+            WHERE vendedor = 'EDSON BARRERA' 
+            ORDER BY FR DESC, fecha_salida DESC
+            LIMIT 0, 10
+=== FIN DE PETICIÓN ===
+
+=== NUEVA PETICIÓN: 2025-04-07 21:49:35 ===
+Parámetros recibidos:
+Vendedor: EDSON BARRERA
+Página: 1
+Por página: 10
+Consulta SQL: SELECT SQL_CALC_FOUND_ROWS 
+                folio, vendedor, cliente, destino, ruta, 
+                DATE_FORMAT(fecha_salida, '%d/%m/%Y') as fecha_salida, 
+                FR 
+            FROM adm_pedidos 
+            WHERE vendedor = 'EDSON BARRERA' 
+            ORDER BY FR DESC, fecha_salida DESC
+            LIMIT 0, 10
+=== FIN DE PETICIÓN ===
+
+=== NUEVA PETICIÓN: 2025-04-07 21:52:34 ===
+Parámetros recibidos:
+Vendedor: EDSON BARRERA
+Página: 1
+Por página: 10
+Consulta SQL: SELECT SQL_CALC_FOUND_ROWS 
+                folio, vendedor, cliente, destino, ruta, 
+                DATE_FORMAT(fecha_salida, '%d/%m/%Y') as fecha_salida, 
+                FR 
+            FROM adm_pedidos 
+            WHERE vendedor = 'EDSON BARRERA' 
+            ORDER BY FR DESC, fecha_salida DESC
+            LIMIT 0, 10
+=== FIN DE PETICIÓN ===
+
+=== NUEVA PETICIÓN: 2025-04-07 21:54:37 ===
+Parámetros recibidos:
+Vendedor: EDSON BARRERA
+Página: 1
+Por página: 10
+Consulta SQL: SELECT SQL_CALC_FOUND_ROWS 
+                folio, vendedor, cliente, destino, ruta, 
+                DATE_FORMAT(fecha_salida, '%d/%m/%Y') as fecha_salida, 
+                FR 
+            FROM adm_pedidos 
+            WHERE vendedor = 'EDSON BARRERA' 
+            ORDER BY FR DESC, fecha_salida DESC
+            LIMIT 0, 10
+=== FIN DE PETICIÓN ===
+
+=== NUEVA PETICIÓN: 2025-04-08 00:13:04 ===
+Parámetros recibidos:
+Vendedor: EDSON BARRERA
+Página: 1
+Por página: 10
+Consulta SQL: SELECT SQL_CALC_FOUND_ROWS 
+                folio, vendedor, cliente, destino, ruta, 
+                DATE_FORMAT(fecha_salida, '%d/%m/%Y') as fecha_salida, 
+                FR 
+            FROM adm_pedidos 
+            WHERE vendedor = 'EDSON BARRERA' 
+            ORDER BY FR DESC, fecha_salida DESC
+            LIMIT 0, 10
+=== FIN DE PETICIÓN ===
+
+=== NUEVA PETICIÓN: 2025-04-08 06:53:22 ===
+Parámetros recibidos:
+Vendedor: KEVIN SANTOYO
+Página: 1
+Por página: 10
+Consulta SQL: SELECT SQL_CALC_FOUND_ROWS 
+                folio, vendedor, cliente, destino, ruta, 
+                DATE_FORMAT(fecha_salida, '%d/%m/%Y') as fecha_salida, 
+                FR 
+            FROM adm_pedidos 
+            WHERE vendedor = 'KEVIN SANTOYO' 
+            ORDER BY FR DESC, fecha_salida DESC
+            LIMIT 0, 10
+=== FIN DE PETICIÓN ===
+
+=== NUEVA PETICIÓN: 2025-04-09 23:54:01 ===
+Parámetros recibidos:
+Vendedor: KEVIN SANTOYO
+Página: 1
+Por página: 10
+Consulta SQL: SELECT SQL_CALC_FOUND_ROWS 
+                folio, vendedor, cliente, destino, ruta, 
+                DATE_FORMAT(fecha_salida, '%d/%m/%Y') as fecha_salida, 
+                FR 
+            FROM adm_pedidos 
+            WHERE vendedor = 'KEVIN SANTOYO' 
+            ORDER BY FR DESC, fecha_salida DESC
+            LIMIT 0, 10
+=== FIN DE PETICIÓN ===
+
+=== NUEVA PETICIÓN: 2025-04-10 18:04:32 ===
+Parámetros recibidos:
+Vendedor: KEVIN SANTOYO
+Página: 1
+Por página: 10
+Consulta SQL: SELECT SQL_CALC_FOUND_ROWS 
+                folio, vendedor, cliente, destino, ruta, 
+                DATE_FORMAT(fecha_salida, '%d/%m/%Y') as fecha_salida, 
+                FR 
+            FROM adm_pedidos 
+            WHERE vendedor = 'KEVIN SANTOYO' 
+            ORDER BY FR DESC, fecha_salida DESC
+            LIMIT 0, 10
+=== FIN DE PETICIÓN ===
+
+=== NUEVA PETICIÓN: 2025-04-11 20:02:53 ===
+Parámetros recibidos:
+Vendedor: KEVIN SANTOYO
+Página: 1
+Por página: 10
+Consulta SQL: SELECT SQL_CALC_FOUND_ROWS 
+                folio, vendedor, cliente, destino, ruta, 
+                DATE_FORMAT(fecha_salida, '%d/%m/%Y') as fecha_salida, 
+                FR 
+            FROM adm_pedidos 
+            WHERE vendedor = 'KEVIN SANTOYO' 
+            ORDER BY FR DESC, fecha_salida DESC
+            LIMIT 0, 10
+=== FIN DE PETICIÓN ===
+
+=== NUEVA PETICIÓN: 2025-04-11 23:29:24 ===
+Parámetros recibidos:
+Vendedor: GERMAN
+Página: 1
+Por página: 10
+Consulta SQL: SELECT SQL_CALC_FOUND_ROWS 
+                folio, vendedor, cliente, destino, ruta, 
+                DATE_FORMAT(fecha_salida, '%d/%m/%Y') as fecha_salida, 
+                FR 
+            FROM adm_pedidos 
+            WHERE vendedor = 'GERMAN' 
+            ORDER BY FR DESC, fecha_salida DESC
+            LIMIT 0, 10
+=== FIN DE PETICIÓN ===
+
+=== NUEVA PETICIÓN: 2025-04-11 23:29:28 ===
+Parámetros recibidos:
+Vendedor: GERMAN
+Página: 1
+Por página: 10
+Consulta SQL: SELECT SQL_CALC_FOUND_ROWS 
+                folio, vendedor, cliente, destino, ruta, 
+                DATE_FORMAT(fecha_salida, '%d/%m/%Y') as fecha_salida, 
+                FR 
+            FROM adm_pedidos 
+            WHERE vendedor = 'GERMAN' 
+            ORDER BY FR DESC, fecha_salida DESC
+            LIMIT 0, 10
+=== FIN DE PETICIÓN ===
+
+=== NUEVA PETICIÓN: 2025-04-12 04:29:05 ===
+Parámetros recibidos:
+Vendedor: DANIEL ORDOÑE
+Página: 1
+Por página: 10
+Consulta SQL: SELECT SQL_CALC_FOUND_ROWS 
+                folio, vendedor, cliente, destino, ruta, 
+                DATE_FORMAT(fecha_salida, '%d/%m/%Y') as fecha_salida, 
+                FR 
+            FROM adm_pedidos 
+            WHERE vendedor = 'DANIEL ORDOÑE' 
+            ORDER BY FR DESC, fecha_salida DESC
+            LIMIT 0, 10
+=== FIN DE PETICIÓN ===
+
+=== NUEVA PETICIÓN: 2025-04-12 04:29:26 ===
+Parámetros recibidos:
+Vendedor: ADRIAN BANDERAS
+Página: 1
+Por página: 10
+Consulta SQL: SELECT SQL_CALC_FOUND_ROWS 
+                folio, vendedor, cliente, destino, ruta, 
+                DATE_FORMAT(fecha_salida, '%d/%m/%Y') as fecha_salida, 
+                FR 
+            FROM adm_pedidos 
+            WHERE vendedor = 'ADRIAN BANDERAS' 
+            ORDER BY FR DESC, fecha_salida DESC
+            LIMIT 0, 10
+=== FIN DE PETICIÓN ===
+

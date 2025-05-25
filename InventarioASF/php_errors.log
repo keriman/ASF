@@ -1,0 +1,240 @@
+[10-Dec-2024 01:32:19 Europe/Berlin] PHP Fatal error:  Cannot redeclare InventorySystem::__construct() in C:\ASF\htdocs\InventarioASF\process\InventorySystem.php on line 10
+[10-Dec-2024 01:32:20 Europe/Berlin] PHP Fatal error:  Cannot redeclare InventorySystem::__construct() in C:\ASF\htdocs\InventarioASF\process\InventorySystem.php on line 10
+[10-Dec-2024 01:34:22 Europe/Berlin] Zona horaria actual: Europe/Berlin
+[10-Dec-2024 01:34:22 Europe/Berlin] Productos recuperados: 53
+[10-Dec-2024 01:34:22 Europe/Berlin] Productos recuperados: 53
+[10-Dec-2024 01:34:37 Europe/Berlin] Zona horaria actual: Europe/Berlin
+[10-Dec-2024 01:34:37 Europe/Berlin] Productos recuperados: 53
+[10-Dec-2024 01:34:37 Europe/Berlin] Hora actual generada: 2024-12-09 18:34:37
+[10-Dec-2024 01:34:37 Europe/Berlin] Actualizando stock con timestamp: 2024-12-09 18:34:37
+[10-Dec-2024 01:34:37 Europe/Berlin] Hora actual generada: 2024-12-09 18:34:37
+[10-Dec-2024 01:34:37 Europe/Berlin] Registrando historial con timestamp: 2024-12-09 18:34:37
+[10-Dec-2024 01:34:37 Europe/Berlin] Zona horaria actual: Europe/Berlin
+[10-Dec-2024 01:34:37 Europe/Berlin] Productos recuperados: 53
+[10-Dec-2024 01:34:37 Europe/Berlin] Productos recuperados: 53
+[10-Dec-2024 01:42:22 Europe/Berlin] Zona horaria actual: Europe/Berlin
+[10-Dec-2024 01:42:22 Europe/Berlin] Productos recuperados: 53
+[10-Dec-2024 01:42:22 Europe/Berlin] Productos recuperados: 53
+[10-Dec-2024 01:42:38 Europe/Berlin] Zona horaria actual: Europe/Berlin
+[10-Dec-2024 01:42:38 Europe/Berlin] Productos recuperados: 53
+[10-Dec-2024 01:42:38 Europe/Berlin] Productos recuperados: 53
+[10-Dec-2024 01:46:24 Europe/Berlin] Zona horaria actual: Europe/Berlin
+[10-Dec-2024 01:46:24 Europe/Berlin] Productos recuperados: 53
+[10-Dec-2024 01:46:24 Europe/Berlin] Productos recuperados: 53
+[10-Dec-2024 01:46:43 Europe/Berlin] Zona horaria actual: Europe/Berlin
+[10-Dec-2024 01:46:43 Europe/Berlin] Productos recuperados: 53
+[10-Dec-2024 01:46:43 Europe/Berlin] Productos recuperados: 53
+[10-Dec-2024 01:46:44 Europe/Berlin] Zona horaria actual: Europe/Berlin
+[10-Dec-2024 01:46:44 Europe/Berlin] Productos recuperados: 53
+[10-Dec-2024 01:46:44 Europe/Berlin] Productos recuperados: 53
+[10-Dec-2024 02:07:31 Europe/Berlin] Zona horaria actual: Europe/Berlin
+[10-Dec-2024 02:07:31 Europe/Berlin] Productos recuperados: 53
+[10-Dec-2024 02:07:31 Europe/Berlin] Productos recuperados: 53
+[10-Dec-2024 02:07:51 Europe/Berlin] Zona horaria actual: Europe/Berlin
+[10-Dec-2024 02:07:51 Europe/Berlin] Productos recuperados: 53
+[10-Dec-2024 02:07:51 Europe/Berlin] Productos recuperados: 53
+[10-Dec-2024 02:07:52 Europe/Berlin] Zona horaria actual: Europe/Berlin
+[10-Dec-2024 02:07:52 Europe/Berlin] Productos recuperados: 53
+[10-Dec-2024 02:07:52 Europe/Berlin] Productos recuperados: 53
+[10-Dec-2024 02:11:48 Europe/Berlin] Zona horaria actual: Europe/Berlin
+[10-Dec-2024 02:11:48 Europe/Berlin] Productos recuperados: 53
+[10-Dec-2024 02:11:48 Europe/Berlin] Productos recuperados: 53
+[10-Dec-2024 02:11:49 Europe/Berlin] Zona horaria actual: Europe/Berlin
+[10-Dec-2024 02:11:49 Europe/Berlin] Productos recuperados: 53
+[10-Dec-2024 02:11:49 Europe/Berlin] Productos recuperados: 53
+[10-Dec-2024 02:18:24 Europe/Berlin] Zona horaria actual: Europe/Berlin
+[10-Dec-2024 02:18:24 Europe/Berlin] Productos recuperados: 53
+[10-Dec-2024 02:18:24 Europe/Berlin] Productos recuperados: 53
+[10-Dec-2024 02:18:25 Europe/Berlin] Zona horaria actual: Europe/Berlin
+[10-Dec-2024 02:18:25 Europe/Berlin] Productos recuperados: 53
+[10-Dec-2024 02:18:25 Europe/Berlin] Productos recuperados: 53
+[10-Dec-2024 02:23:30 Europe/Berlin] Zona horaria actual: Europe/Berlin
+[10-Dec-2024 02:23:30 Europe/Berlin] Productos recuperados: 53
+[10-Dec-2024 02:23:30 Europe/Berlin] Productos recuperados: 53
+[10-Dec-2024 02:24:16 Europe/Berlin] Zona horaria actual: Europe/Berlin
+[10-Dec-2024 02:24:16 Europe/Berlin] Productos recuperados: 53
+[10-Dec-2024 02:24:16 Europe/Berlin] Productos recuperados: 53
+[10-Dec-2024 02:29:09 Europe/Berlin] Zona horaria actual: Europe/Berlin
+[10-Dec-2024 02:29:09 Europe/Berlin] Productos recuperados: 53
+[10-Dec-2024 02:29:09 Europe/Berlin] Productos recuperados: 53
+[10-Dec-2024 02:29:09 Europe/Berlin] Zona horaria actual: Europe/Berlin
+[10-Dec-2024 02:29:09 Europe/Berlin] Productos recuperados: 53
+[10-Dec-2024 02:29:09 Europe/Berlin] Productos recuperados: 53
+[10-Dec-2024 02:54:57 Europe/Berlin] Error en InventorySystem constructor: SQLSTATE[HY000] [1049] Unknown database 'inventory'
+[10-Dec-2024 02:55:25 Europe/Berlin] Error en InventorySystem constructor: SQLSTATE[HY000]: General error: 1298 Unknown or incorrect time zone: 'America/Mexico_City'
+[10-Dec-2024 02:55:49 Europe/Berlin] Error en InventorySystem constructor: SQLSTATE[HY000]: General error: 1298 Unknown or incorrect time zone: 'America/Mexico_City'
+[10-Dec-2024 02:55:50 Europe/Berlin] Error en InventorySystem constructor: SQLSTATE[HY000]: General error: 1298 Unknown or incorrect time zone: 'America/Mexico_City'
+[10-Dec-2024 02:55:54 Europe/Berlin] Zona horaria actual: Europe/Berlin
+[10-Dec-2024 02:55:54 Europe/Berlin] Productos recuperados: 53
+[10-Dec-2024 02:55:54 Europe/Berlin] Productos recuperados: 53
+[10-Dec-2024 02:56:17 Europe/Berlin] Zona horaria actual: Europe/Berlin
+[10-Dec-2024 02:56:17 Europe/Berlin] Productos recuperados: 53
+[10-Dec-2024 02:56:17 Europe/Berlin] Hora actual generada: 2024-12-09 19:56:17
+[10-Dec-2024 02:56:17 Europe/Berlin] Actualizando stock con timestamp: 2024-12-09 19:56:17
+[10-Dec-2024 02:56:17 Europe/Berlin] Hora actual generada: 2024-12-09 19:56:17
+[10-Dec-2024 02:56:17 Europe/Berlin] Registrando historial con timestamp: 2024-12-09 19:56:17
+[10-Dec-2024 02:56:17 Europe/Berlin] Zona horaria actual: Europe/Berlin
+[10-Dec-2024 02:56:17 Europe/Berlin] Productos recuperados: 53
+[10-Dec-2024 02:56:17 Europe/Berlin] Productos recuperados: 53
+[10-Dec-2024 03:12:16 Europe/Berlin] Zona horaria actual: Europe/Berlin
+[10-Dec-2024 03:12:16 Europe/Berlin] Productos recuperados: 53
+[10-Dec-2024 03:12:16 Europe/Berlin] Hora actual generada: 2024-12-09 20:12:16
+[10-Dec-2024 03:12:16 Europe/Berlin] Actualizando stock con timestamp: 2024-12-09 20:12:16
+[10-Dec-2024 03:12:16 Europe/Berlin] Hora actual generada: 2024-12-09 20:12:16
+[10-Dec-2024 03:12:16 Europe/Berlin] Registrando historial con timestamp: 2024-12-09 20:12:16
+[10-Dec-2024 03:12:16 Europe/Berlin] Zona horaria actual: Europe/Berlin
+[10-Dec-2024 03:12:16 Europe/Berlin] Productos recuperados: 53
+[10-Dec-2024 03:12:16 Europe/Berlin] Productos recuperados: 53
+[10-Dec-2024 03:12:34 Europe/Berlin] Zona horaria actual: Europe/Berlin
+[10-Dec-2024 03:12:34 Europe/Berlin] Productos recuperados: 53
+[10-Dec-2024 03:12:34 Europe/Berlin] Productos recuperados: 53
+[10-Dec-2024 03:13:24 Europe/Berlin] Zona horaria actual: Europe/Berlin
+[10-Dec-2024 03:13:24 Europe/Berlin] Productos recuperados: 53
+[10-Dec-2024 03:13:24 Europe/Berlin] Productos recuperados: 53
+[10-Dec-2024 03:14:43 Europe/Berlin] Zona horaria actual: Europe/Berlin
+[10-Dec-2024 03:14:43 Europe/Berlin] Productos recuperados: 53
+[10-Dec-2024 03:14:43 Europe/Berlin] Productos recuperados: 53
+[10-Dec-2024 03:15:25 Europe/Berlin] Zona horaria actual: Europe/Berlin
+[10-Dec-2024 03:15:25 Europe/Berlin] Productos recuperados: 53
+[10-Dec-2024 03:15:25 Europe/Berlin] Productos recuperados: 53
+[10-Dec-2024 03:17:13 Europe/Berlin] Zona horaria actual: Europe/Berlin
+[10-Dec-2024 03:17:13 Europe/Berlin] Productos recuperados: 53
+[10-Dec-2024 03:17:13 Europe/Berlin] Productos recuperados: 53
+[10-Dec-2024 03:28:54 Europe/Berlin] Zona horaria actual: Europe/Berlin
+[10-Dec-2024 03:28:54 Europe/Berlin] Productos recuperados: 53
+[10-Dec-2024 03:28:54 Europe/Berlin] Productos recuperados: 53
+[10-Dec-2024 03:29:21 Europe/Berlin] Zona horaria actual: Europe/Berlin
+[10-Dec-2024 03:29:21 Europe/Berlin] Productos recuperados: 53
+[10-Dec-2024 03:29:21 Europe/Berlin] Productos recuperados: 53
+[10-Dec-2024 04:10:24 Europe/Berlin] Zona horaria actual: Europe/Berlin
+[10-Dec-2024 04:10:24 Europe/Berlin] Productos recuperados: 53
+[10-Dec-2024 04:10:24 Europe/Berlin] Hora actual generada: 2024-12-09 21:10:24
+[10-Dec-2024 04:10:24 Europe/Berlin] Actualizando stock con timestamp: 2024-12-09 21:10:24
+[10-Dec-2024 04:10:24 Europe/Berlin] Hora actual generada: 2024-12-09 21:10:24
+[10-Dec-2024 04:10:24 Europe/Berlin] Registrando historial con timestamp: 2024-12-09 21:10:24
+[10-Dec-2024 04:10:24 Europe/Berlin] Zona horaria actual: Europe/Berlin
+[10-Dec-2024 04:10:24 Europe/Berlin] Productos recuperados: 53
+[10-Dec-2024 04:10:24 Europe/Berlin] Productos recuperados: 53
+[10-Dec-2024 04:15:29 Europe/Berlin] Zona horaria actual: Europe/Berlin
+[10-Dec-2024 04:15:29 Europe/Berlin] Productos recuperados: 53
+[10-Dec-2024 04:15:29 Europe/Berlin] Productos recuperados: 53
+[10-Dec-2024 04:16:51 Europe/Berlin] Zona horaria actual: Europe/Berlin
+[10-Dec-2024 04:16:51 Europe/Berlin] Productos recuperados: 53
+[10-Dec-2024 04:16:51 Europe/Berlin] Hora actual generada: 2024-12-09 21:16:51
+[10-Dec-2024 04:16:51 Europe/Berlin] Actualizando stock con timestamp: 2024-12-09 21:16:51
+[10-Dec-2024 04:16:51 Europe/Berlin] Hora actual generada: 2024-12-09 21:16:51
+[10-Dec-2024 04:16:51 Europe/Berlin] Registrando historial con timestamp: 2024-12-09 21:16:51
+[10-Dec-2024 04:16:51 Europe/Berlin] Zona horaria actual: Europe/Berlin
+[10-Dec-2024 04:16:51 Europe/Berlin] Productos recuperados: 53
+[10-Dec-2024 04:16:51 Europe/Berlin] Productos recuperados: 53
+[10-Dec-2024 04:17:07 Europe/Berlin] Zona horaria actual: Europe/Berlin
+[10-Dec-2024 04:17:07 Europe/Berlin] Productos recuperados: 53
+[10-Dec-2024 04:17:07 Europe/Berlin] Hora actual generada: 2024-12-09 21:17:07
+[10-Dec-2024 04:17:07 Europe/Berlin] Actualizando stock con timestamp: 2024-12-09 21:17:07
+[10-Dec-2024 04:17:07 Europe/Berlin] Hora actual generada: 2024-12-09 21:17:07
+[10-Dec-2024 04:17:07 Europe/Berlin] Registrando historial con timestamp: 2024-12-09 21:17:07
+[10-Dec-2024 04:17:07 Europe/Berlin] Zona horaria actual: Europe/Berlin
+[10-Dec-2024 04:17:07 Europe/Berlin] Productos recuperados: 53
+[10-Dec-2024 04:17:07 Europe/Berlin] Productos recuperados: 53
+[10-Dec-2024 05:53:24 Europe/Berlin] Zona horaria actual: Europe/Berlin
+[10-Dec-2024 05:53:24 Europe/Berlin] Productos recuperados: 53
+[10-Dec-2024 05:53:24 Europe/Berlin] Productos recuperados: 53
+[10-Dec-2024 05:54:29 Europe/Berlin] Zona horaria actual: Europe/Berlin
+[10-Dec-2024 05:54:29 Europe/Berlin] Productos recuperados: 53
+[10-Dec-2024 05:54:29 Europe/Berlin] Hora actual generada: 2024-12-09 22:54:29
+[10-Dec-2024 05:54:29 Europe/Berlin] Actualizando stock con timestamp: 2024-12-09 22:54:29
+[10-Dec-2024 05:54:29 Europe/Berlin] Hora actual generada: 2024-12-09 22:54:29
+[10-Dec-2024 05:54:29 Europe/Berlin] Registrando historial con timestamp: 2024-12-09 22:54:29
+[10-Dec-2024 05:54:29 Europe/Berlin] Zona horaria actual: Europe/Berlin
+[10-Dec-2024 05:54:29 Europe/Berlin] Productos recuperados: 53
+[10-Dec-2024 05:54:29 Europe/Berlin] Productos recuperados: 53
+[10-Dec-2024 06:04:07 Europe/Berlin] Zona horaria actual: Europe/Berlin
+[10-Dec-2024 06:04:07 Europe/Berlin] Productos recuperados: 53
+[10-Dec-2024 06:04:07 Europe/Berlin] Hora actual generada: 2024-12-09 23:04:07
+[10-Dec-2024 06:04:07 Europe/Berlin] Actualizando stock con timestamp: 2024-12-09 23:04:07
+[10-Dec-2024 06:04:07 Europe/Berlin] Hora actual generada: 2024-12-09 23:04:07
+[10-Dec-2024 06:04:07 Europe/Berlin] Registrando historial con timestamp: 2024-12-09 23:04:07
+[10-Dec-2024 06:04:07 Europe/Berlin] Zona horaria actual: Europe/Berlin
+[10-Dec-2024 06:04:07 Europe/Berlin] Productos recuperados: 53
+[10-Dec-2024 06:04:07 Europe/Berlin] Productos recuperados: 53
+[10-Dec-2024 06:06:08 Europe/Berlin] Zona horaria actual: Europe/Berlin
+[10-Dec-2024 06:06:08 Europe/Berlin] Productos recuperados: 53
+[10-Dec-2024 06:06:08 Europe/Berlin] Hora actual generada: 2024-12-09 23:06:08
+[10-Dec-2024 06:06:08 Europe/Berlin] Actualizando stock con timestamp: 2024-12-09 23:06:08
+[10-Dec-2024 06:06:08 Europe/Berlin] Hora actual generada: 2024-12-09 23:06:08
+[10-Dec-2024 06:06:08 Europe/Berlin] Registrando historial con timestamp: 2024-12-09 23:06:08
+[10-Dec-2024 06:06:08 Europe/Berlin] Zona horaria actual: Europe/Berlin
+[10-Dec-2024 06:06:08 Europe/Berlin] Productos recuperados: 53
+[10-Dec-2024 06:06:08 Europe/Berlin] Productos recuperados: 53
+[10-Dec-2024 06:06:20 Europe/Berlin] Zona horaria actual: Europe/Berlin
+[10-Dec-2024 06:06:20 Europe/Berlin] Productos recuperados: 53
+[10-Dec-2024 06:06:20 Europe/Berlin] Productos recuperados: 53
+[10-Dec-2024 06:07:07 Europe/Berlin] Zona horaria actual: Europe/Berlin
+[10-Dec-2024 06:07:07 Europe/Berlin] Productos recuperados: 53
+[10-Dec-2024 06:07:07 Europe/Berlin] Productos recuperados: 53
+[10-Dec-2024 06:08:35 Europe/Berlin] Zona horaria actual: Europe/Berlin
+[10-Dec-2024 06:08:35 Europe/Berlin] Productos recuperados: 53
+[10-Dec-2024 06:08:35 Europe/Berlin] Productos recuperados: 53
+[10-Dec-2024 06:16:54 Europe/Berlin] Zona horaria actual: Europe/Berlin
+[10-Dec-2024 06:16:54 Europe/Berlin] Productos recuperados: 53
+[10-Dec-2024 06:16:54 Europe/Berlin] Productos recuperados: 53
+[10-Dec-2024 06:20:11 Europe/Berlin] Zona horaria actual: Europe/Berlin
+[10-Dec-2024 06:20:11 Europe/Berlin] Productos recuperados: 53
+[10-Dec-2024 06:20:11 Europe/Berlin] Hora actual generada: 2024-12-09 23:20:11
+[10-Dec-2024 06:20:11 Europe/Berlin] Actualizando stock con timestamp: 2024-12-09 23:20:11
+[10-Dec-2024 06:20:11 Europe/Berlin] Hora actual generada: 2024-12-09 23:20:11
+[10-Dec-2024 06:20:11 Europe/Berlin] Registrando historial con timestamp: 2024-12-09 23:20:11
+[10-Dec-2024 06:20:11 Europe/Berlin] Zona horaria actual: Europe/Berlin
+[10-Dec-2024 06:20:11 Europe/Berlin] Productos recuperados: 53
+[10-Dec-2024 06:20:11 Europe/Berlin] Productos recuperados: 53
+[10-Dec-2024 06:22:35 Europe/Berlin] Zona horaria actual: Europe/Berlin
+[10-Dec-2024 06:22:35 Europe/Berlin] Productos recuperados: 53
+[10-Dec-2024 06:22:35 Europe/Berlin] Productos recuperados: 53
+[10-Dec-2024 06:22:37 Europe/Berlin] Zona horaria actual: Europe/Berlin
+[10-Dec-2024 06:22:37 Europe/Berlin] Productos recuperados: 53
+[10-Dec-2024 06:22:37 Europe/Berlin] Productos recuperados: 53
+[10-Dec-2024 06:22:37 Europe/Berlin] Zona horaria actual: Europe/Berlin
+[10-Dec-2024 06:22:37 Europe/Berlin] Productos recuperados: 53
+[10-Dec-2024 06:22:37 Europe/Berlin] Productos recuperados: 53
+[10-Dec-2024 06:25:07 Europe/Berlin] Zona horaria actual: Europe/Berlin
+[10-Dec-2024 06:25:07 Europe/Berlin] Productos recuperados: 53
+[10-Dec-2024 06:25:07 Europe/Berlin] Hora actual generada: 2024-12-09 23:25:07
+[10-Dec-2024 06:25:07 Europe/Berlin] Actualizando stock con timestamp: 2024-12-09 23:25:07
+[10-Dec-2024 06:25:07 Europe/Berlin] Hora actual generada: 2024-12-09 23:25:07
+[10-Dec-2024 06:25:07 Europe/Berlin] Registrando historial con timestamp: 2024-12-09 23:25:07
+[10-Dec-2024 06:25:07 Europe/Berlin] Zona horaria actual: Europe/Berlin
+[10-Dec-2024 06:25:07 Europe/Berlin] Productos recuperados: 53
+[10-Dec-2024 06:25:07 Europe/Berlin] Productos recuperados: 53
+[10-Dec-2024 06:25:49 Europe/Berlin] Zona horaria actual: Europe/Berlin
+[10-Dec-2024 06:25:49 Europe/Berlin] Productos recuperados: 53
+[10-Dec-2024 06:25:49 Europe/Berlin] Productos recuperados: 53
+[10-Dec-2024 06:26:10 Europe/Berlin] Zona horaria actual: Europe/Berlin
+[10-Dec-2024 06:26:10 Europe/Berlin] Productos recuperados: 53
+[10-Dec-2024 06:26:10 Europe/Berlin] Productos recuperados: 53
+[10-Dec-2024 06:27:33 Europe/Berlin] Zona horaria actual: Europe/Berlin
+[10-Dec-2024 06:27:33 Europe/Berlin] Productos recuperados: 53
+[10-Dec-2024 06:27:33 Europe/Berlin] Productos recuperados: 53
+[12-Dec-2024 05:42:40 Europe/Berlin] Zona horaria actual: Europe/Berlin
+[12-Dec-2024 05:42:40 Europe/Berlin] Productos recuperados: 53
+[12-Dec-2024 05:42:40 Europe/Berlin] Productos recuperados: 53
+[27-Mar-2025 18:25:46 America/Mexico_City] PHP Notice:  Undefined variable: groupTitles in C:\ASF\htdocs\InventarioASF\index.php on line 507
+[27-Mar-2025 18:25:46 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in C:\ASF\htdocs\InventarioASF\index.php on line 507
+[27-Mar-2025 21:18:08 America/Mexico_City] PHP Notice:  Undefined variable: groupTitles in C:\ASF\htdocs\InventarioASF\index.php on line 507
+[27-Mar-2025 21:18:08 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in C:\ASF\htdocs\InventarioASF\index.php on line 507
+[27-Mar-2025 21:19:20 America/Mexico_City] PHP Notice:  Undefined variable: groupTitles in C:\ASF\htdocs\InventarioASF\index.php on line 507
+[27-Mar-2025 21:19:20 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in C:\ASF\htdocs\InventarioASF\index.php on line 507
+[27-Mar-2025 21:19:59 America/Mexico_City] PHP Notice:  Undefined variable: groupTitles in C:\ASF\htdocs\InventarioASF\index.php on line 507
+[27-Mar-2025 21:19:59 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in C:\ASF\htdocs\InventarioASF\index.php on line 507
+[27-Mar-2025 21:22:53 America/Mexico_City] PHP Notice:  Undefined variable: groupTitles in C:\ASF\htdocs\InventarioASF\index.php on line 507
+[27-Mar-2025 21:22:53 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in C:\ASF\htdocs\InventarioASF\index.php on line 507
+[25-Apr-2025 22:49:56 Europe/Berlin] PHP Parse error:  syntax error, unexpected '?' in C:\ASF\htdocs\ASF\InventarioASF\process\InventorySystem2.php on line 339
+[25-Apr-2025 15:59:34 America/Mexico_City] PHP Notice:  Undefined variable: groupTitles in C:\ASF\htdocs\ASF\InventarioASF\index.php on line 507
+[25-Apr-2025 15:59:34 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in C:\ASF\htdocs\ASF\InventarioASF\index.php on line 507
+[25-Apr-2025 17:03:53 America/Mexico_City] PHP Notice:  Undefined variable: groupTitles in C:\ASF\htdocs\ASF\InventarioASF\index.php on line 507
+[25-Apr-2025 17:03:53 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in C:\ASF\htdocs\ASF\InventarioASF\index.php on line 507
+[25-Apr-2025 19:37:52 America/Mexico_City] PHP Notice:  Undefined variable: groupTitles in C:\ASF\htdocs\ASF\InventarioASF\index.php on line 507
+[25-Apr-2025 19:37:52 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in C:\ASF\htdocs\ASF\InventarioASF\index.php on line 507
+[25-Apr-2025 19:40:14 America/Mexico_City] PHP Notice:  Undefined variable: groupTitles in C:\ASF\htdocs\ASF\InventarioASF\index.php on line 507
+[25-Apr-2025 19:40:14 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in C:\ASF\htdocs\ASF\InventarioASF\index.php on line 507
+[25-Apr-2025 19:40:48 America/Mexico_City] PHP Notice:  Undefined variable: groupTitles in C:\ASF\htdocs\ASF\InventarioASF\index.php on line 507
+[25-Apr-2025 19:40:48 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in C:\ASF\htdocs\ASF\InventarioASF\index.php on line 507

@@ -1,0 +1,258 @@
+=== NUEVA PETICIÓN: 2025-03-28 04:02:51 ===
+POST: Array
+(
+    [ff] => 3791005
+    [pp] => Nuevo producto 
+    [pr] => 
+    [cc] => 150
+    [cm] => Sin etiqueta 
+)
+
+Comentarios encontrados en 'cm': 'Sin etiqueta '
+SQL a ejecutar: INSERT INTO prc_pedidos (folio, producto, presentacion, cantidad, usuario) VALUES ('3791005', 'Nuevo producto ', '', '150', 'oficina')
+SQL de observación (comentario): INSERT INTO obs_pedidos (folio, observaciones, usuario) VALUES ('3791005', '(Producto Nuevo producto ): Sin etiqueta ', 'oficina')
+Comentario guardado correctamente
+Respuesta: {"status":"success","folio":"3791005","message":"Producto procesado correctamente","comment_status":"Comentario guardado correctamente"}
+=== FIN DE PETICIÓN ===
+
+=== NUEVA PETICIÓN: 2025-03-28 04:03:55 ===
+POST: Array
+(
+    [ff] => 3791006
+    [pp] => Adherex
+    [pr] => 
+    [cc] => 120
+    [cm] => 
+)
+
+Comentarios encontrados en 'cm': ''
+SQL a ejecutar: INSERT INTO prc_pedidos (folio, producto, presentacion, cantidad, usuario) VALUES ('3791006', 'Adherex', '', '120', 'oficina')
+No se guardó ningún comentario porque no había comentarios
+Respuesta: {"status":"success","folio":"3791006","message":"Producto procesado correctamente"}
+=== FIN DE PETICIÓN ===
+
+=== NUEVA PETICIÓN: 2025-03-28 04:04:05 ===
+POST: Array
+(
+    [ff] => 3791006
+    [pp] => Adheval 1L
+    [pr] => 
+    [cc] => 180
+    [cm] => 
+)
+
+Comentarios encontrados en 'cm': ''
+SQL a ejecutar: INSERT INTO prc_pedidos (folio, producto, presentacion, cantidad, usuario) VALUES ('3791006', 'Adheval 1L', '', '180', 'oficina')
+No se guardó ningún comentario porque no había comentarios
+Respuesta: {"status":"success","folio":"3791006","message":"Producto procesado correctamente"}
+=== FIN DE PETICIÓN ===
+
+=== NUEVA PETICIÓN: 2025-03-28 04:14:31 ===
+POST: Array
+(
+    [ff] => 3791007
+    [pp] => Adhetec 1 lt
+    [pr] => 
+    [cc] => 120
+    [cm] => 
+)
+
+Comentarios encontrados en 'cm': ''
+SQL a ejecutar: INSERT INTO prc_pedidos (folio, producto, presentacion, cantidad, usuario) VALUES ('3791007', 'Adhetec 1 lt', '', '120', 'oficina')
+No se guardó ningún comentario porque no había comentarios
+Respuesta: {"status":"success","folio":"3791007","message":"Producto procesado correctamente"}
+=== FIN DE PETICIÓN ===
+
+=== NUEVA PETICIÓN: 2025-03-28 04:14:44 ===
+POST: Array
+(
+    [ff] => 3791007
+    [pp] => Adherex
+    [pr] => 
+    [cc] => 100
+    [cm] => 
+)
+
+Comentarios encontrados en 'cm': ''
+SQL a ejecutar: INSERT INTO prc_pedidos (folio, producto, presentacion, cantidad, usuario) VALUES ('3791007', 'Adherex', '', '100', 'oficina')
+No se guardó ningún comentario porque no había comentarios
+Respuesta: {"status":"success","folio":"3791007","message":"Producto procesado correctamente"}
+=== FIN DE PETICIÓN ===
+
+=== NUEVA PETICIÓN: 2025-03-28 04:38:17 ===
+POST: Array
+(
+    [ff] => 3791001
+    [pp] => Acid tec
+    [pr] => 
+    [cc] => 150
+    [cm] => 
+)
+
+Comentarios encontrados en 'cm': ''
+SQL a ejecutar: INSERT INTO prc_pedidos (folio, producto, presentacion, cantidad, usuario) VALUES ('3791001', 'Acid tec', '', '150', 'oficina')
+No se guardó ningún comentario porque no había comentarios
+Respuesta: {"status":"success","folio":"3791001","message":"Producto procesado correctamente"}
+=== FIN DE PETICIÓN ===
+
+=== NUEVA PETICIÓN: 2025-03-28 04:38:29 ===
+POST: Array
+(
+    [ff] => 3791001
+    [pp] => Agroacid 19L
+    [pr] => 
+    [cc] => 150
+    [cm] => 
+)
+
+Comentarios encontrados en 'cm': ''
+SQL a ejecutar: INSERT INTO prc_pedidos (folio, producto, presentacion, cantidad, usuario) VALUES ('3791001', 'Agroacid 19L', '', '150', 'oficina')
+No se guardó ningún comentario porque no había comentarios
+Respuesta: {"status":"success","folio":"3791001","message":"Producto procesado correctamente"}
+=== FIN DE PETICIÓN ===
+
+=== NUEVA PETICIÓN: 2025-03-28 04:42:08 ===
+POST: Array
+(
+    [ff] => 3791001
+    [pp] => Acid tec
+    [pr] => 
+    [cc] => 150
+    [cm] => 
+)
+
+Comentarios encontrados en 'cm': ''
+SQL a ejecutar: UPDATE prc_pedidos SET cantidad='150', procesado=0, usuario='oficina' WHERE folio='3791001' AND producto = 'Acid tec' AND presentacion = ''
+No se guardó ningún comentario porque no había comentarios
+Respuesta: {"status":"success","folio":"3791001","message":"Producto procesado correctamente"}
+=== FIN DE PETICIÓN ===
+
+=== NUEVA PETICIÓN: 2025-03-28 04:42:26 ===
+POST: Array
+(
+    [ff] => 3791001
+    [pp] => Agroacid 19L
+    [pr] => 
+    [cc] => 180
+    [cm] => Sin etiqueta 
+)
+
+Comentarios encontrados en 'cm': 'Sin etiqueta '
+SQL a ejecutar: UPDATE prc_pedidos SET cantidad='180', procesado=0, usuario='oficina' WHERE folio='3791001' AND producto = 'Agroacid 19L' AND presentacion = ''
+SQL de observación (comentario): INSERT INTO obs_pedidos (folio, observaciones, usuario) VALUES ('3791001', '(Producto Agroacid 19L): Sin etiqueta ', 'oficina')
+Comentario guardado correctamente
+Respuesta: {"status":"success","folio":"3791001","message":"Producto procesado correctamente","comment_status":"Comentario guardado correctamente"}
+=== FIN DE PETICIÓN ===
+
+=== NUEVA PETICIÓN: 2025-03-28 04:43:14 ===
+POST: Array
+(
+    [ff] => 3791001
+    [pp] => Acid tec
+    [pr] => 
+    [cc] => 190
+    [cm] => 
+)
+
+Comentarios encontrados en 'cm': ''
+SQL a ejecutar: UPDATE prc_pedidos SET cantidad='190', procesado=0, usuario='oficina' WHERE folio='3791001' AND producto = 'Acid tec' AND presentacion = ''
+No se guardó ningún comentario porque no había comentarios
+Respuesta: {"status":"success","folio":"3791001","message":"Producto procesado correctamente"}
+=== FIN DE PETICIÓN ===
+
+=== NUEVA PETICIÓN: 2025-03-28 04:50:48 ===
+POST: Array
+(
+    [ff] => 3791002
+    [pp] => Acid tec
+    [pr] => 
+    [cc] => 10
+    [cm] => 
+)
+
+Comentarios encontrados en 'cm': ''
+SQL a ejecutar: INSERT INTO prc_pedidos (folio, producto, presentacion, cantidad, usuario) VALUES ('3791002', 'Acid tec', '', '10', 'oficina')
+No se guardó ningún comentario porque no había comentarios
+Respuesta: {"status":"success","folio":"3791002","message":"Producto procesado correctamente"}
+=== FIN DE PETICIÓN ===
+
+=== NUEVA PETICIÓN: 2025-03-28 04:50:56 ===
+POST: Array
+(
+    [ff] => 3791002
+    [pp] => Agroacid 19L
+    [pr] => 
+    [cc] => 20
+    [cm] => 
+)
+
+Comentarios encontrados en 'cm': ''
+SQL a ejecutar: INSERT INTO prc_pedidos (folio, producto, presentacion, cantidad, usuario) VALUES ('3791002', 'Agroacid 19L', '', '20', 'oficina')
+No se guardó ningún comentario porque no había comentarios
+Respuesta: {"status":"success","folio":"3791002","message":"Producto procesado correctamente"}
+=== FIN DE PETICIÓN ===
+
+=== NUEVA PETICIÓN: 2025-03-28 05:02:07 ===
+POST: Array
+(
+    [ff] => 3791001
+    [pp] => Acid tec
+    [pr] => 
+    [cc] => 180
+    [cm] => 
+)
+
+Comentarios encontrados en 'cm': ''
+SQL a ejecutar: INSERT INTO prc_pedidos (folio, producto, presentacion, cantidad, usuario) VALUES ('3791001', 'Acid tec', '', '180', 'oficina')
+No se guardó ningún comentario porque no había comentarios
+Respuesta: {"status":"success","folio":"3791001","message":"Producto procesado correctamente"}
+=== FIN DE PETICIÓN ===
+
+=== NUEVA PETICIÓN: 2025-03-28 05:02:17 ===
+POST: Array
+(
+    [ff] => 3791001
+    [pp] => Agroacid 19L
+    [pr] => 
+    [cc] => 220
+    [cm] => 
+)
+
+Comentarios encontrados en 'cm': ''
+SQL a ejecutar: INSERT INTO prc_pedidos (folio, producto, presentacion, cantidad, usuario) VALUES ('3791001', 'Agroacid 19L', '', '220', 'oficina')
+No se guardó ningún comentario porque no había comentarios
+Respuesta: {"status":"success","folio":"3791001","message":"Producto procesado correctamente"}
+=== FIN DE PETICIÓN ===
+
+=== NUEVA PETICIÓN: 2025-03-28 05:03:04 ===
+POST: Array
+(
+    [ff] => 3791002
+    [pp] => Acid tec
+    [pr] => 
+    [cc] => 180
+    [cm] => 
+)
+
+Comentarios encontrados en 'cm': ''
+SQL a ejecutar: INSERT INTO prc_pedidos (folio, producto, presentacion, cantidad, usuario) VALUES ('3791002', 'Acid tec', '', '180', 'oficina')
+No se guardó ningún comentario porque no había comentarios
+Respuesta: {"status":"success","folio":"3791002","message":"Producto procesado correctamente"}
+=== FIN DE PETICIÓN ===
+
+=== NUEVA PETICIÓN: 2025-03-28 05:03:13 ===
+POST: Array
+(
+    [ff] => 3791002
+    [pp] => Agroacid 19L
+    [pr] => 
+    [cc] => 220
+    [cm] => 
+)
+
+Comentarios encontrados en 'cm': ''
+SQL a ejecutar: INSERT INTO prc_pedidos (folio, producto, presentacion, cantidad, usuario) VALUES ('3791002', 'Agroacid 19L', '', '220', 'oficina')
+No se guardó ningún comentario porque no había comentarios
+Respuesta: {"status":"success","folio":"3791002","message":"Producto procesado correctamente"}
+=== FIN DE PETICIÓN ===
+

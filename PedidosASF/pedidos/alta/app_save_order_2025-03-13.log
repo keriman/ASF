@@ -1,0 +1,96 @@
+=== NUEVA PETICIÓN: 2025-03-13 23:18:43 ===
+POST: Array
+(
+    [ff] => 11
+    [vv] => Oscar Barrera
+    [cc] => Pepe Mendoza
+    [rr] => Moroleón
+    [fs] => 2025/03/19
+    [cm] => 
+)
+
+Comentarios encontrados en 'cm': ''
+SQL a ejecutar: INSERT INTO adm_pedidos (folio, vendedor, cliente, destino, fecha_salida, status, usuario) 
+            VALUES ('11', 'Oscar Barrera', 'Pepe Mendoza', 'Moroleón', '2025/03/19', 10, 'oficina')
+SQL de observación: INSERT INTO obs_pedidos (folio, observaciones, usuario) 
+                      VALUES ('11', 'Pedido creado desde APP MÓVIL', 'oficina')
+Observación guardada correctamente
+Respuesta: {"status":"success","folio":"11","message":"Pedido guardado correctamente","comment_status":"Observaci\u00f3n guardada correctamente: Pedido creado desde APP M\u00d3VIL"}
+=== FIN DE PETICIÓN ===
+
+=== NUEVA PETICIÓN: 2025-03-13 23:31:11 ===
+POST: Array
+(
+    [ff] => 12
+    [vv] => Oscar Barrera
+    [cc] => Pepe Pecas
+    [rr] => Mexiquillo Dgo
+    [fs] => 2025/03/19
+    [cm] => 
+)
+
+Comentarios encontrados en 'cm': ''
+SQL a ejecutar: INSERT INTO adm_pedidos (folio, vendedor, cliente, destino, fecha_salida, status, usuario) 
+            VALUES ('12', 'Oscar Barrera', 'Pepe Pecas', 'Mexiquillo Dgo', '2025/03/19', 10, 'oficina')
+SQL de observación: INSERT INTO obs_pedidos (folio, observaciones, usuario) 
+                      VALUES ('12', 'Pedido creado desde APP MÓVIL', 'oficina')
+Observación guardada correctamente
+Respuesta: {"status":"success","folio":"12","message":"Pedido guardado correctamente","comment_status":"Observaci\u00f3n guardada correctamente: Pedido creado desde APP M\u00d3VIL"}
+=== FIN DE PETICIÓN ===
+
+=== NUEVA PETICIÓN: 2025-03-13 23:35:13 ===
+POST: Array
+(
+    [ff] => 13
+    [vv] => Oscar Barrera
+    [cc] => Daniel Jiménez
+    [rr] => Querendaro
+    [fs] => 2025/03/31
+    [cm] => 
+)
+
+Comentarios encontrados en 'cm': ''
+SQL a ejecutar: INSERT INTO adm_pedidos (folio, vendedor, cliente, destino, fecha_salida, status, usuario) 
+            VALUES ('13', 'Oscar Barrera', 'Daniel Jiménez', 'Querendaro', '2025/03/31', 10, 'oficina')
+SQL de observación: INSERT INTO obs_pedidos (folio, observaciones, usuario) 
+                      VALUES ('13', 'Pedido creado desde APP MÓVIL', 'oficina')
+Observación guardada correctamente
+Respuesta: {"status":"success","folio":"13","message":"Pedido guardado correctamente","comment_status":"Observaci\u00f3n guardada correctamente: Pedido creado desde APP M\u00d3VIL"}
+=== FIN DE PETICIÓN ===
+
+=== NUEVA PETICIÓN: 2025-03-13 23:39:44 ===
+POST: Array
+(
+    [ff] => 14
+    [vv] => Oscar Barrera
+    [cc] => Manuel Mendez
+    [rr] => Villa Madero
+    [fs] => 2025/04/03
+    [cm] => 
+)
+
+Comentarios encontrados en 'cm': ''
+SQL a ejecutar: INSERT INTO adm_pedidos (folio, vendedor, cliente, destino, fecha_salida, status, usuario) 
+            VALUES ('14', 'Oscar Barrera', 'Manuel Mendez', 'Villa Madero', '2025/04/03', 10, 'oficina')
+No se guardó ninguna observación porque no había comentarios
+Respuesta: {"status":"success","folio":"14","message":"Pedido guardado correctamente"}
+=== FIN DE PETICIÓN ===
+
+=== NUEVA PETICIÓN: 2025-03-13 23:42:12 ===
+POST: Array
+(
+    [ff] => 15
+    [vv] => Oscar Barrera
+    [cc] => Pepe Ramirez
+    [rr] => Matehuala
+    [fs] => 2025/04/16
+    [cm] => 
+)
+
+Comentarios encontrados en 'cm': ''
+SQL a ejecutar: INSERT INTO adm_pedidos (folio, vendedor, cliente, destino, fecha_salida, status, usuario) 
+            VALUES ('15', 'Oscar Barrera', 'Pepe Ramirez', 'Matehuala', '2025/04/16', 10, 'oficina')
+No se guardó ninguna observación porque no había comentarios
+Respuesta: {"status":"success","folio":"15","message":"Pedido guardado correctamente"}
+=== FIN DE PETICIÓN ===
+

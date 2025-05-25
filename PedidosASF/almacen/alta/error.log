@@ -1,0 +1,266 @@
+[09-Dec-2024 19:09:52 America/Mexico_City] PHP Warning:  require_once(../../InventorySystem.php): failed to open stream: No such file or directory in C:\ASF\htdocs\PedidosASF\almacen\alta\entregado_completo.php on line 4
+[09-Dec-2024 19:09:52 America/Mexico_City] PHP Fatal error:  require_once(): Failed opening required '../../InventorySystem.php' (include_path='C:\ASF\php\PEAR') in C:\ASF\htdocs\PedidosASF\almacen\alta\entregado_completo.php on line 4
+[09-Dec-2024 19:11:05 America/Mexico_City] PHP Warning:  require_once(../../InventarioASF/process/InventorySystem.php): failed to open stream: No such file or directory in C:\ASF\htdocs\PedidosASF\almacen\alta\entregado_completo.php on line 4
+[09-Dec-2024 19:11:05 America/Mexico_City] PHP Fatal error:  require_once(): Failed opening required '../../InventarioASF/process/InventorySystem.php' (include_path='C:\ASF\php\PEAR') in C:\ASF\htdocs\PedidosASF\almacen\alta\entregado_completo.php on line 4
+[09-Dec-2024 19:11:31 America/Mexico_City] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in C:\ASF\htdocs\PedidosASF\almacen\alta\entregado_completo.php on line 14
+[09-Dec-2024 19:11:32 America/Mexico_City] Zona horaria actual: America/Mexico_City
+[09-Dec-2024 19:11:32 America/Mexico_City] Productos recuperados: 0
+[09-Dec-2024 19:11:32 America/Mexico_City] Error en entregado_completo.php: Producto no encontrado en inventario: AGROACID (Pack1) - 19Lts
+[09-Dec-2024 19:11:45 America/Mexico_City] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in C:\ASF\htdocs\PedidosASF\almacen\alta\entregado_completo.php on line 14
+[09-Dec-2024 19:11:45 America/Mexico_City] Zona horaria actual: America/Mexico_City
+[09-Dec-2024 19:11:45 America/Mexico_City] Productos recuperados: 0
+[09-Dec-2024 19:11:45 America/Mexico_City] Error en entregado_completo.php: Producto no encontrado en inventario: AGROACID (Pack1) - 19Lts
+[09-Dec-2024 19:12:05 America/Mexico_City] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in C:\ASF\htdocs\PedidosASF\almacen\alta\entregado_completo.php on line 14
+[09-Dec-2024 19:12:05 America/Mexico_City] Zona horaria actual: America/Mexico_City
+[09-Dec-2024 19:12:05 America/Mexico_City] Productos recuperados: 0
+[09-Dec-2024 19:12:05 America/Mexico_City] Error en entregado_completo.php: Producto no encontrado en inventario: AGROACID (Pack1) - 19Lts
+[09-Dec-2024 19:12:10 America/Mexico_City] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in C:\ASF\htdocs\PedidosASF\almacen\alta\entregado_completo.php on line 14
+[09-Dec-2024 19:12:10 America/Mexico_City] Zona horaria actual: America/Mexico_City
+[09-Dec-2024 19:12:10 America/Mexico_City] Productos recuperados: 0
+[09-Dec-2024 19:12:10 America/Mexico_City] Error en entregado_completo.php: Producto no encontrado en inventario: AGROACID (Pack1) - 19Lts
+[09-Dec-2024 19:13:14 America/Mexico_City] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in C:\ASF\htdocs\PedidosASF\almacen\alta\entregado_completo.php on line 14
+[09-Dec-2024 19:13:14 America/Mexico_City] Zona horaria actual: America/Mexico_City
+[09-Dec-2024 19:13:14 America/Mexico_City] Productos recuperados: 0
+[09-Dec-2024 19:13:14 America/Mexico_City] Error en entregado_completo.php: Producto no encontrado en inventario: AGROACID (Pack1) - 19Lts
+[09-Dec-2024 19:14:06 America/Mexico_City] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in C:\ASF\htdocs\PedidosASF\almacen\alta\entregado_completo.php on line 14
+[09-Dec-2024 19:14:06 America/Mexico_City] Zona horaria actual: America/Mexico_City
+[09-Dec-2024 19:14:06 America/Mexico_City] Productos recuperados: 0
+[09-Dec-2024 19:14:06 America/Mexico_City] Error en entregado_completo.php: Producto no encontrado en inventario: AGROACID (Pack1) - 19Lts
+[09-Dec-2024 19:14:23 America/Mexico_City] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in C:\ASF\htdocs\PedidosASF\almacen\alta\entregado_completo.php on line 14
+[09-Dec-2024 19:14:23 America/Mexico_City] Zona horaria actual: America/Mexico_City
+[09-Dec-2024 19:14:23 America/Mexico_City] Productos recuperados: 0
+[09-Dec-2024 19:14:23 America/Mexico_City] Error en entregado_completo.php: Producto no encontrado en inventario: AGROACID (Pack1) - 19Lts
+[09-Dec-2024 19:23:09 America/Mexico_City] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in C:\ASF\htdocs\PedidosASF\almacen\alta\entregado_completo.php on line 30
+[09-Dec-2024 19:23:09 America/Mexico_City] Zona horaria actual: America/Mexico_City
+[09-Dec-2024 19:23:09 America/Mexico_City] Productos recuperados: 0
+[09-Dec-2024 19:24:07 America/Mexico_City] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in C:\ASF\htdocs\PedidosASF\almacen\alta\entregado_completo.php on line 30
+[09-Dec-2024 19:24:07 America/Mexico_City] Zona horaria actual: America/Mexico_City
+[09-Dec-2024 19:24:07 America/Mexico_City] Productos recuperados: 0
+[09-Dec-2024 19:25:27 America/Mexico_City] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in C:\ASF\htdocs\PedidosASF\almacen\alta\entregado_completo.php on line 30
+[09-Dec-2024 19:25:27 America/Mexico_City] Zona horaria actual: America/Mexico_City
+[09-Dec-2024 19:25:27 America/Mexico_City] Productos recuperados: 0
+[09-Dec-2024 19:28:50 America/Mexico_City] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in C:\ASF\htdocs\PedidosASF\almacen\alta\entregado_completo.php on line 30
+[09-Dec-2024 19:28:50 America/Mexico_City] Zona horaria actual: America/Mexico_City
+[09-Dec-2024 19:28:50 America/Mexico_City] Productos recuperados: 0
+[09-Dec-2024 19:30:54 America/Mexico_City] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in C:\ASF\htdocs\PedidosASF\almacen\alta\entregado_completo.php on line 30
+[09-Dec-2024 19:30:54 America/Mexico_City] Zona horaria actual: America/Mexico_City
+[09-Dec-2024 19:30:54 America/Mexico_City] Productos recuperados: 0
+[09-Dec-2024 19:31:22 America/Mexico_City] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in C:\ASF\htdocs\PedidosASF\almacen\alta\entregado_completo.php on line 30
+[09-Dec-2024 19:31:22 America/Mexico_City] Zona horaria actual: America/Mexico_City
+[09-Dec-2024 19:31:22 America/Mexico_City] Productos recuperados: 0
+[09-Dec-2024 19:33:44 America/Mexico_City] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in C:\ASF\htdocs\PedidosASF\almacen\alta\entregado_completo.php on line 30
+[09-Dec-2024 19:33:44 America/Mexico_City] Zona horaria actual: America/Mexico_City
+[09-Dec-2024 19:33:44 America/Mexico_City] Productos recuperados: 0
+[09-Dec-2024 19:34:37 America/Mexico_City] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in C:\ASF\htdocs\PedidosASF\almacen\alta\entregado_completo.php on line 30
+[09-Dec-2024 19:34:37 America/Mexico_City] Zona horaria actual: America/Mexico_City
+[09-Dec-2024 19:34:37 America/Mexico_City] Productos recuperados: 0
+[09-Dec-2024 19:34:38 America/Mexico_City] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in C:\ASF\htdocs\PedidosASF\almacen\alta\entregado_completo.php on line 30
+[09-Dec-2024 19:34:38 America/Mexico_City] Zona horaria actual: America/Mexico_City
+[09-Dec-2024 19:34:38 America/Mexico_City] Productos recuperados: 0
+[09-Dec-2024 19:34:39 America/Mexico_City] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in C:\ASF\htdocs\PedidosASF\almacen\alta\entregado_completo.php on line 30
+[09-Dec-2024 19:34:39 America/Mexico_City] Zona horaria actual: America/Mexico_City
+[09-Dec-2024 19:34:39 America/Mexico_City] Productos recuperados: 0
+[09-Dec-2024 19:34:51 America/Mexico_City] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in C:\ASF\htdocs\PedidosASF\almacen\alta\entregado_completo.php on line 30
+[09-Dec-2024 19:34:52 America/Mexico_City] Zona horaria actual: America/Mexico_City
+[09-Dec-2024 19:34:52 America/Mexico_City] Productos recuperados: 0
+[09-Dec-2024 19:35:11 America/Mexico_City] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in C:\ASF\htdocs\PedidosASF\almacen\alta\entregado_completo.php on line 30
+[09-Dec-2024 19:35:11 America/Mexico_City] Zona horaria actual: America/Mexico_City
+[09-Dec-2024 19:35:11 America/Mexico_City] Productos recuperados: 0
+[09-Dec-2024 19:37:02 America/Mexico_City] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in C:\ASF\htdocs\PedidosASF\almacen\alta\entregado_completo.php on line 30
+[09-Dec-2024 19:37:02 America/Mexico_City] Zona horaria actual: America/Mexico_City
+[09-Dec-2024 19:37:02 America/Mexico_City] Productos recuperados: 0
+[09-Dec-2024 19:37:03 America/Mexico_City] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in C:\ASF\htdocs\PedidosASF\almacen\alta\entregado_completo.php on line 30
+[09-Dec-2024 19:37:03 America/Mexico_City] Zona horaria actual: America/Mexico_City
+[09-Dec-2024 19:37:03 America/Mexico_City] Productos recuperados: 0
+[09-Dec-2024 19:37:06 America/Mexico_City] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in C:\ASF\htdocs\PedidosASF\almacen\alta\entregado_completo.php on line 30
+[09-Dec-2024 19:37:06 America/Mexico_City] Zona horaria actual: America/Mexico_City
+[09-Dec-2024 19:37:06 America/Mexico_City] Productos recuperados: 0
+[09-Dec-2024 19:42:22 America/Mexico_City] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in C:\ASF\htdocs\PedidosASF\almacen\alta\entregado_completo.php on line 30
+[09-Dec-2024 19:42:23 America/Mexico_City] Zona horaria actual: America/Mexico_City
+[09-Dec-2024 19:42:23 America/Mexico_City] Productos recuperados: 0
+[09-Dec-2024 19:42:28 America/Mexico_City] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in C:\ASF\htdocs\PedidosASF\almacen\alta\entregado_completo.php on line 30
+[09-Dec-2024 19:42:28 America/Mexico_City] Zona horaria actual: America/Mexico_City
+[09-Dec-2024 19:42:28 America/Mexico_City] Productos recuperados: 0
+[09-Dec-2024 19:44:13 America/Mexico_City] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in C:\ASF\htdocs\PedidosASF\almacen\alta\entregado_completo.php on line 30
+[09-Dec-2024 19:44:13 America/Mexico_City] Zona horaria actual: America/Mexico_City
+[09-Dec-2024 19:44:13 America/Mexico_City] Productos recuperados: 0
+[09-Dec-2024 19:44:13 America/Mexico_City] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in C:\ASF\htdocs\PedidosASF\almacen\alta\entregado_completo.php on line 30
+[09-Dec-2024 19:44:13 America/Mexico_City] Zona horaria actual: America/Mexico_City
+[09-Dec-2024 19:44:13 America/Mexico_City] Productos recuperados: 0
+[09-Dec-2024 19:44:15 America/Mexico_City] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in C:\ASF\htdocs\PedidosASF\almacen\alta\entregado_completo.php on line 30
+[09-Dec-2024 19:44:15 America/Mexico_City] Zona horaria actual: America/Mexico_City
+[09-Dec-2024 19:44:15 America/Mexico_City] Productos recuperados: 0
+[09-Dec-2024 19:47:12 America/Mexico_City] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in C:\ASF\htdocs\PedidosASF\almacen\alta\entregado_completo.php on line 30
+[09-Dec-2024 19:47:12 America/Mexico_City] Zona horaria actual: America/Mexico_City
+[09-Dec-2024 19:47:12 America/Mexico_City] Productos recuperados: 0
+[09-Dec-2024 19:47:12 America/Mexico_City] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in C:\ASF\htdocs\PedidosASF\almacen\alta\entregado_completo.php on line 30
+[09-Dec-2024 19:47:12 America/Mexico_City] Zona horaria actual: America/Mexico_City
+[09-Dec-2024 19:47:12 America/Mexico_City] Productos recuperados: 0
+[09-Dec-2024 19:47:13 America/Mexico_City] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in C:\ASF\htdocs\PedidosASF\almacen\alta\entregado_completo.php on line 30
+[09-Dec-2024 19:47:13 America/Mexico_City] Zona horaria actual: America/Mexico_City
+[09-Dec-2024 19:47:13 America/Mexico_City] Productos recuperados: 0
+[09-Dec-2024 19:47:21 America/Mexico_City] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in C:\ASF\htdocs\PedidosASF\almacen\alta\entregado_completo.php on line 30
+[09-Dec-2024 19:47:21 America/Mexico_City] Zona horaria actual: America/Mexico_City
+[09-Dec-2024 19:47:21 America/Mexico_City] Productos recuperados: 0
+[09-Dec-2024 19:56:40 America/Mexico_City] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in C:\ASF\htdocs\PedidosASF\almacen\alta\entregado_completo.php on line 30
+[09-Dec-2024 19:56:40 America/Mexico_City] Zona horaria actual: America/Mexico_City
+[09-Dec-2024 19:56:40 America/Mexico_City] Productos recuperados: 0
+[09-Dec-2024 19:59:31 America/Mexico_City] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in C:\ASF\htdocs\PedidosASF\almacen\alta\entregado_completo.php on line 38
+[09-Dec-2024 19:59:31 America/Mexico_City] Zona horaria actual: America/Mexico_City
+[09-Dec-2024 19:59:31 America/Mexico_City] Productos recuperados: 0
+[09-Dec-2024 20:12:49 America/Mexico_City] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in C:\ASF\htdocs\PedidosASF\almacen\alta\entregado_completo.php on line 38
+[09-Dec-2024 20:12:49 America/Mexico_City] Zona horaria actual: America/Mexico_City
+[09-Dec-2024 20:12:49 America/Mexico_City] Productos recuperados: 0
+[09-Dec-2024 20:14:36 America/Mexico_City] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in C:\ASF\htdocs\PedidosASF\almacen\alta\entregado_completo.php on line 38
+[09-Dec-2024 20:14:36 America/Mexico_City] Zona horaria actual: America/Mexico_City
+[09-Dec-2024 20:14:36 America/Mexico_City] Productos recuperados: 53
+[09-Dec-2024 20:14:36 America/Mexico_City] Hora actual generada: 2024-12-09 20:14:36
+[09-Dec-2024 20:14:36 America/Mexico_City] Actualizando stock con timestamp: 2024-12-09 20:14:36
+[09-Dec-2024 20:14:36 America/Mexico_City] Hora actual generada: 2024-12-09 20:14:36
+[09-Dec-2024 20:14:36 America/Mexico_City] Registrando historial con timestamp: 2024-12-09 20:14:36
+[09-Dec-2024 20:15:20 America/Mexico_City] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in C:\ASF\htdocs\PedidosASF\almacen\alta\entregado_completo.php on line 38
+[09-Dec-2024 20:15:20 America/Mexico_City] Zona horaria actual: America/Mexico_City
+[09-Dec-2024 20:15:20 America/Mexico_City] Productos recuperados: 53
+[09-Dec-2024 20:15:20 America/Mexico_City] Hora actual generada: 2024-12-09 20:15:20
+[09-Dec-2024 20:15:20 America/Mexico_City] Actualizando stock con timestamp: 2024-12-09 20:15:20
+[09-Dec-2024 20:15:20 America/Mexico_City] Hora actual generada: 2024-12-09 20:15:20
+[09-Dec-2024 20:15:20 America/Mexico_City] Registrando historial con timestamp: 2024-12-09 20:15:20
+[10-Dec-2024 03:17:01 Europe/Berlin] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in C:\ASF\htdocs\PedidosASF\almacen\alta\entregado_incompleto.php on line 11
+[09-Dec-2024 20:29:12 America/Mexico_City] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in C:\ASF\htdocs\PedidosASF\almacen\alta\entregado_completo.php on line 38
+[09-Dec-2024 20:29:12 America/Mexico_City] Zona horaria actual: America/Mexico_City
+[09-Dec-2024 20:29:12 America/Mexico_City] Productos recuperados: 53
+[09-Dec-2024 20:30:18 America/Mexico_City] Zona horaria actual: America/Mexico_City
+[09-Dec-2024 20:30:18 America/Mexico_City] Productos recuperados: 53
+[09-Dec-2024 20:32:30 America/Mexico_City] Zona horaria actual: America/Mexico_City
+[09-Dec-2024 20:32:30 America/Mexico_City] Productos recuperados: 53
+[09-Dec-2024 20:32:51 America/Mexico_City] Zona horaria actual: America/Mexico_City
+[09-Dec-2024 20:32:51 America/Mexico_City] Productos recuperados: 53
+[09-Dec-2024 20:33:35 America/Mexico_City] Zona horaria actual: America/Mexico_City
+[09-Dec-2024 20:33:35 America/Mexico_City] Productos recuperados: 53
+[09-Dec-2024 20:39:17 America/Mexico_City] Zona horaria actual: America/Mexico_City
+[09-Dec-2024 20:39:17 America/Mexico_City] Productos recuperados: 53
+[09-Dec-2024 20:40:32 America/Mexico_City] Zona horaria actual: America/Mexico_City
+[09-Dec-2024 20:40:32 America/Mexico_City] Productos recuperados: 53
+[09-Dec-2024 20:40:42 America/Mexico_City] Zona horaria actual: America/Mexico_City
+[09-Dec-2024 20:40:42 America/Mexico_City] Productos recuperados: 53
+[09-Dec-2024 20:43:30 America/Mexico_City] Zona horaria actual: America/Mexico_City
+[09-Dec-2024 20:43:30 America/Mexico_City] Productos recuperados: 53
+[09-Dec-2024 20:43:35 America/Mexico_City] Zona horaria actual: America/Mexico_City
+[09-Dec-2024 20:43:35 America/Mexico_City] Productos recuperados: 53
+[09-Dec-2024 20:46:30 America/Mexico_City] Zona horaria actual: America/Mexico_City
+[09-Dec-2024 20:46:30 America/Mexico_City] Productos recuperados: 53
+[09-Dec-2024 20:46:34 America/Mexico_City] Zona horaria actual: America/Mexico_City
+[09-Dec-2024 20:46:34 America/Mexico_City] Productos recuperados: 53
+[09-Dec-2024 20:47:06 America/Mexico_City] Zona horaria actual: America/Mexico_City
+[09-Dec-2024 20:47:06 America/Mexico_City] Productos recuperados: 53
+[09-Dec-2024 20:47:09 America/Mexico_City] Zona horaria actual: America/Mexico_City
+[09-Dec-2024 20:47:09 America/Mexico_City] Productos recuperados: 53
+[09-Dec-2024 20:47:13 America/Mexico_City] Zona horaria actual: America/Mexico_City
+[09-Dec-2024 20:47:13 America/Mexico_City] Productos recuperados: 53
+[09-Dec-2024 20:48:01 America/Mexico_City] Zona horaria actual: America/Mexico_City
+[09-Dec-2024 20:48:01 America/Mexico_City] Productos recuperados: 53
+[09-Dec-2024 20:48:45 America/Mexico_City] Zona horaria actual: America/Mexico_City
+[09-Dec-2024 20:48:45 America/Mexico_City] Productos recuperados: 53
+[09-Dec-2024 20:48:49 America/Mexico_City] Zona horaria actual: America/Mexico_City
+[09-Dec-2024 20:48:49 America/Mexico_City] Productos recuperados: 53
+[09-Dec-2024 20:49:25 America/Mexico_City] Zona horaria actual: America/Mexico_City
+[09-Dec-2024 20:49:25 America/Mexico_City] Productos recuperados: 53
+[09-Dec-2024 20:49:30 America/Mexico_City] Zona horaria actual: America/Mexico_City
+[09-Dec-2024 20:49:30 America/Mexico_City] Productos recuperados: 53
+[09-Dec-2024 20:50:57 America/Mexico_City] Zona horaria actual: America/Mexico_City
+[09-Dec-2024 20:50:57 America/Mexico_City] Productos recuperados: 53
+[09-Dec-2024 21:14:39 America/Mexico_City] Zona horaria actual: America/Mexico_City
+[09-Dec-2024 21:14:39 America/Mexico_City] Productos recuperados: 53
+[09-Dec-2024 21:15:23 America/Mexico_City] Zona horaria actual: America/Mexico_City
+[09-Dec-2024 21:15:23 America/Mexico_City] Productos recuperados: 53
+[09-Dec-2024 21:15:23 America/Mexico_City] Hora actual generada: 2024-12-09 21:15:23
+[09-Dec-2024 21:15:24 America/Mexico_City] Actualizando stock con timestamp: 2024-12-09 21:15:23
+[09-Dec-2024 21:15:24 America/Mexico_City] Hora actual generada: 2024-12-09 21:15:24
+[09-Dec-2024 21:15:24 America/Mexico_City] Registrando historial con timestamp: 2024-12-09 21:15:24
+[09-Dec-2024 21:16:25 America/Mexico_City] Zona horaria actual: America/Mexico_City
+[09-Dec-2024 21:16:25 America/Mexico_City] Productos recuperados: 53
+[09-Dec-2024 21:17:13 America/Mexico_City] Zona horaria actual: America/Mexico_City
+[09-Dec-2024 21:17:13 America/Mexico_City] Productos recuperados: 53
+[09-Dec-2024 21:17:13 America/Mexico_City] Hora actual generada: 2024-12-09 21:17:13
+[09-Dec-2024 21:17:13 America/Mexico_City] Actualizando stock con timestamp: 2024-12-09 21:17:13
+[09-Dec-2024 21:17:13 America/Mexico_City] Hora actual generada: 2024-12-09 21:17:13
+[09-Dec-2024 21:17:13 America/Mexico_City] Registrando historial con timestamp: 2024-12-09 21:17:13
+[09-Dec-2024 21:17:25 America/Mexico_City] Zona horaria actual: America/Mexico_City
+[09-Dec-2024 21:17:25 America/Mexico_City] Productos recuperados: 53
+[09-Dec-2024 22:54:47 America/Mexico_City] Zona horaria actual: America/Mexico_City
+[09-Dec-2024 22:54:47 America/Mexico_City] Productos recuperados: 53
+[09-Dec-2024 22:54:47 America/Mexico_City] Hora actual generada: 2024-12-09 22:54:47
+[09-Dec-2024 22:54:47 America/Mexico_City] Actualizando stock con timestamp: 2024-12-09 22:54:47
+[09-Dec-2024 22:54:47 America/Mexico_City] Hora actual generada: 2024-12-09 22:54:47
+[09-Dec-2024 22:54:47 America/Mexico_City] Registrando historial con timestamp: 2024-12-09 22:54:47
+[09-Dec-2024 22:56:57 America/Mexico_City] Zona horaria actual: America/Mexico_City
+[09-Dec-2024 22:56:57 America/Mexico_City] Productos recuperados: 53
+[09-Dec-2024 22:56:57 America/Mexico_City] Hora actual generada: 2024-12-09 22:56:57
+[09-Dec-2024 22:56:57 America/Mexico_City] Actualizando stock con timestamp: 2024-12-09 22:56:57
+[09-Dec-2024 22:56:57 America/Mexico_City] Hora actual generada: 2024-12-09 22:56:57
+[09-Dec-2024 22:56:57 America/Mexico_City] Registrando historial con timestamp: 2024-12-09 22:56:57
+[09-Dec-2024 23:01:20 America/Mexico_City] Zona horaria actual: America/Mexico_City
+[09-Dec-2024 23:01:20 America/Mexico_City] Productos recuperados: 53
+[09-Dec-2024 23:01:20 America/Mexico_City] Hora actual generada: 2024-12-09 23:01:20
+[09-Dec-2024 23:01:20 America/Mexico_City] Actualizando stock con timestamp: 2024-12-09 23:01:20
+[09-Dec-2024 23:01:20 America/Mexico_City] Hora actual generada: 2024-12-09 23:01:20
+[09-Dec-2024 23:01:20 America/Mexico_City] Registrando historial con timestamp: 2024-12-09 23:01:20
+[09-Dec-2024 23:02:09 America/Mexico_City] Zona horaria actual: America/Mexico_City
+[09-Dec-2024 23:02:09 America/Mexico_City] Productos recuperados: 53
+[09-Dec-2024 23:02:09 America/Mexico_City] Hora actual generada: 2024-12-09 23:02:09
+[09-Dec-2024 23:02:09 America/Mexico_City] Actualizando stock con timestamp: 2024-12-09 23:02:09
+[09-Dec-2024 23:02:09 America/Mexico_City] Hora actual generada: 2024-12-09 23:02:09
+[09-Dec-2024 23:02:09 America/Mexico_City] Registrando historial con timestamp: 2024-12-09 23:02:09
+[09-Dec-2024 23:02:14 America/Mexico_City] Zona horaria actual: America/Mexico_City
+[09-Dec-2024 23:02:14 America/Mexico_City] Productos recuperados: 53
+[09-Dec-2024 23:03:23 America/Mexico_City] Zona horaria actual: America/Mexico_City
+[09-Dec-2024 23:03:23 America/Mexico_City] Productos recuperados: 53
+[09-Dec-2024 23:06:13 America/Mexico_City] Zona horaria actual: America/Mexico_City
+[09-Dec-2024 23:06:13 America/Mexico_City] Productos recuperados: 53
+[09-Dec-2024 23:06:13 America/Mexico_City] Hora actual generada: 2024-12-09 23:06:13
+[09-Dec-2024 23:06:13 America/Mexico_City] Actualizando stock con timestamp: 2024-12-09 23:06:13
+[09-Dec-2024 23:06:13 America/Mexico_City] Hora actual generada: 2024-12-09 23:06:13
+[09-Dec-2024 23:06:13 America/Mexico_City] Registrando historial con timestamp: 2024-12-09 23:06:13
+[09-Dec-2024 23:06:13 America/Mexico_City] Productos recuperados: 53
+[09-Dec-2024 23:06:13 America/Mexico_City] Hora actual generada: 2024-12-09 23:06:13
+[09-Dec-2024 23:06:13 America/Mexico_City] Actualizando stock con timestamp: 2024-12-09 23:06:13
+[09-Dec-2024 23:06:13 America/Mexico_City] Hora actual generada: 2024-12-09 23:06:13
+[09-Dec-2024 23:06:13 America/Mexico_City] Registrando historial con timestamp: 2024-12-09 23:06:13
+[09-Dec-2024 23:08:27 America/Mexico_City] Zona horaria actual: America/Mexico_City
+[09-Dec-2024 23:08:27 America/Mexico_City] Productos recuperados: 53
+[09-Dec-2024 23:08:27 America/Mexico_City] Hora actual generada: 2024-12-09 23:08:27
+[09-Dec-2024 23:08:27 America/Mexico_City] Actualizando stock con timestamp: 2024-12-09 23:08:27
+[09-Dec-2024 23:08:27 America/Mexico_City] Hora actual generada: 2024-12-09 23:08:27
+[09-Dec-2024 23:08:27 America/Mexico_City] Registrando historial con timestamp: 2024-12-09 23:08:27
+[09-Dec-2024 23:08:27 America/Mexico_City] Productos recuperados: 53
+[09-Dec-2024 23:08:27 America/Mexico_City] Hora actual generada: 2024-12-09 23:08:27
+[09-Dec-2024 23:08:27 America/Mexico_City] Actualizando stock con timestamp: 2024-12-09 23:08:27
+[09-Dec-2024 23:08:27 America/Mexico_City] Hora actual generada: 2024-12-09 23:08:27
+[09-Dec-2024 23:08:27 America/Mexico_City] Registrando historial con timestamp: 2024-12-09 23:08:27
+[11-Dec-2024 23:26:54 America/Mexico_City] Zona horaria actual: America/Mexico_City
+[11-Dec-2024 23:26:54 America/Mexico_City] Productos recuperados: 53
+[11-Dec-2024 23:26:54 America/Mexico_City] Hora actual generada: 2024-12-11 23:26:54
+[11-Dec-2024 23:26:54 America/Mexico_City] Actualizando stock con timestamp: 2024-12-11 23:26:54
+[11-Dec-2024 23:26:54 America/Mexico_City] Hora actual generada: 2024-12-11 23:26:54
+[11-Dec-2024 23:26:54 America/Mexico_City] Registrando historial con timestamp: 2024-12-11 23:26:54
+[12-Dec-2024 03:13:38 America/Mexico_City] Zona horaria actual: America/Mexico_City
+[12-Dec-2024 03:13:38 America/Mexico_City] Productos recuperados: 53
+[12-Dec-2024 03:13:38 America/Mexico_City] Hora actual generada: 2024-12-12 03:13:38
+[12-Dec-2024 03:13:38 America/Mexico_City] Actualizando stock con timestamp: 2024-12-12 03:13:38
+[12-Dec-2024 03:13:38 America/Mexico_City] Hora actual generada: 2024-12-12 03:13:38
+[12-Dec-2024 03:13:38 America/Mexico_City] Registrando historial con timestamp: 2024-12-12 03:13:38
+[16-Dec-2024 19:02:59 America/Mexico_City] Zona horaria actual: America/Mexico_City
+[16-Dec-2024 19:02:59 America/Mexico_City] Productos recuperados: 53
+[16-Dec-2024 19:04:35 America/Mexico_City] Zona horaria actual: America/Mexico_City
+[16-Dec-2024 19:04:35 America/Mexico_City] Productos recuperados: 53
+[16-Dec-2024 19:04:35 America/Mexico_City] Hora actual generada: 2024-12-16 19:04:35
+[16-Dec-2024 19:04:35 America/Mexico_City] Actualizando stock con timestamp: 2024-12-16 19:04:35
+[16-Dec-2024 19:04:35 America/Mexico_City] Hora actual generada: 2024-12-16 19:04:35
+[16-Dec-2024 19:04:35 America/Mexico_City] Registrando historial con timestamp: 2024-12-16 19:04:35
+[16-Dec-2024 19:04:35 America/Mexico_City] Productos recuperados: 53
+[16-Dec-2024 19:04:35 America/Mexico_City] Hora actual generada: 2024-12-16 19:04:35
+[16-Dec-2024 19:04:35 America/Mexico_City] Actualizando stock con timestamp: 2024-12-16 19:04:35
+[16-Dec-2024 19:04:35 America/Mexico_City] Hora actual generada: 2024-12-16 19:04:35
+[16-Dec-2024 19:04:35 America/Mexico_City] Registrando historial con timestamp: 2024-12-16 19:04:35
+[27-Mar-2025 21:05:45 America/Mexico_City] Error en updateStock: Stock insuficiente
+[27-Mar-2025 21:06:23 America/Mexico_City] Error en updateStock: Stock insuficiente

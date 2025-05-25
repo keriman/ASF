@@ -1,0 +1,208 @@
+[10-Dec-2024 03:25:46 Europe/Berlin] PHP Notice:  Undefined index: denegado in C:\ASF\htdocs\PedidosASF\usuarios\control.php on line 3
+[10-Dec-2024 03:25:46 Europe/Berlin] PHP Notice:  Undefined index: bloqueado in C:\ASF\htdocs\PedidosASF\usuarios\control.php on line 8
+[10-Dec-2024 03:25:46 Europe/Berlin] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in C:\ASF\htdocs\PedidosASF\usuarios\control.php on line 20
+[10-Dec-2024 03:25:46 Europe/Berlin] PHP Notice:  Undefined index: guardar_clave in C:\ASF\htdocs\PedidosASF\usuarios\control.php on line 42
+[10-Dec-2024 03:25:46 Europe/Berlin] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in C:\ASF\htdocs\PedidosASF\usuarios\index.php on line 4
+[19-Feb-2025 06:36:55 Europe/Berlin] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in C:\ASF\htdocs\PedidosASF\usuarios\control.php on line 10
+[19-Feb-2025 06:36:55 Europe/Berlin] PHP Notice:  Undefined index: id in C:\ASF\htdocs\PedidosASF\usuarios\control.php on line 33
+[19-Feb-2025 06:36:55 Europe/Berlin] PHP Notice:  Undefined index: guardar_clave in C:\ASF\htdocs\PedidosASF\usuarios\control.php on line 39
+[13-Mar-2025 19:22:52 Europe/Berlin] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in C:\ASF\htdocs\PedidosASF\usuarios\control.php on line 10
+[13-Mar-2025 19:22:52 Europe/Berlin] PHP Notice:  Undefined index: id in C:\ASF\htdocs\PedidosASF\usuarios\control.php on line 33
+[13-Mar-2025 19:22:52 Europe/Berlin] PHP Notice:  Undefined index: guardar_clave in C:\ASF\htdocs\PedidosASF\usuarios\control.php on line 39
+[13-Mar-2025 19:23:07 Europe/Berlin] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in C:\ASF\htdocs\PedidosASF\usuarios\control.php on line 10
+[13-Mar-2025 19:23:07 Europe/Berlin] PHP Notice:  Undefined index: id in C:\ASF\htdocs\PedidosASF\usuarios\control.php on line 33
+[13-Mar-2025 19:23:07 Europe/Berlin] PHP Notice:  Undefined index: guardar_clave in C:\ASF\htdocs\PedidosASF\usuarios\control.php on line 39
+[13-Mar-2025 19:23:25 Europe/Berlin] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in C:\ASF\htdocs\PedidosASF\usuarios\control.php on line 10
+[13-Mar-2025 19:23:25 Europe/Berlin] PHP Notice:  Undefined index: id in C:\ASF\htdocs\PedidosASF\usuarios\control.php on line 33
+[13-Mar-2025 19:23:25 Europe/Berlin] PHP Notice:  Undefined index: guardar_clave in C:\ASF\htdocs\PedidosASF\usuarios\control.php on line 39
+[13-Mar-2025 20:36:41 Europe/Berlin] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in C:\ASF\htdocs\PedidosASF\usuarios\control.php on line 10
+[13-Mar-2025 20:36:41 Europe/Berlin] PHP Notice:  Undefined index: id in C:\ASF\htdocs\PedidosASF\usuarios\control.php on line 33
+[13-Mar-2025 20:36:41 Europe/Berlin] PHP Notice:  Undefined index: guardar_clave in C:\ASF\htdocs\PedidosASF\usuarios\control.php on line 39
+[13-Mar-2025 21:20:35 Europe/Berlin] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in C:\ASF\htdocs\PedidosASF\usuarios\control.php on line 10
+[13-Mar-2025 21:20:35 Europe/Berlin] PHP Notice:  Undefined index: id in C:\ASF\htdocs\PedidosASF\usuarios\control.php on line 33
+[13-Mar-2025 21:20:35 Europe/Berlin] PHP Notice:  Undefined index: guardar_clave in C:\ASF\htdocs\PedidosASF\usuarios\control.php on line 39
+[13-Mar-2025 21:35:54 Europe/Berlin] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in C:\ASF\htdocs\PedidosASF\usuarios\control.php on line 10
+[13-Mar-2025 21:35:54 Europe/Berlin] PHP Notice:  Undefined variable: bloqueo in C:\ASF\htdocs\PedidosASF\usuarios\control.php on line 45
+[13-Mar-2025 21:36:11 Europe/Berlin] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in C:\ASF\htdocs\PedidosASF\usuarios\control.php on line 10
+[13-Mar-2025 21:36:11 Europe/Berlin] PHP Notice:  Undefined index: id in C:\ASF\htdocs\PedidosASF\usuarios\control.php on line 33
+[13-Mar-2025 21:36:11 Europe/Berlin] PHP Notice:  Undefined index: guardar_clave in C:\ASF\htdocs\PedidosASF\usuarios\control.php on line 39
+[13-Mar-2025 21:40:18 Europe/Berlin] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in C:\ASF\htdocs\PedidosASF\usuarios\control.php on line 10
+[13-Mar-2025 21:40:18 Europe/Berlin] PHP Notice:  Undefined index: id in C:\ASF\htdocs\PedidosASF\usuarios\control.php on line 33
+[13-Mar-2025 21:40:18 Europe/Berlin] PHP Notice:  Undefined index: guardar_clave in C:\ASF\htdocs\PedidosASF\usuarios\control.php on line 39
+[13-Mar-2025 21:40:47 Europe/Berlin] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in C:\ASF\htdocs\PedidosASF\usuarios\control.php on line 10
+[13-Mar-2025 21:40:47 Europe/Berlin] PHP Notice:  Undefined index: id in C:\ASF\htdocs\PedidosASF\usuarios\control.php on line 33
+[13-Mar-2025 21:40:47 Europe/Berlin] PHP Notice:  Undefined index: guardar_clave in C:\ASF\htdocs\PedidosASF\usuarios\control.php on line 39
+[13-Mar-2025 22:38:30 Europe/Berlin] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in C:\ASF\htdocs\PedidosASF\usuarios\control.php on line 10
+[13-Mar-2025 22:38:30 Europe/Berlin] PHP Notice:  Undefined index: id in C:\ASF\htdocs\PedidosASF\usuarios\control.php on line 33
+[13-Mar-2025 22:38:30 Europe/Berlin] PHP Notice:  Undefined index: guardar_clave in C:\ASF\htdocs\PedidosASF\usuarios\control.php on line 39
+[13-Mar-2025 23:45:01 Europe/Berlin] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in C:\ASF\htdocs\PedidosASF\usuarios\control.php on line 10
+[13-Mar-2025 23:45:01 Europe/Berlin] PHP Notice:  Undefined index: id in C:\ASF\htdocs\PedidosASF\usuarios\control.php on line 33
+[13-Mar-2025 23:45:01 Europe/Berlin] PHP Notice:  Undefined index: guardar_clave in C:\ASF\htdocs\PedidosASF\usuarios\control.php on line 39
+[14-Mar-2025 21:23:21 Europe/Berlin] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in C:\ASF\htdocs\PedidosASF\usuarios\control.php on line 10
+[14-Mar-2025 21:23:21 Europe/Berlin] PHP Notice:  Undefined index: id in C:\ASF\htdocs\PedidosASF\usuarios\control.php on line 33
+[14-Mar-2025 21:23:21 Europe/Berlin] PHP Notice:  Undefined index: guardar_clave in C:\ASF\htdocs\PedidosASF\usuarios\control.php on line 39
+[14-Mar-2025 21:28:42 Europe/Berlin] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in C:\ASF\htdocs\PedidosASF\usuarios\control.php on line 10
+[14-Mar-2025 21:28:42 Europe/Berlin] PHP Notice:  Undefined index: id in C:\ASF\htdocs\PedidosASF\usuarios\control.php on line 33
+[14-Mar-2025 21:28:42 Europe/Berlin] PHP Notice:  Undefined index: guardar_clave in C:\ASF\htdocs\PedidosASF\usuarios\control.php on line 39
+[14-Mar-2025 22:40:43 Europe/Berlin] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in C:\ASF\htdocs\PedidosASF\usuarios\control.php on line 10
+[14-Mar-2025 22:40:43 Europe/Berlin] PHP Notice:  Undefined index: id in C:\ASF\htdocs\PedidosASF\usuarios\control.php on line 33
+[14-Mar-2025 22:40:43 Europe/Berlin] PHP Notice:  Undefined index: guardar_clave in C:\ASF\htdocs\PedidosASF\usuarios\control.php on line 39
+[15-Mar-2025 01:00:30 Europe/Berlin] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in C:\ASF\htdocs\PedidosASF\usuarios\control.php on line 10
+[15-Mar-2025 01:00:30 Europe/Berlin] PHP Notice:  Undefined variable: bloqueo in C:\ASF\htdocs\PedidosASF\usuarios\control.php on line 45
+[15-Mar-2025 01:00:38 Europe/Berlin] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in C:\ASF\htdocs\PedidosASF\usuarios\control.php on line 10
+[15-Mar-2025 01:00:38 Europe/Berlin] PHP Notice:  Undefined index: id in C:\ASF\htdocs\PedidosASF\usuarios\control.php on line 33
+[15-Mar-2025 01:00:38 Europe/Berlin] PHP Notice:  Undefined index: guardar_clave in C:\ASF\htdocs\PedidosASF\usuarios\control.php on line 39
+[28-Mar-2025 00:43:20 Europe/Berlin] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in C:\ASF\htdocs\PedidosASF\usuarios\control.php on line 10
+[28-Mar-2025 00:43:20 Europe/Berlin] PHP Notice:  Undefined variable: bloqueo in C:\ASF\htdocs\PedidosASF\usuarios\control.php on line 45
+[28-Mar-2025 00:43:30 Europe/Berlin] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in C:\ASF\htdocs\PedidosASF\usuarios\control.php on line 10
+[28-Mar-2025 00:43:30 Europe/Berlin] PHP Notice:  Undefined index: id in C:\ASF\htdocs\PedidosASF\usuarios\control.php on line 33
+[28-Mar-2025 00:43:30 Europe/Berlin] PHP Notice:  Undefined index: guardar_clave in C:\ASF\htdocs\PedidosASF\usuarios\control.php on line 39
+[28-Mar-2025 00:59:49 Europe/Berlin] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in C:\ASF\htdocs\PedidosASF\usuarios\control.php on line 10
+[28-Mar-2025 00:59:49 Europe/Berlin] PHP Notice:  Undefined index: id in C:\ASF\htdocs\PedidosASF\usuarios\control.php on line 33
+[28-Mar-2025 00:59:49 Europe/Berlin] PHP Notice:  Undefined index: guardar_clave in C:\ASF\htdocs\PedidosASF\usuarios\control.php on line 39
+[28-Mar-2025 01:00:49 Europe/Berlin] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in C:\ASF\htdocs\PedidosASF\usuarios\control.php on line 10
+[28-Mar-2025 01:00:49 Europe/Berlin] PHP Notice:  Undefined index: id in C:\ASF\htdocs\PedidosASF\usuarios\control.php on line 33
+[28-Mar-2025 01:00:49 Europe/Berlin] PHP Notice:  Undefined index: guardar_clave in C:\ASF\htdocs\PedidosASF\usuarios\control.php on line 39
+[28-Mar-2025 02:27:09 Europe/Berlin] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in C:\ASF\htdocs\PedidosASF\usuarios\control.php on line 10
+[28-Mar-2025 02:27:09 Europe/Berlin] PHP Notice:  Undefined index: id in C:\ASF\htdocs\PedidosASF\usuarios\control.php on line 33
+[28-Mar-2025 02:27:09 Europe/Berlin] PHP Notice:  Undefined index: guardar_clave in C:\ASF\htdocs\PedidosASF\usuarios\control.php on line 39
+[28-Mar-2025 02:36:33 Europe/Berlin] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in C:\ASF\htdocs\PedidosASF\usuarios\control.php on line 10
+[28-Mar-2025 02:36:33 Europe/Berlin] PHP Notice:  Undefined index: id in C:\ASF\htdocs\PedidosASF\usuarios\control.php on line 33
+[28-Mar-2025 02:36:33 Europe/Berlin] PHP Notice:  Undefined index: guardar_clave in C:\ASF\htdocs\PedidosASF\usuarios\control.php on line 39
+[28-Mar-2025 03:25:13 Europe/Berlin] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in C:\ASF\htdocs\PedidosASF\usuarios\control.php on line 10
+[28-Mar-2025 03:25:13 Europe/Berlin] PHP Notice:  Undefined variable: bloqueo in C:\ASF\htdocs\PedidosASF\usuarios\control.php on line 45
+[28-Mar-2025 03:25:19 Europe/Berlin] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in C:\ASF\htdocs\PedidosASF\usuarios\control.php on line 10
+[28-Mar-2025 03:25:19 Europe/Berlin] PHP Notice:  Undefined index: id in C:\ASF\htdocs\PedidosASF\usuarios\control.php on line 33
+[28-Mar-2025 03:25:19 Europe/Berlin] PHP Notice:  Undefined index: guardar_clave in C:\ASF\htdocs\PedidosASF\usuarios\control.php on line 39
+[28-Mar-2025 04:02:09 Europe/Berlin] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in C:\ASF\htdocs\PedidosASF\usuarios\control.php on line 10
+[28-Mar-2025 04:02:09 Europe/Berlin] PHP Notice:  Undefined index: id in C:\ASF\htdocs\PedidosASF\usuarios\control.php on line 33
+[28-Mar-2025 04:02:09 Europe/Berlin] PHP Notice:  Undefined index: guardar_clave in C:\ASF\htdocs\PedidosASF\usuarios\control.php on line 39
+[28-Mar-2025 04:04:34 Europe/Berlin] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in C:\ASF\htdocs\PedidosASF\usuarios\control.php on line 10
+[28-Mar-2025 04:04:34 Europe/Berlin] PHP Notice:  Undefined variable: bloqueo in C:\ASF\htdocs\PedidosASF\usuarios\control.php on line 45
+[28-Mar-2025 04:04:40 Europe/Berlin] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in C:\ASF\htdocs\PedidosASF\usuarios\control.php on line 10
+[28-Mar-2025 04:04:41 Europe/Berlin] PHP Notice:  Undefined index: id in C:\ASF\htdocs\PedidosASF\usuarios\control.php on line 33
+[28-Mar-2025 04:04:41 Europe/Berlin] PHP Notice:  Undefined index: guardar_clave in C:\ASF\htdocs\PedidosASF\usuarios\control.php on line 39
+[28-Mar-2025 04:21:09 Europe/Berlin] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in C:\ASF\htdocs\PedidosASF\usuarios\control.php on line 10
+[28-Mar-2025 04:21:09 Europe/Berlin] PHP Notice:  Undefined variable: bloqueo in C:\ASF\htdocs\PedidosASF\usuarios\control.php on line 45
+[28-Mar-2025 04:21:13 Europe/Berlin] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in C:\ASF\htdocs\PedidosASF\usuarios\control.php on line 10
+[28-Mar-2025 04:21:13 Europe/Berlin] PHP Notice:  Undefined variable: bloqueo in C:\ASF\htdocs\PedidosASF\usuarios\control.php on line 45
+[28-Mar-2025 04:21:19 Europe/Berlin] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in C:\ASF\htdocs\PedidosASF\usuarios\control.php on line 10
+[28-Mar-2025 04:21:19 Europe/Berlin] PHP Notice:  Undefined index: id in C:\ASF\htdocs\PedidosASF\usuarios\control.php on line 33
+[28-Mar-2025 04:21:19 Europe/Berlin] PHP Notice:  Undefined index: guardar_clave in C:\ASF\htdocs\PedidosASF\usuarios\control.php on line 39
+[28-Mar-2025 04:23:30 Europe/Berlin] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in C:\ASF\htdocs\PedidosASF\usuarios\control.php on line 10
+[28-Mar-2025 04:23:30 Europe/Berlin] PHP Notice:  Undefined index: id in C:\ASF\htdocs\PedidosASF\usuarios\control.php on line 33
+[28-Mar-2025 04:23:30 Europe/Berlin] PHP Notice:  Undefined index: guardar_clave in C:\ASF\htdocs\PedidosASF\usuarios\control.php on line 39
+[29-Mar-2025 02:13:35 Europe/Berlin] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in C:\ASF\htdocs\PedidosASF\usuarios\control.php on line 10
+[29-Mar-2025 02:13:35 Europe/Berlin] PHP Notice:  Undefined index: id in C:\ASF\htdocs\PedidosASF\usuarios\control.php on line 33
+[29-Mar-2025 02:13:35 Europe/Berlin] PHP Notice:  Undefined index: guardar_clave in C:\ASF\htdocs\PedidosASF\usuarios\control.php on line 39
+[29-Mar-2025 02:18:13 Europe/Berlin] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in C:\ASF\htdocs\PedidosASF\usuarios\control.php on line 10
+[29-Mar-2025 02:18:13 Europe/Berlin] PHP Notice:  Undefined index: id in C:\ASF\htdocs\PedidosASF\usuarios\control.php on line 33
+[29-Mar-2025 02:18:13 Europe/Berlin] PHP Notice:  Undefined index: guardar_clave in C:\ASF\htdocs\PedidosASF\usuarios\control.php on line 39
+[29-Mar-2025 02:47:33 Europe/Berlin] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in C:\ASF\htdocs\PedidosASF\usuarios\control.php on line 10
+[29-Mar-2025 02:47:33 Europe/Berlin] PHP Notice:  Undefined index: id in C:\ASF\htdocs\PedidosASF\usuarios\control.php on line 33
+[29-Mar-2025 02:47:33 Europe/Berlin] PHP Notice:  Undefined index: guardar_clave in C:\ASF\htdocs\PedidosASF\usuarios\control.php on line 39
+[29-Mar-2025 02:48:10 Europe/Berlin] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in C:\ASF\htdocs\PedidosASF\usuarios\control.php on line 10
+[29-Mar-2025 02:48:10 Europe/Berlin] PHP Notice:  Undefined index: id in C:\ASF\htdocs\PedidosASF\usuarios\control.php on line 33
+[29-Mar-2025 02:48:10 Europe/Berlin] PHP Notice:  Undefined index: guardar_clave in C:\ASF\htdocs\PedidosASF\usuarios\control.php on line 39
+[29-Mar-2025 06:04:16 Europe/Berlin] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in C:\ASF\htdocs\PedidosASF\usuarios\control.php on line 10
+[29-Mar-2025 06:04:16 Europe/Berlin] PHP Notice:  Undefined index: id in C:\ASF\htdocs\PedidosASF\usuarios\control.php on line 33
+[29-Mar-2025 06:04:16 Europe/Berlin] PHP Notice:  Undefined index: guardar_clave in C:\ASF\htdocs\PedidosASF\usuarios\control.php on line 39
+[29-Mar-2025 06:14:55 Europe/Berlin] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in C:\ASF\htdocs\PedidosASF\usuarios\control.php on line 10
+[29-Mar-2025 06:14:55 Europe/Berlin] PHP Notice:  Undefined variable: bloqueo in C:\ASF\htdocs\PedidosASF\usuarios\control.php on line 45
+[29-Mar-2025 06:15:00 Europe/Berlin] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in C:\ASF\htdocs\PedidosASF\usuarios\control.php on line 10
+[29-Mar-2025 06:15:00 Europe/Berlin] PHP Notice:  Undefined index: id in C:\ASF\htdocs\PedidosASF\usuarios\control.php on line 33
+[29-Mar-2025 06:15:00 Europe/Berlin] PHP Notice:  Undefined index: guardar_clave in C:\ASF\htdocs\PedidosASF\usuarios\control.php on line 39
+[29-Mar-2025 06:17:04 Europe/Berlin] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in C:\ASF\htdocs\PedidosASF\usuarios\control.php on line 10
+[29-Mar-2025 06:17:04 Europe/Berlin] PHP Notice:  Undefined variable: bloqueo in C:\ASF\htdocs\PedidosASF\usuarios\control.php on line 45
+[29-Mar-2025 06:17:08 Europe/Berlin] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in C:\ASF\htdocs\PedidosASF\usuarios\control.php on line 10
+[29-Mar-2025 06:17:08 Europe/Berlin] PHP Notice:  Undefined index: id in C:\ASF\htdocs\PedidosASF\usuarios\control.php on line 33
+[29-Mar-2025 06:17:08 Europe/Berlin] PHP Notice:  Undefined index: guardar_clave in C:\ASF\htdocs\PedidosASF\usuarios\control.php on line 39
+[29-Mar-2025 06:42:26 Europe/Berlin] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in C:\ASF\htdocs\PedidosASF\usuarios\control.php on line 10
+[29-Mar-2025 06:42:26 Europe/Berlin] PHP Notice:  Undefined index: id in C:\ASF\htdocs\PedidosASF\usuarios\control.php on line 33
+[29-Mar-2025 06:42:26 Europe/Berlin] PHP Notice:  Undefined index: guardar_clave in C:\ASF\htdocs\PedidosASF\usuarios\control.php on line 39
+[29-Mar-2025 07:41:01 Europe/Berlin] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in C:\ASF\htdocs\PedidosASF\usuarios\control.php on line 10
+[29-Mar-2025 07:41:01 Europe/Berlin] PHP Notice:  Undefined index: id in C:\ASF\htdocs\PedidosASF\usuarios\control.php on line 33
+[29-Mar-2025 07:41:01 Europe/Berlin] PHP Notice:  Undefined index: guardar_clave in C:\ASF\htdocs\PedidosASF\usuarios\control.php on line 39
+[29-Mar-2025 07:41:35 Europe/Berlin] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in C:\ASF\htdocs\PedidosASF\usuarios\control.php on line 10
+[29-Mar-2025 07:41:35 Europe/Berlin] PHP Notice:  Undefined index: id in C:\ASF\htdocs\PedidosASF\usuarios\control.php on line 33
+[29-Mar-2025 07:41:35 Europe/Berlin] PHP Notice:  Undefined index: guardar_clave in C:\ASF\htdocs\PedidosASF\usuarios\control.php on line 39
+[12-Apr-2025 02:35:15 Europe/Berlin] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in C:\ASF\htdocs\ASF\PedidosASF\usuarios\control.php on line 10
+[12-Apr-2025 02:35:15 Europe/Berlin] PHP Notice:  Undefined index: id in C:\ASF\htdocs\ASF\PedidosASF\usuarios\control.php on line 33
+[12-Apr-2025 02:35:15 Europe/Berlin] PHP Notice:  Undefined index: guardar_clave in C:\ASF\htdocs\ASF\PedidosASF\usuarios\control.php on line 39
+[25-Apr-2025 02:51:27 Europe/Berlin] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in C:\ASF\htdocs\ASF\PedidosASF\usuarios\control.php on line 10
+[25-Apr-2025 02:51:27 Europe/Berlin] PHP Notice:  Undefined variable: bloqueo in C:\ASF\htdocs\ASF\PedidosASF\usuarios\control.php on line 45
+[25-Apr-2025 02:51:38 Europe/Berlin] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in C:\ASF\htdocs\ASF\PedidosASF\usuarios\control.php on line 10
+[25-Apr-2025 02:51:38 Europe/Berlin] PHP Notice:  Undefined index: id in C:\ASF\htdocs\ASF\PedidosASF\usuarios\control.php on line 33
+[25-Apr-2025 02:51:38 Europe/Berlin] PHP Notice:  Undefined index: guardar_clave in C:\ASF\htdocs\ASF\PedidosASF\usuarios\control.php on line 39
+[25-Apr-2025 03:33:50 Europe/Berlin] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in C:\ASF\htdocs\ASF\PedidosASF\usuarios\control.php on line 10
+[25-Apr-2025 03:33:50 Europe/Berlin] PHP Notice:  Undefined variable: bloqueo in C:\ASF\htdocs\ASF\PedidosASF\usuarios\control.php on line 45
+[25-Apr-2025 03:33:56 Europe/Berlin] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in C:\ASF\htdocs\ASF\PedidosASF\usuarios\control.php on line 10
+[25-Apr-2025 03:33:56 Europe/Berlin] PHP Notice:  Undefined variable: bloqueo in C:\ASF\htdocs\ASF\PedidosASF\usuarios\control.php on line 45
+[25-Apr-2025 03:34:00 Europe/Berlin] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in C:\ASF\htdocs\ASF\PedidosASF\usuarios\control.php on line 10
+[25-Apr-2025 03:34:00 Europe/Berlin] PHP Notice:  Undefined variable: bloqueo in C:\ASF\htdocs\ASF\PedidosASF\usuarios\control.php on line 45
+[25-Apr-2025 03:34:05 Europe/Berlin] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in C:\ASF\htdocs\ASF\PedidosASF\usuarios\control.php on line 10
+[25-Apr-2025 03:34:05 Europe/Berlin] PHP Notice:  Undefined index: id in C:\ASF\htdocs\ASF\PedidosASF\usuarios\control.php on line 33
+[25-Apr-2025 03:34:05 Europe/Berlin] PHP Notice:  Undefined index: guardar_clave in C:\ASF\htdocs\ASF\PedidosASF\usuarios\control.php on line 39
+[25-Apr-2025 21:16:29 Europe/Berlin] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in C:\ASF\htdocs\ASF\PedidosASF\usuarios\control.php on line 10
+[25-Apr-2025 21:16:30 Europe/Berlin] PHP Notice:  Undefined variable: bloqueo in C:\ASF\htdocs\ASF\PedidosASF\usuarios\control.php on line 45
+[25-Apr-2025 21:16:35 Europe/Berlin] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in C:\ASF\htdocs\ASF\PedidosASF\usuarios\control.php on line 10
+[25-Apr-2025 21:16:35 Europe/Berlin] PHP Notice:  Undefined index: id in C:\ASF\htdocs\ASF\PedidosASF\usuarios\control.php on line 33
+[25-Apr-2025 21:16:35 Europe/Berlin] PHP Notice:  Undefined index: guardar_clave in C:\ASF\htdocs\ASF\PedidosASF\usuarios\control.php on line 39
+[26-Apr-2025 08:47:03 Europe/Berlin] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in C:\ASF\htdocs\ASF\PedidosASF\usuarios\control.php on line 10
+[26-Apr-2025 08:47:03 Europe/Berlin] PHP Notice:  Undefined variable: bloqueo in C:\ASF\htdocs\ASF\PedidosASF\usuarios\control.php on line 45
+[26-Apr-2025 08:47:08 Europe/Berlin] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in C:\ASF\htdocs\ASF\PedidosASF\usuarios\control.php on line 10
+[26-Apr-2025 08:47:08 Europe/Berlin] PHP Notice:  Undefined variable: bloqueo in C:\ASF\htdocs\ASF\PedidosASF\usuarios\control.php on line 45
+[26-Apr-2025 08:47:13 Europe/Berlin] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in C:\ASF\htdocs\ASF\PedidosASF\usuarios\control.php on line 10
+[26-Apr-2025 08:47:13 Europe/Berlin] PHP Notice:  Undefined variable: bloqueo in C:\ASF\htdocs\ASF\PedidosASF\usuarios\control.php on line 45
+[26-Apr-2025 08:47:25 Europe/Berlin] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in C:\ASF\htdocs\ASF\PedidosASF\usuarios\control.php on line 10
+[26-Apr-2025 08:47:25 Europe/Berlin] PHP Notice:  Undefined variable: bloqueo in C:\ASF\htdocs\ASF\PedidosASF\usuarios\control.php on line 45
+[26-Apr-2025 08:47:30 Europe/Berlin] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in C:\ASF\htdocs\ASF\PedidosASF\usuarios\control.php on line 10
+[26-Apr-2025 08:47:30 Europe/Berlin] PHP Notice:  Undefined variable: bloqueo in C:\ASF\htdocs\ASF\PedidosASF\usuarios\control.php on line 45
+[26-Apr-2025 08:48:07 Europe/Berlin] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in C:\ASF\htdocs\ASF\PedidosASF\usuarios\control.php on line 10
+[26-Apr-2025 08:48:07 Europe/Berlin] PHP Notice:  Undefined variable: bloqueo in C:\ASF\htdocs\ASF\PedidosASF\usuarios\control.php on line 45
+[26-Apr-2025 08:48:14 Europe/Berlin] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in C:\ASF\htdocs\ASF\PedidosASF\usuarios\control.php on line 10
+[26-Apr-2025 08:48:14 Europe/Berlin] PHP Notice:  Undefined variable: bloqueo in C:\ASF\htdocs\ASF\PedidosASF\usuarios\control.php on line 45
+[26-Apr-2025 08:48:33 Europe/Berlin] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in C:\ASF\htdocs\ASF\PedidosASF\usuarios\control.php on line 10
+[26-Apr-2025 08:48:33 Europe/Berlin] PHP Notice:  Undefined index: id in C:\ASF\htdocs\ASF\PedidosASF\usuarios\control.php on line 33
+[26-Apr-2025 08:48:33 Europe/Berlin] PHP Notice:  Undefined index: guardar_clave in C:\ASF\htdocs\ASF\PedidosASF\usuarios\control.php on line 39
+[26-Apr-2025 09:06:16 Europe/Berlin] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in C:\ASF\htdocs\ASF\PedidosASF\usuarios\control.php on line 10
+[26-Apr-2025 09:06:16 Europe/Berlin] PHP Notice:  Undefined index: id in C:\ASF\htdocs\ASF\PedidosASF\usuarios\control.php on line 33
+[26-Apr-2025 09:06:16 Europe/Berlin] PHP Notice:  Undefined index: guardar_clave in C:\ASF\htdocs\ASF\PedidosASF\usuarios\control.php on line 39
+[26-Apr-2025 09:12:28 Europe/Berlin] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in C:\ASF\htdocs\ASF\PedidosASF\usuarios\control.php on line 10
+[26-Apr-2025 09:12:28 Europe/Berlin] PHP Notice:  Undefined index: id in C:\ASF\htdocs\ASF\PedidosASF\usuarios\control.php on line 33
+[26-Apr-2025 09:12:28 Europe/Berlin] PHP Notice:  Undefined index: guardar_clave in C:\ASF\htdocs\ASF\PedidosASF\usuarios\control.php on line 39
+[26-Apr-2025 10:13:28 Europe/Berlin] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in C:\ASF\htdocs\ASF\PedidosASF\usuarios\control.php on line 10
+[26-Apr-2025 10:13:28 Europe/Berlin] PHP Notice:  Undefined index: id in C:\ASF\htdocs\ASF\PedidosASF\usuarios\control.php on line 33
+[26-Apr-2025 10:13:28 Europe/Berlin] PHP Notice:  Undefined index: guardar_clave in C:\ASF\htdocs\ASF\PedidosASF\usuarios\control.php on line 39
+[26-Apr-2025 10:20:16 Europe/Berlin] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in C:\ASF\htdocs\ASF\PedidosASF\usuarios\control.php on line 10
+[26-Apr-2025 10:20:16 Europe/Berlin] PHP Notice:  Undefined variable: bloqueo in C:\ASF\htdocs\ASF\PedidosASF\usuarios\control.php on line 45
+[26-Apr-2025 10:21:20 Europe/Berlin] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in C:\ASF\htdocs\ASF\PedidosASF\usuarios\control.php on line 10
+[26-Apr-2025 10:21:20 Europe/Berlin] PHP Notice:  Undefined index: id in C:\ASF\htdocs\ASF\PedidosASF\usuarios\control.php on line 33
+[26-Apr-2025 10:21:20 Europe/Berlin] PHP Notice:  Undefined index: guardar_clave in C:\ASF\htdocs\ASF\PedidosASF\usuarios\control.php on line 39
+[26-Apr-2025 10:22:35 Europe/Berlin] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in C:\ASF\htdocs\ASF\PedidosASF\usuarios\control.php on line 10
+[26-Apr-2025 10:22:35 Europe/Berlin] PHP Notice:  Undefined index: id in C:\ASF\htdocs\ASF\PedidosASF\usuarios\control.php on line 33
+[26-Apr-2025 10:22:35 Europe/Berlin] PHP Notice:  Undefined index: guardar_clave in C:\ASF\htdocs\ASF\PedidosASF\usuarios\control.php on line 39
+[26-Apr-2025 10:25:53 Europe/Berlin] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in C:\ASF\htdocs\ASF\PedidosASF\usuarios\control.php on line 10
+[26-Apr-2025 10:25:53 Europe/Berlin] PHP Notice:  Undefined index: id in C:\ASF\htdocs\ASF\PedidosASF\usuarios\control.php on line 33
+[26-Apr-2025 10:25:53 Europe/Berlin] PHP Notice:  Undefined index: guardar_clave in C:\ASF\htdocs\ASF\PedidosASF\usuarios\control.php on line 39
+[30-Apr-2025 07:35:06 Europe/Berlin] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in C:\ASF\htdocs\ASF\PedidosASF\usuarios\control.php on line 10
+[30-Apr-2025 07:35:06 Europe/Berlin] PHP Notice:  Undefined variable: denegado in C:\ASF\htdocs\ASF\PedidosASF\usuarios\control.php on line 49
+[30-Apr-2025 07:35:14 Europe/Berlin] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in C:\ASF\htdocs\ASF\PedidosASF\usuarios\control.php on line 10
+[30-Apr-2025 07:35:14 Europe/Berlin] PHP Notice:  Undefined variable: denegado in C:\ASF\htdocs\ASF\PedidosASF\usuarios\control.php on line 49
+[30-Apr-2025 07:35:31 Europe/Berlin] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in C:\ASF\htdocs\ASF\PedidosASF\usuarios\control.php on line 10
+[30-Apr-2025 07:35:31 Europe/Berlin] PHP Notice:  Undefined index: id in C:\ASF\htdocs\ASF\PedidosASF\usuarios\control.php on line 33
+[30-Apr-2025 07:35:31 Europe/Berlin] PHP Notice:  Undefined index: guardar_clave in C:\ASF\htdocs\ASF\PedidosASF\usuarios\control.php on line 39
+[01-May-2025 05:24:33 Europe/Berlin] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in C:\ASF\htdocs\ASF\PedidosASF\usuarios\control.php on line 10
+[01-May-2025 05:24:33 Europe/Berlin] PHP Notice:  Undefined index: id in C:\ASF\htdocs\ASF\PedidosASF\usuarios\control.php on line 33
+[01-May-2025 05:24:33 Europe/Berlin] PHP Notice:  Undefined index: guardar_clave in C:\ASF\htdocs\ASF\PedidosASF\usuarios\control.php on line 39
+[01-May-2025 05:25:11 Europe/Berlin] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in C:\ASF\htdocs\ASF\PedidosASF\usuarios\control.php on line 10
+[01-May-2025 05:25:11 Europe/Berlin] PHP Notice:  Undefined index: id in C:\ASF\htdocs\ASF\PedidosASF\usuarios\control.php on line 33
+[01-May-2025 05:25:11 Europe/Berlin] PHP Notice:  Undefined index: guardar_clave in C:\ASF\htdocs\ASF\PedidosASF\usuarios\control.php on line 39
+[01-May-2025 05:27:05 Europe/Berlin] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in C:\ASF\htdocs\ASF\PedidosASF\usuarios\control.php on line 10
+[01-May-2025 05:27:05 Europe/Berlin] PHP Notice:  Undefined index: id in C:\ASF\htdocs\ASF\PedidosASF\usuarios\control.php on line 33
+[01-May-2025 05:27:05 Europe/Berlin] PHP Notice:  Undefined index: guardar_clave in C:\ASF\htdocs\ASF\PedidosASF\usuarios\control.php on line 39
+[01-May-2025 05:27:46 Europe/Berlin] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in C:\ASF\htdocs\ASF\PedidosASF\usuarios\control.php on line 10
+[01-May-2025 05:27:46 Europe/Berlin] PHP Notice:  Undefined variable: bloqueo in C:\ASF\htdocs\ASF\PedidosASF\usuarios\control.php on line 45
+[01-May-2025 05:27:54 Europe/Berlin] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in C:\ASF\htdocs\ASF\PedidosASF\usuarios\control.php on line 10
+[01-May-2025 05:27:54 Europe/Berlin] PHP Notice:  Undefined index: id in C:\ASF\htdocs\ASF\PedidosASF\usuarios\control.php on line 33
+[01-May-2025 05:27:54 Europe/Berlin] PHP Notice:  Undefined index: guardar_clave in C:\ASF\htdocs\ASF\PedidosASF\usuarios\control.php on line 39

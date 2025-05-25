@@ -1,0 +1,169 @@
+=== NUEVA PETICIÓN: 2025-03-13 23:31:36 ===
+POST: Array
+(
+    [ff] => 12
+    [pp] => 00-45
+    [pr] => 
+    [cc] => 158
+    [cm] => Sin etiqueta
+)
+
+Comentarios encontrados en 'cm': 'Sin etiqueta'
+SQL a ejecutar: INSERT INTO prc_pedidos (folio, producto, presentacion, cantidad, usuario) VALUES ('12', '00-45', '', '158', 'oficina')
+SQL de observación (acción): INSERT INTO obs_pedidos (folio, observaciones, usuario, modificada) VALUES ('12', 'APP MÓVIL: Agregado nuevo producto: 00-45 /  - Cantidad: 158', 'oficina', 1)
+SQL de observación (comentario): INSERT INTO obs_pedidos (folio, observaciones, usuario) VALUES ('12', 'APP MÓVIL (Comentario): Sin etiqueta', 'oficina')
+Comentario guardado correctamente
+Respuesta: {"status":"success","folio":"12","message":"Producto procesado correctamente","comment_status":"Comentario guardado correctamente"}
+=== FIN DE PETICIÓN ===
+
+=== NUEVA PETICIÓN: 2025-03-13 23:34:13 ===
+POST: Array
+(
+    [ff] => 12
+    [pp] => NPK
+    [pr] => 
+    [cc] => 250
+    [cm] => Sin etiquetas
+)
+
+Comentarios encontrados en 'cm': 'Sin etiquetas'
+SQL a ejecutar: INSERT INTO prc_pedidos (folio, producto, presentacion, cantidad, usuario) VALUES ('12', 'NPK', '', '250', 'oficina')
+SQL de observación (comentario): INSERT INTO obs_pedidos (folio, observaciones, usuario) VALUES ('12', 'Sin etiquetas', 'oficina')
+Comentario guardado correctamente
+Respuesta: {"status":"success","folio":"12","message":"Producto procesado correctamente","comment_status":"Comentario guardado correctamente"}
+=== FIN DE PETICIÓN ===
+
+=== NUEVA PETICIÓN: 2025-03-13 23:35:45 ===
+POST: Array
+(
+    [ff] => 13
+    [pp] => Forza 8-24-00 20L
+    [pr] => 
+    [cc] => 150
+    [cm] => En bolsa
+)
+
+Comentarios encontrados en 'cm': 'En bolsa'
+SQL a ejecutar: INSERT INTO prc_pedidos (folio, producto, presentacion, cantidad, usuario) VALUES ('13', 'Forza 8-24-00 20L', '', '150', 'oficina')
+SQL de observación (comentario): INSERT INTO obs_pedidos (folio, observaciones, usuario) VALUES ('13', 'En bolsa', 'oficina')
+Comentario guardado correctamente
+Respuesta: {"status":"success","folio":"13","message":"Producto procesado correctamente","comment_status":"Comentario guardado correctamente"}
+=== FIN DE PETICIÓN ===
+
+=== NUEVA PETICIÓN: 2025-03-13 23:35:57 ===
+POST: Array
+(
+    [ff] => 13
+    [pp] => NPK
+    [pr] => 
+    [cc] => 250
+    [cm] => Sin etiquetas
+)
+
+Comentarios encontrados en 'cm': 'Sin etiquetas'
+SQL a ejecutar: INSERT INTO prc_pedidos (folio, producto, presentacion, cantidad, usuario) VALUES ('13', 'NPK', '', '250', 'oficina')
+SQL de observación (comentario): INSERT INTO obs_pedidos (folio, observaciones, usuario) VALUES ('13', 'Sin etiquetas', 'oficina')
+Comentario guardado correctamente
+Respuesta: {"status":"success","folio":"13","message":"Producto procesado correctamente","comment_status":"Comentario guardado correctamente"}
+=== FIN DE PETICIÓN ===
+
+=== NUEVA PETICIÓN: 2025-03-13 23:40:03 ===
+POST: Array
+(
+    [ff] => 14
+    [pp] => 00-45
+    [pr] => 
+    [cc] => 250
+    [cm] => sin etiquetas 
+)
+
+Comentarios encontrados en 'cm': 'sin etiquetas '
+SQL a ejecutar: INSERT INTO prc_pedidos (folio, producto, presentacion, cantidad, usuario) VALUES ('14', '00-45', '', '250', 'oficina')
+SQL de observación (comentario): INSERT INTO obs_pedidos (folio, observaciones, usuario) VALUES ('14', 'APP MÓVIL (Producto 00-45): sin etiquetas ', 'oficina')
+Comentario guardado correctamente
+Respuesta: {"status":"success","folio":"14","message":"Producto procesado correctamente","comment_status":"Comentario guardado correctamente"}
+=== FIN DE PETICIÓN ===
+
+=== NUEVA PETICIÓN: 2025-03-13 23:40:14 ===
+POST: Array
+(
+    [ff] => 14
+    [pp] => Scott 19L
+    [pr] => 
+    [cc] => 250
+    [cm] => en bolsa chica
+)
+
+Comentarios encontrados en 'cm': 'en bolsa chica'
+SQL a ejecutar: INSERT INTO prc_pedidos (folio, producto, presentacion, cantidad, usuario) VALUES ('14', 'Scott 19L', '', '250', 'oficina')
+SQL de observación (comentario): INSERT INTO obs_pedidos (folio, observaciones, usuario) VALUES ('14', 'APP MÓVIL (Producto Scott 19L): en bolsa chica', 'oficina')
+Comentario guardado correctamente
+Respuesta: {"status":"success","folio":"14","message":"Producto procesado correctamente","comment_status":"Comentario guardado correctamente"}
+=== FIN DE PETICIÓN ===
+
+=== NUEVA PETICIÓN: 2025-03-13 23:42:34 ===
+POST: Array
+(
+    [ff] => 15
+    [pp] => 00-45
+    [pr] => 
+    [cc] => 150
+    [cm] => 
+)
+
+Comentarios encontrados en 'cm': ''
+SQL a ejecutar: INSERT INTO prc_pedidos (folio, producto, presentacion, cantidad, usuario) VALUES ('15', '00-45', '', '150', 'oficina')
+No se guardó ningún comentario porque no había comentarios
+Respuesta: {"status":"success","folio":"15","message":"Producto procesado correctamente"}
+=== FIN DE PETICIÓN ===
+
+=== NUEVA PETICIÓN: 2025-03-13 23:42:42 ===
+POST: Array
+(
+    [ff] => 15
+    [pp] => Forza 8-24-00 19 lt
+    [pr] => 
+    [cc] => 250
+    [cm] => sin etiqueta 
+)
+
+Comentarios encontrados en 'cm': 'sin etiqueta '
+SQL a ejecutar: INSERT INTO prc_pedidos (folio, producto, presentacion, cantidad, usuario) VALUES ('15', 'Forza 8-24-00 19 lt', '', '250', 'oficina')
+SQL de observación (comentario): INSERT INTO obs_pedidos (folio, observaciones, usuario) VALUES ('15', '(Producto Forza 8-24-00 19 lt): sin etiqueta ', 'oficina')
+Comentario guardado correctamente
+Respuesta: {"status":"success","folio":"15","message":"Producto procesado correctamente","comment_status":"Comentario guardado correctamente"}
+=== FIN DE PETICIÓN ===
+
+=== NUEVA PETICIÓN: 2025-03-13 23:42:53 ===
+POST: Array
+(
+    [ff] => 15
+    [pp] => Phelp 1L
+    [pr] => 
+    [cc] => 120
+    [cm] => 
+)
+
+Comentarios encontrados en 'cm': ''
+SQL a ejecutar: INSERT INTO prc_pedidos (folio, producto, presentacion, cantidad, usuario) VALUES ('15', 'Phelp 1L', '', '120', 'oficina')
+No se guardó ningún comentario porque no había comentarios
+Respuesta: {"status":"success","folio":"15","message":"Producto procesado correctamente"}
+=== FIN DE PETICIÓN ===
+
+=== NUEVA PETICIÓN: 2025-03-13 23:43:04 ===
+POST: Array
+(
+    [ff] => 15
+    [pp] => Specialized 19L
+    [pr] => 
+    [cc] => 350
+    [cm] => en bolsa chica
+)
+
+Comentarios encontrados en 'cm': 'en bolsa chica'
+SQL a ejecutar: INSERT INTO prc_pedidos (folio, producto, presentacion, cantidad, usuario) VALUES ('15', 'Specialized 19L', '', '350', 'oficina')
+SQL de observación (comentario): INSERT INTO obs_pedidos (folio, observaciones, usuario) VALUES ('15', '(Producto Specialized 19L): en bolsa chica', 'oficina')
+Comentario guardado correctamente
+Respuesta: {"status":"success","folio":"15","message":"Producto procesado correctamente","comment_status":"Comentario guardado correctamente"}
+=== FIN DE PETICIÓN ===
+

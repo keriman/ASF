@@ -1,0 +1,16 @@
+=== NUEVA PETICIÓN: 2025-03-29 02:45:08 ===
+POST: Array
+(
+    [ff] => 3791003
+    [pp] => Agro ADH 1L
+    [pr] => 
+    [cc] => 45
+    [cm] => 
+)
+
+Comentarios encontrados en 'cm': ''
+SQL a ejecutar: INSERT INTO prc_pedidos (folio, producto, presentacion, cantidad, usuario) VALUES ('3791003', 'Agro ADH 1L', '', '45', 'oficina')
+No se guardó ningún comentario porque no había comentarios
+Respuesta: {"status":"success","folio":"3791003","message":"Producto procesado correctamente"}
+=== FIN DE PETICIÓN ===
+

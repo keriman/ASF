@@ -1,0 +1,19 @@
+2025-03-28 02:46:06 - Usuario: oficina - Clave: oficina
+2025-03-28 02:46:08 - Usuario: oficina - Clave: oficina
+2025-03-28 02:46:18 - Usuario: oficina - Clave: oficina
+2025-03-28 02:46:19 - Usuario: oficina - Clave: oficina
+2025-03-28 02:48:40 - Usuario: Oficina1 - Clave: oficina1
+2025-03-28 02:50:44 - Usuario: Vendedor - Clave: Vendedor
+2025-03-28 03:16:28 - Usuario: Vendedor - Clave: Vendedor
+2025-03-28 03:25:30 - Usuario: Oficina 3 - Clave: Oficina 3
+2025-03-28 03:25:51 - Usuario: Oficina 3 - Clave: Oficina 3
+2025-03-28 03:34:38 - Usuario: Oficina 3 - Clave: Oficina 3
+2025-03-28 03:35:01 - Usuario: Oficina 3 - Clave: Oficina 3
+2025-03-28 03:39:26 - Usuario: Oficina3 - Clave: Oficina3
+2025-03-28 03:39:27 - Usuario: Oficina3 - Clave: Oficina3
+2025-03-28 03:39:42 - Usuario: Oficina3 - Clave: Oficina3
+2025-03-28 03:39:43 - Usuario: Oficina3 - Clave: Oficina3
+2025-03-28 03:40:16 - Usuario: Oficina3 - Clave: Oficina3
+2025-03-28 03:40:18 - Usuario: Oficina3 - Clave: Oficina3
+2025-03-28 03:40:37 - Usuario: Oficina3 - Clave: Oficina3
+2025-03-28 03:40:38 - Usuario: Oficina3 - Clave: Oficina3

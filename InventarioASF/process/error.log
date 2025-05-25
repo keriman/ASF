@@ -1,0 +1,24 @@
+[10-Jan-2025 18:33:45 Europe/Berlin] Script iniciado
+[10-Jan-2025 18:33:45 Europe/Berlin] Error en update_inventory.php: Método no permitido: GET
+[10-Jan-2025 18:34:04 Europe/Berlin] Script iniciado
+[10-Jan-2025 18:34:04 Europe/Berlin] Input recibido: {"producto":"AGROACID (PACK1)","cantidad":200,"notas":"Agregado Produccion"}
+[10-Jan-2025 18:34:04 Europe/Berlin] PHP Fatal error:  Call to undefined function logError() in /opt/lampp/htdocs/InventarioASF/process/InventorySystem2.php on line 3
+[2025-01-10 18:37:12] Script iniciado
+[2025-01-10 18:37:12] Headers CORS establecidos
+[2025-01-10 18:37:12] Método de la petición: POST
+[2025-01-10 18:37:12] Input recibido: {"producto":"AGROACID (PACK1)","cantidad":200,"notas":"Agregado Produccion"}
+[2025-01-10 18:37:12] Input validado correctamente
+[2025-01-10 18:37:12] Intentando cargar: /opt/lampp/htdocs/InventarioASF/process/InventorySystem2.php
+[10-Jan-2025 18:37:12 Europe/Berlin] PHP Fatal error:  Call to undefined function logError() in /opt/lampp/htdocs/InventarioASF/process/InventorySystem2.php on line 3
+[2025-01-10 18:40:08] Script iniciado
+[2025-01-10 18:40:08] Headers CORS establecidos
+[2025-01-10 18:40:08] Método de la petición: POST
+[2025-01-10 18:40:08] Input recibido: {"producto":"AGROACID (PACK1)","cantidad":200,"notas":"Agregado Produccion"}
+[2025-01-10 18:40:08] Input validado correctamente
+[2025-01-10 18:40:08] Intentando cargar: /opt/lampp/htdocs/InventarioASF/process/InventorySystem2.php
+[2025-01-10 18:40:08] Sistema de inventario cargado
+[2025-01-10 11:40:09] Productos obtenidos: 53
+[2025-01-10 11:40:09] Producto encontrado - ID: 45, Nombre: AGROACID (Pack1)
+[2025-01-10 11:40:09] Actualizando stock - ID: 45, Cantidad: 200
+[2025-01-10 11:40:09] Stock actualizado exitosamente
+[2025-01-10 11:40:09] Enviando respuesta: {"success":true,"message":"Inventario actualizado correctamente","productId":45,"cantidad":200}

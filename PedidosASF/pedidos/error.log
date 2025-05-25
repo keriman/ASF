@@ -1,0 +1,22 @@
+[10-Dec-2024 02:19:40 Europe/Berlin] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in C:\ASF\htdocs\PedidosASF\pedidos\index.php on line 12
+[09-Dec-2024 19:19:40 America/Mexico_City] PHP Notice:  Undefined variable: dato_cons in C:\ASF\htdocs\PedidosASF\pedidos\index.php on line 28
+[10-Dec-2024 02:29:40 Europe/Berlin] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in C:\ASF\htdocs\PedidosASF\pedidos\index.php on line 12
+[09-Dec-2024 19:29:40 America/Mexico_City] PHP Notice:  Undefined variable: dato_cons in C:\ASF\htdocs\PedidosASF\pedidos\index.php on line 28
+[10-Dec-2024 02:39:40 Europe/Berlin] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in C:\ASF\htdocs\PedidosASF\pedidos\index.php on line 12
+[09-Dec-2024 19:39:40 America/Mexico_City] PHP Notice:  Undefined variable: dato_cons in C:\ASF\htdocs\PedidosASF\pedidos\index.php on line 28
+[10-Dec-2024 03:03:17 Europe/Berlin] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in C:\ASF\htdocs\PedidosASF\pedidos\index.php on line 12
+[09-Dec-2024 20:03:17 America/Mexico_City] PHP Notice:  Undefined variable: dato_cons in C:\ASF\htdocs\PedidosASF\pedidos\index.php on line 28
+[10-Dec-2024 03:03:18 Europe/Berlin] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in C:\ASF\htdocs\PedidosASF\pedidos\index.php on line 12
+[09-Dec-2024 20:03:18 America/Mexico_City] PHP Notice:  Undefined variable: dato_cons in C:\ASF\htdocs\PedidosASF\pedidos\index.php on line 28
+[10-Dec-2024 03:11:27 Europe/Berlin] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in C:\ASF\htdocs\PedidosASF\pedidos\index.php on line 12
+[09-Dec-2024 20:11:27 America/Mexico_City] PHP Notice:  Undefined variable: dato_cons in C:\ASF\htdocs\PedidosASF\pedidos\index.php on line 28
+[09-Dec-2024 20:11:27 America/Mexico_City] PHP Notice:  Undefined variable: anterior in C:\ASF\htdocs\PedidosASF\pedidos\index.php on line 270
+[10-Dec-2024 03:12:31 Europe/Berlin] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in C:\ASF\htdocs\PedidosASF\pedidos\index.php on line 12
+[09-Dec-2024 20:12:31 America/Mexico_City] PHP Notice:  Undefined variable: dato_cons in C:\ASF\htdocs\PedidosASF\pedidos\index.php on line 28
+[10-Dec-2024 03:16:43 Europe/Berlin] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in C:\ASF\htdocs\PedidosASF\pedidos\index.php on line 12
+[09-Dec-2024 20:16:43 America/Mexico_City] PHP Notice:  Undefined variable: dato_cons in C:\ASF\htdocs\PedidosASF\pedidos\index.php on line 28
+[09-Dec-2024 20:16:43 America/Mexico_City] PHP Notice:  Undefined variable: anterior in C:\ASF\htdocs\PedidosASF\pedidos\index.php on line 270
+[10-Dec-2024 03:16:47 Europe/Berlin] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in C:\ASF\htdocs\PedidosASF\pedidos\index.php on line 12
+[09-Dec-2024 20:16:47 America/Mexico_City] PHP Notice:  Undefined variable: dato_cons in C:\ASF\htdocs\PedidosASF\pedidos\index.php on line 28
+[10-Dec-2024 03:26:47 Europe/Berlin] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in C:\ASF\htdocs\PedidosASF\pedidos\index.php on line 12
+[09-Dec-2024 20:26:47 America/Mexico_City] PHP Notice:  Undefined variable: dato_cons in C:\ASF\htdocs\PedidosASF\pedidos\index.php on line 28

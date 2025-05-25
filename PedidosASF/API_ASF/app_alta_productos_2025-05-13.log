@@ -1,0 +1,26 @@
+=== NUEVA PETICIÓN: 2025-05-13 22:25:24 ===
+POST: Array
+(
+    [ff] => 4035047
+    [pp] => Balanced 1L
+    [pr] => 
+    [cc] => 1
+    [cm] => Sin etiqueta
+)
+
+Variables de conexión disponibles:
+- host: localhost
+- username: disponible
+- dbname: agrosant_pedidos
+- pdo: disponible
+Comentarios encontrados en 'cm': 'Sin etiqueta'
+Usando conexión PDO
+SQL a ejecutar (INSERT): INSERT INTO prc_pedidos (folio, producto, presentacion, cantidad, usuario) 
+                    VALUES (:folio, :producto, :presentacion, :cantidad, 'Quinagro')
+SQL de observación (acción): INSERT INTO obs_pedidos (folio, observaciones, usuario) VALUES (:folio, :observaciones, 'Quinagro')
+Observación guardada correctamente
+SQL de observación (comentario): INSERT INTO obs_pedidos (folio, observaciones, usuario) VALUES (:folio, :observaciones, 'Quinagro')
+Comentario guardado correctamente
+Respuesta: {"status":"success","folio":"4035047","message":"Producto procesado correctamente","accion":"Agregado nuevo producto: Balanced 1L \/  - Cantidad: 1","comment_status":"Comentario guardado correctamente"}
+=== FIN DE PETICIÓN ===
+

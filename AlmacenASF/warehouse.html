@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Almacen</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" >
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css" rel="stylesheet">
+    <link rel="icon" href="http://127.0.0.1:8081/assets/imgs/favicon.ico" type="image/x-icon">
+    
+    <style>
+        .icon-button {
+            background-color: transparent;
+            border: none;
+            color: blue;
+            font-size: 1.5em;
+        }
+        .custom-shadow {
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4), 0 12px 24px rgba(0, 0, 0, 0.3) !important;
+        }
+        #currentDateTime {
+            text-align: center; 
+        }
+        #currentDate {
+            font-size: 1em;
+        }
+        #currentTime {
+            font-size: 1.5em; 
+            font-weight: bold; 
+            text-align: center;
+        }
+        .text-shadow {
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+        .sticky-note {
+            width: 200px;
+            height: 140px;
+            background: #fdfd86;
+            padding: 20px;
+            font-family: 'Comic Sans MS', cursive;
+            font-size: 16px;
+            color: #333;
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7);
+            transform: rotate(-5deg);
+            position: relative;
+        }   
+        .sticky-note::before {
+            content: '';
+            width: 20px;
+            height: 20px;
+            background: rgb(223, 4, 4);
+            position: absolute;
+            top: 2px;
+            left: 50%;
+            transform: translateX(-50%) rotate(45deg);
+            z-index: -1;
+            border-radius: 50%;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+        }
+        .sticky-note::after {
+            content: '';
+            width: 6px;
+            height: 6px;
+            background: red;
+            position: absolute;
+            top: 9px;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: -1;
+            border-radius: 50%;
+            box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+        }
+    </style>
+</head>
+<body class="bg-dark">
+    <!-- <div class="position-fixed top-0 end-0 p-3" style="z-index: 1050;">
+        <div class="sticky-note">
+            <div class="text-dark p-2 rounded currentDateTime">
+               <div id="currentTime" class="text-shadow"></div>
+               <div id="currentDate" class="text-shadow text-center"></div>
+            </div>
+         </div>         
+    </div> -->
+    <div class="container mt-5">
+        <h1 class="mb-4 d-flex justify-content-center text-white">Almacen</h1>
+
+        <div class="card">
+            <div class="card-header text-center">
+                <h3 class="card-title">Ordenes</h3>
+            </div>
+            <div class="card-body custom-shadow">
+                <form id="orderForm" class="bg-white p-4 rounded shadow-sm custom-shadow">
+                    <div id="inputContainer">
+                        <div class="row align-items-end mb-3" data-index="0">
+                            <div class="col-md-2">
+                                <label for="fecha1" class="form-label">Fecha:</label>
+                                <input type="date" id="fecha1" class="form-control custom-shadow" required>
+                            </div>
+                            <div class="col-md-2">
+                                <label for="numeroPedido1" class="form-label">Número de Pedido:</label>
+                                <input type="text" id="numeroPedido1" class="form-control custom-shadow" required pattern="[A-Z0-9]+" title="Solo letras mayúsculas y números" oninput="this.value = this.value.toUpperCase()" value="X">
+                            </div>
+                            <div class="col-md-3">
+                                Producto:
+                                <select id="producto-${rowId}" class="form-control custom-shadow" required>
+                                    <option value="">Seleccione un producto</option>
+                                    <option>ACID TEC</option>
+                                    <option>ÁCIDO GIBERELICO 90% (GA3)</option>
+                                    <option>ÁCIDO INDOL BUTIRICO 98% (IBA)</option>
+                                    <option>ÁCIDO NAFTALEN ACÉTICO 98% (ANA)</option>
+                                    <option>ÁCIDOS FULVICOS 75%</option>
+                                    <option>ÁCIDOS HUMICOS 55%</option>
+                                    <option>ADHE TEC</option>
+                                    <option>ADHEVAL</option>
+                                    <option>ADH-R</option>
+                                    <option>AFTER</option>
+                                    <option>AGRO 00-00-50 + Ca Mg</option>
+                                    <option>AGRO 10-10-35</option>
+                                    <option>AGRO 10-60-00</option>
+                                    <option>AGRO 20-30-10</option>
+                                    <option>AGRO 8-24-00</option>
+                                    <option>AGRO 8-24-8</option>
+                                    <option>AGRO ADH</option>
+                                    <option>AGRO Ca+B</option>
+                                    <option>AGRO DASH</option>
+                                    <option>AGRO FULVIK</option>
+                                    <option>AGRO N-40 ACTIVADA</option>
+                                    <option>AGRO N-44</option>
+                                    <option>AGRO T-20</option>
+                                    <option>AGROACID</option>
+                                    <option>AGRO-ALLIUM 12</option>
+                                    <option>AGRO-CINNAM 30</option>
+                                    <option>AGUACATE</option>
+                                    <option>ALGAS MARINAS 20%</option>
+                                    <option>AMINOÁCIDOS 60%</option>
+                                    <option>AMINOGIB 11% GA3</option>
+                                    <option>AMINOGIB 90% GA3</option>
+                                    <option>AMINOGIB K</option>
+                                    <option>ARRANCATEC</option>
+                                    <option>BALANCE PH</option>
+                                    <option>BALANCED</option>
+                                    <option>BROTHER</option>
+                                    <option>CABZn TEC</option>
+                                    <option>CHARGER</option>
+                                    <option>EL LLENADO (0-29-48)</option>
+                                    <option>ENGORDA PLANT</option>
+                                    <option>FAST (AMINOÁCIDOS)</option>
+                                    <option>FORCLORFENURON 1% (CPPU)</option>
+                                    <option>FORZA 8-24-00</option>
+                                    <option>FORZA AGAVE</option>
+                                    <option>FORZA-RAÍZ</option>
+                                    <option>GIBER 10%</option>
+                                    <option>GRAMINEAS (1ER ETAPA)</option>
+                                    <option>GRAMINEAS (2DA ETAPA)</option>
+                                    <option>HASS II (10-39-26)</option>
+                                    <option>HUMIK</option>
+                                    <option>INIV (CALCIO – SILICIO)</option>
+                                    <option>ITOQUIM</option>
+                                    <option>JULIET</option>
+                                    <option>KURT (AMINOÁCIDOS Ca-B-Zn)</option>
+                                    <option>MAX-FRUTO</option>
+                                    <option>MÁXXIMO</option>
+                                    <option>MONTZE</option>
+                                    <option>NPK 00-00-45</option>
+                                    <option>NPK 10-60 00</option>
+                                    <option>NPK 20-30-10</option>
+                                    <option>NPK 44 00 00</option>
+                                    <option>NPK-20</option>
+                                    <option>NUTI HASS</option>
+                                    <option>NUTRIVAL</option>
+                                    <option>PHELP</option>
+                                    <option>PROMOTOR (MANGO)</option>
+                                    <option>SCOTT</option>
+                                    <option>SPECIALIZED</option>
+                                    <option>TECNO 20-20</option>
+                                    <option>TECNOGREEN</option>
+                                    <option>TEENOADHER</option>
+                                    <option>THIDIAZURON 95% (TDZ)</option>
+                                    <option>VOLVOX (ALGAS MARINAS)</option>
+                                </select>
+                            </div>
+                            <div class="col-md-2">
+                                Presentación:
+                                <select id="presentacion1" class="form-control custom-shadow" required>
+                                    <option value="">Seleccione una presentación</option>
+                                    <option>10 grs</option>
+                                    <option>15 grs</option>
+                                    <option>17 grs</option>
+                                    <option>40 grs</option>
+                                    <option>50 grs</option>
+                                    <option>130 grs</option>
+                                    <option>200 grs</option>
+                                    <option>450 grs</option>
+                                    <option>500 grs</option>
+                                    <option>750 grs</option>
+                                    <option>1 kg</option>
+                                    <option>10 kg</option>
+                                    <option>15 kg</option>
+                                    <option>20 kg</option>
+                                    <option>250 ml</option>
+                                    <option>950 ml</option>
+                                    <option>1 lt</option>
+                                    <option>5 lts</option>
+                                    <option>19 lts</option>
+                                    <option>20 lts</option>
+                                </select>
+                            </div>
+                            <div class="col-md-2">
+                                <label for="cantidad1" class="form-label">Cantidad:</label>
+                                <input type="number" id="cantidad1" class="form-control custom-shadow" required min="1">
+                            </div>
+                            <div class="col-md-1">
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-end">
+                        <button type="button" class="btn btn-primary add-row-button mx-2 text-shadow custom-shadow">Agregar Fila</button>
+                        <button type="submit" class="btn btn-primary text-shadow custom-shadow" id="enviarSocket">Enviar Orden</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="http://127.0.0.1:8081/assets/js/warehouse.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const today = new Date();
+            const year = today.getFullYear();
+            const month = ('0' + (today.getMonth() + 1)).slice(-2);
+            const day = ('0' + today.getDate()).slice(-2);
+            const todayFormatted = `${year}-${month}-${day}`;
+            document.getElementById('fecha1').setAttribute('min', todayFormatted);    
+
+            const addButton = document.querySelector('.add-row-button');
+            addButton.addEventListener('click', function() {
+                const inputContainer = document.getElementById('inputContainer');
+                const rowId = Date.now();
+                const newRow = document.createElement('div');
+                newRow.className = 'row align-items-end mb-3';
+                newRow.id = `row-${rowId}`;
+                newRow.innerHTML = `
+                    <div class="col-md-2 mb-3">
+                        <label for="fecha-${rowId}" class="form-label">Fecha:</label>
+                        <input type="date" id="fecha-${rowId}" class="form-control custom-shadow" required>
+                    </div>
+                    <div class="col-md-2 mb-3">
+                        <label for="numeroPedido-${rowId}" class="form-label">Número de Pedido:</label>
+                        <input type="text" id="numeroPedido-${rowId}" class="form-control custom-shadow" required oninput="this.value = this.value.toUpperCase()">
+                    </div>
+                    <div class="col-md-3">
+                        Producto:
+                        <select id="producto-${rowId}" class="form-control custom-shadow" required>
+                            <option value="">Seleccione un producto</option>
+                            <option>ACID TEC</option>
+                            <option>ÁCIDO GIBERELICO 90% (GA3)</option>
+                            <option>ÁCIDO INDOL BUTIRICO 98% (IBA)</option>
+                            <option>ÁCIDO NAFTALEN ACÉTICO 98% (ANA)</option>
+                            <option>ÁCIDOS FULVICOS 75%</option>
+                            <option>ÁCIDOS HUMICOS 55%</option>
+                            <option>ADHE TEC</option>
+                            <option>ADHEVAL</option>
+                            <option>ADH-R</option>
+                            <option>AFTER</option>
+                            <option>AGRO 00-00-50 + Ca Mg</option>
+                            <option>AGRO 10-10-35</option>
+                            <option>AGRO 10-60-00</option>
+                            <option>AGRO 20-30-10</option>
+                            <option>AGRO 8-24-00</option>
+                            <option>AGRO 8-24-8</option>
+                            <option>AGRO ADH</option>
+                            <option>AGRO Ca+B</option>
+                            <option>AGRO DASH</option>
+                            <option>AGRO FULVIK</option>
+                            <option>AGRO N-40 ACTIVADA</option>
+                            <option>AGRO N-44</option>
+                            <option>AGRO T-20</option>
+                            <option>AGROACID</option>
+                            <option>AGRO-ALLIUM 12</option>
+                            <option>AGRO-CINNAM 30</option>
+                            <option>AGUACATE</option>
+                            <option>ALGAS MARINAS 20%</option>
+                            <option>AMINOÁCIDOS 60%</option>
+                            <option>AMINOGIB 11% GA3</option>
+                            <option>AMINOGIB 90% GA3</option>
+                            <option>AMINOGIB K</option>
+                            <option>ARRANCATEC</option>
+                            <option>BALANCE PH</option>
+                            <option>BALANCED</option>
+                            <option>BROTHER</option>
+                            <option>CABZn TEC</option>
+                            <option>CHARGER</option>
+                            <option>EL LLENADO (0-29-48)</option>
+                            <option>ENGORDA PLANT</option>
+                            <option>FAST (AMINOÁCIDOS)</option>
+                            <option>FORCLORFENURON 1% (CPPU)</option>
+                            <option>FORZA 8-24-00</option>
+                            <option>FORZA AGAVE</option>
+                            <option>FORZA-RAÍZ</option>
+                            <option>GIBER 10%</option>
+                            <option>GRAMINEAS (1ER ETAPA)</option>
+                            <option>GRAMINEAS (2DA ETAPA)</option>
+                            <option>HASS II (10-39-26)</option>
+                            <option>HUMIK</option>
+                            <option>INIV (CALCIO – SILICIO)</option>
+                            <option>ITOQUIM</option>
+                            <option>JULIET</option>
+                            <option>KURT (AMINOÁCIDOS Ca-B-Zn)</option>
+                            <option>MAX-FRUTO</option>
+                            <option>MÁXXIMO</option>
+                            <option>MONTZE</option>
+                            <option>NPK 00-00-45</option>
+                            <option>NPK 10-60 00</option>
+                            <option>NPK 20-30-10</option>
+                            <option>NPK 44 00 00</option>
+                            <option>NPK-20</option>
+                            <option>NUTI HASS</option>
+                            <option>NUTRIVAL</option>
+                            <option>PHELP</option>
+                            <option>PROMOTOR (MANGO)</option>
+                            <option>SCOTT</option>
+                            <option>SPECIALIZED</option>
+                            <option>TECNO 20-20</option>
+                            <option>TECNOGREEN</option>
+                            <option>TEENOADHER</option>
+                            <option>THIDIAZURON 95% (TDZ)</option>
+                            <option>VOLVOX (ALGAS MARINAS)</option>
+                        </select>
+                    </div>
+                    <div class="col-md-2">
+                        Presentación:
+                        <select id="presentacion-${rowId}" class="form-control custom-shadow" required>
+                            <option value="">Seleccione una presentación</option>
+                            <option>10 grs</option>
+                            <option>15 grs</option>
+                            <option>17 grs</option>
+                            <option>40 grs</option>
+                            <option>50 grs</option>
+                            <option>130 grs</option>
+                            <option>200 grs</option>
+                            <option>450 grs</option>
+                            <option>500 grs</option>
+                            <option>750 grs</option>
+                            <option>1 kg</option>
+                            <option>10 kg</option>
+                            <option>15 kg</option>
+                            <option>20 kg</option>
+                            <option>250 ml</option>
+                            <option>950 ml</option>
+                            <option>1 lt</option>
+                            <option>5 lts</option>
+                            <option>19 lts</option>
+                            <option>20 lts</option>
+                        </select>
+                    </div>
+                    <div class="col-md-2 mb-3">
+                        <label for="cantidad-${rowId}" class="form-label">Cantidad:</label>
+                        <input type="number" id="cantidad-${rowId}" class="form-control custom-shadow   " required min="1">
+                    </div>
+                    <div class="col-md-1 mb-3 d-flex align-items-end">
+                        <button type="button" class="icon-button " >
+                            <i class="fa-solid fa-window-minimize text-shadow remove-row-button" data-row-id="${rowId}"></i>
+                        </button>
+                    </div>
+                `;
+                inputContainer.appendChild(newRow);
+            });
+            document.getElementById('inputContainer').addEventListener('click', function(e) {
+                if (e.target && e.target.classList.contains('remove-row-button')) {
+                    const rowId = e.target.getAttribute('data-row-id');
+                    const row = document.getElementById(`row-${rowId}`);
+                    if (row) {
+                        row.remove();
+                    }
+                }
+            });
+            document.getElementById('orderForm').addEventListener('submit', (event) => {
+                event.preventDefault();
+                if (validateForm()) {
+                    sendOrders().then(() => {
+                        setTimeout(() => {
+                            location.reload(); 
+                        }, 2000); 
+                    });
+                } else {
+                    event.preventDefault();
+                }
+            });
+        });
+        
+    </script>
+    
+</body>
+</html>

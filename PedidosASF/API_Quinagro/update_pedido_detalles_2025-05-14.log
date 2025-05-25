@@ -1,0 +1,225 @@
+=== NUEVA PETICIÓN: 2025-05-14 00:51:46 ===
+POST: Array
+(
+    [folio] => 4035047
+    [cliente] => Prueba2
+    [destino] => Prueba
+    [ruta] => Prueba
+    [fecha_salida] => 14/05/2025
+    [username] => Quinagro
+)
+
+Folio: 4035047, Cliente: Prueba2, Destino: Prueba, Ruta: Prueba, Fecha: 14/05/2025
+Usando conexión PDO
+Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ultimo_modificador' in 'field list'
+Respuesta: {"success":false,"message":"SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ultimo_modificador' in 'field list'"}
+=== FIN DE PETICIÓN ===
+
+=== NUEVA PETICIÓN: 2025-05-14 00:53:56 ===
+POST: Array
+(
+    [folio] => 4035047
+    [cliente] => Prueba2
+    [destino] => Prueba2
+    [ruta] => Prueba2
+    [fecha_salida] => 14/05/2025
+    [username] => Quinagro
+)
+
+Folio: 4035047, Cliente: Prueba2, Destino: Prueba2, Ruta: Prueba2, Fecha: 14/05/2025
+Usando conexión PDO
+Respuesta: {"success":true,"message":"Pedido actualizado correctamente"}
+=== FIN DE PETICIÓN ===
+
+=== NUEVA PETICIÓN: 2025-05-14 00:55:06 ===
+POST: Array
+(
+    [folio] => 4035047
+    [cliente] => Prueba2
+    [destino] => Prueba2
+    [ruta] => Prueba2
+    [fecha_salida] => 14/05/2025
+    [username] => Quinagro
+)
+
+Folio: 4035047, Cliente: Prueba2, Destino: Prueba2, Ruta: Prueba2, Fecha: 14/05/2025
+Usando conexión PDO
+Respuesta: {"success":true,"message":"Pedido actualizado correctamente"}
+=== FIN DE PETICIÓN ===
+
+=== NUEVA PETICIÓN: 2025-05-14 01:05:22 ===
+POST: Array
+(
+    [folio] => 4035047
+    [cliente] => Prueba2
+    [destino] => Prueba2
+    [ruta] => Prueba2
+    [fecha_salida] => 14/05/2025
+    [username] => Quinagro
+)
+
+Folio: 4035047, Cliente: Prueba2, Destino: Prueba2, Ruta: Prueba2, Fecha: 14/05/2025
+Usando conexión PDO
+Respuesta: {"success":true,"message":"Pedido actualizado correctamente"}
+=== FIN DE PETICIÓN ===
+
+=== NUEVA PETICIÓN: 2025-05-14 01:17:34 ===
+POST: Array
+(
+    [folio] => 4035047
+    [cliente] => Prueba2
+    [destino] => Prueba2
+    [ruta] => Prueba2
+    [fecha_salida] => 2025-05-14
+    [username] => Quinagro
+)
+
+Folio: 4035047, Cliente: Prueba2, Destino: Prueba2, Ruta: Prueba2, Fecha: 2025-05-14
+Usando conexión PDO
+Respuesta: {"success":true,"message":"Pedido actualizado correctamente"}
+=== FIN DE PETICIÓN ===
+
+=== NUEVA PETICIÓN: 2025-05-14 01:23:31 ===
+POST: Array
+(
+    [folio] => 4035047
+    [cliente] => Prueba2
+    [destino] => Prueba2
+    [ruta] => Prueba2
+    [fecha_salida] => 2025-05-14
+    [username] => Quinagro
+)
+
+Folio: 4035047, Cliente: Prueba2, Destino: Prueba2, Ruta: Prueba2, Fecha: 2025-05-14
+Usando conexión PDO
+Respuesta: {"success":true,"message":"Pedido actualizado correctamente"}
+=== FIN DE PETICIÓN ===
+
+=== NUEVA PETICIÓN: 2025-05-14 01:27:44 ===
+POST: Array
+(
+    [folio] => 4035047
+    [cliente] => Prueba2
+    [destino] => Prueba2
+    [ruta] => Prueba2
+    [fecha_salida] => 2025-05-14
+    [username] => Quinagro
+)
+
+Folio: 4035047, Cliente: Prueba2, Destino: Prueba2, Ruta: Prueba2, Fecha: 2025-05-14
+Usando conexión PDO
+Respuesta: {"success":true,"message":"Pedido actualizado correctamente"}
+=== FIN DE PETICIÓN ===
+
+=== NUEVA PETICIÓN: 2025-05-14 01:33:48 ===
+POST: Array
+(
+    [folio] => 4035047
+    [cliente] => Prueba2
+    [destino] => Prueba2
+    [ruta] => Prueba2
+    [fecha_salida] => 2025-05-14
+    [username] => Quinagro
+)
+
+Folio: 4035047, Cliente: Prueba2, Destino: Prueba2, Ruta: Prueba2, Fecha: 2025-05-14
+Usando conexión PDO
+Respuesta: {"success":true,"message":"Pedido actualizado correctamente"}
+=== FIN DE PETICIÓN ===
+
+=== NUEVA PETICIÓN: 2025-05-14 01:35:11 ===
+POST: Array
+(
+    [folio] => 4035047
+    [cliente] => Prueba2
+    [destino] => Prueba2
+    [ruta] => Prueba2
+    [fecha_salida] => 2025-05-14
+    [username] => Quinagro
+)
+
+Folio: 4035047, Cliente: Prueba2, Destino: Prueba2, Ruta: Prueba2, Fecha: 2025-05-14
+Usando conexión PDO
+Respuesta: {"success":true,"message":"Pedido actualizado correctamente"}
+=== FIN DE PETICIÓN ===
+
+=== NUEVA PETICIÓN: 2025-05-14 01:36:32 ===
+POST: Array
+(
+    [folio] => 4035047
+    [cliente] => Prueba2
+    [destino] => Prueba2
+    [ruta] => Prueba2
+    [fecha_salida] => 2025-05-14
+    [username] => Quinagro
+)
+
+Folio: 4035047, Cliente: Prueba2, Destino: Prueba2, Ruta: Prueba2, Fecha: 2025-05-14
+Usando conexión PDO
+Respuesta: {"success":true,"message":"Pedido actualizado correctamente"}
+=== FIN DE PETICIÓN ===
+
+=== NUEVA PETICIÓN: 2025-05-14 01:38:17 ===
+POST: Array
+(
+    [folio] => 4035047
+    [cliente] => Prueba2
+    [destino] => Prueba2
+    [ruta] => Prueba2
+    [fecha_salida] => 2025-05-14
+    [username] => Quinagro
+)
+
+Folio: 4035047, Cliente: Prueba2, Destino: Prueba2, Ruta: Prueba2, Fecha: 2025-05-14
+Usando conexión PDO
+Respuesta: {"success":true,"message":"Pedido actualizado correctamente"}
+=== FIN DE PETICIÓN ===
+
+=== NUEVA PETICIÓN: 2025-05-14 01:38:55 ===
+POST: Array
+(
+    [folio] => 4035047
+    [cliente] => Prueba2
+    [destino] => Prueba2
+    [ruta] => Prueba2
+    [fecha_salida] => 2025-05-14
+    [username] => Quinagro
+)
+
+Folio: 4035047, Cliente: Prueba2, Destino: Prueba2, Ruta: Prueba2, Fecha: 2025-05-14
+Usando conexión PDO
+Respuesta: {"success":true,"message":"Pedido actualizado correctamente"}
+=== FIN DE PETICIÓN ===
+
+=== NUEVA PETICIÓN: 2025-05-14 03:06:06 ===
+POST: Array
+(
+    [folio] => 4035045
+    [cliente] => Prueba de cliente
+    [destino] => El destino
+    [ruta] => La ruta
+    [fecha_salida] => 2025-05-23
+    [username] => Quinagro
+)
+
+Folio: 4035045, Cliente: Prueba de cliente, Destino: El destino, Ruta: La ruta, Fecha: 2025-05-23
+Usando conexión PDO
+Respuesta: {"success":true,"message":"Pedido actualizado correctamente"}
+=== FIN DE PETICIÓN ===
+
+=== NUEVA PETICIÓN: 2025-05-14 03:07:43 ===
+POST: Array
+(
+    [folio] => 4035046
+    [cliente] => Cliente
+    [destino] => Destino
+    [ruta] => Ruta
+    [fecha_salida] => 2025-05-30
+    [username] => Quinagro
+)
+
+Folio: 4035046, Cliente: Cliente, Destino: Destino, Ruta: Ruta, Fecha: 2025-05-30
+Usando conexión PDO
+Respuesta: {"success":true,"message":"Pedido actualizado correctamente"}
+=== FIN DE PETICIÓN ===
+

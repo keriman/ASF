@@ -1,0 +1,63 @@
+== DATABASE.PHP INCLUIDO: 2025-04-30 07:34:58 ==
+Desde: C:/ASF/htdocs/ASF/login.php
+Host: localhost
+User: root
+DB: agrosant_pedidos
+== FIN DATABASE.PHP ==
+
+== DATABASE.PHP INCLUIDO: 2025-04-30 07:35:06 ==
+Desde: C:/ASF/htdocs/ASF/PedidosASF/usuarios/control.php
+Host: localhost
+User: root
+DB: agrosant_pedidos
+== FIN DATABASE.PHP ==
+
+== DATABASE.PHP INCLUIDO: 2025-04-30 07:35:14 ==
+Desde: C:/ASF/htdocs/ASF/PedidosASF/usuarios/control.php
+Host: localhost
+User: root
+DB: agrosant_pedidos
+== FIN DATABASE.PHP ==
+
+== DATABASE.PHP INCLUIDO: 2025-04-30 07:35:31 ==
+Desde: C:/ASF/htdocs/ASF/PedidosASF/usuarios/control.php
+Host: localhost
+User: root
+DB: agrosant_pedidos
+== FIN DATABASE.PHP ==
+
+== DATABASE.PHP INCLUIDO: 2025-04-30 07:36:49 ==
+Desde: C:/ASF/htdocs/ASF/PedidosASF/almacen/index.php
+Host: localhost
+User: root
+DB: agrosant_pedidos
+== FIN DATABASE.PHP ==
+
+== DATABASE.PHP INCLUIDO: 2025-04-30 07:36:55 ==
+Desde: C:/ASF/htdocs/ASF/PedidosASF/almacen/index.php
+Host: localhost
+User: root
+DB: agrosant_pedidos
+== FIN DATABASE.PHP ==
+
+== DATABASE.PHP INCLUIDO: 2025-04-30 07:37:47 ==
+Desde: C:/ASF/htdocs/ASF/login.php
+Host: localhost
+User: root
+DB: agrosant_pedidos
+== FIN DATABASE.PHP ==
+
+== DATABASE.PHP INCLUIDO: 2025-04-30 22:26:49 ==
+Desde: C:/ASF/htdocs/ASF/PedidosASF/pedidos/alta/cambiar_almacen.php
+Host: localhost
+User: root
+DB: agrosant_pedidos
+== FIN DATABASE.PHP ==
+
+== DATABASE.PHP INCLUIDO: 2025-04-30 22:26:51 ==
+Desde: C:/ASF/htdocs/ASF/PedidosASF/pedidos/alta/procesar_almacen.php
+Host: localhost
+User: root
+DB: agrosant_pedidos
+== FIN DATABASE.PHP ==
+

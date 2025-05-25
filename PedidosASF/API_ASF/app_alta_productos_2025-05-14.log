@@ -1,0 +1,153 @@
+=== NUEVA PETICIÓN: 2025-05-14 00:54:54 ===
+POST: Array
+(
+    [ff] => 4035047
+    [pp] => N-P-K
+    [pr] => 1kg
+    [cc] => 25
+    [cm] => 
+)
+
+Variables de conexión disponibles:
+- host: localhost
+- username: disponible
+- dbname: agrosant_pedidos
+- pdo: disponible
+Comentarios encontrados en 'cm': ''
+Usando conexión PDO
+SQL a ejecutar (INSERT): INSERT INTO prc_pedidos (folio, producto, presentacion, cantidad, usuario) 
+                    VALUES (:folio, :producto, :presentacion, :cantidad, 'Quinagro')
+SQL de observación (acción): INSERT INTO obs_pedidos (folio, observaciones, usuario) VALUES (:folio, :observaciones, 'Quinagro')
+Observación guardada correctamente
+No se guardó ningún comentario porque no había comentarios
+Respuesta: {"status":"success","folio":"4035047","message":"Producto procesado correctamente","accion":"Agregado nuevo producto: N-P-K \/ 1kg - Cantidad: 25"}
+=== FIN DE PETICIÓN ===
+
+=== NUEVA PETICIÓN: 2025-05-14 01:33:40 ===
+POST: Array
+(
+    [ff] => 4035047
+    [pp] => PENDIENTE
+    [pr] => 25Kg
+    [cc] => 25
+    [cm] => sin factura
+)
+
+Variables de conexión disponibles:
+- host: localhost
+- username: disponible
+- dbname: agrosant_pedidos
+- pdo: disponible
+Comentarios encontrados en 'cm': 'sin factura'
+Usando conexión PDO
+SQL a ejecutar (INSERT): INSERT INTO prc_pedidos (folio, producto, presentacion, cantidad, usuario) 
+                    VALUES (:folio, :producto, :presentacion, :cantidad, 'Quinagro')
+SQL de observación (acción): INSERT INTO obs_pedidos (folio, observaciones, usuario) VALUES (:folio, :observaciones, 'Quinagro')
+Observación guardada correctamente
+SQL de observación (comentario): INSERT INTO obs_pedidos (folio, observaciones, usuario) VALUES (:folio, :observaciones, 'Quinagro')
+Comentario guardado correctamente
+Respuesta: {"status":"success","folio":"4035047","message":"Producto procesado correctamente","accion":"Agregado nuevo producto: PENDIENTE \/ 25Kg - Cantidad: 25","comment_status":"Comentario guardado correctamente"}
+=== FIN DE PETICIÓN ===
+
+=== NUEVA PETICIÓN: 2025-05-14 01:36:26 ===
+POST: Array
+(
+    [ff] => 4035047
+    [pp] => COSTAL RAFIA BLANCO 25 KG
+    [pr] => 25 Kg
+    [cc] => 10
+    [cm] => 
+)
+
+Variables de conexión disponibles:
+- host: localhost
+- username: disponible
+- dbname: agrosant_pedidos
+- pdo: disponible
+Comentarios encontrados en 'cm': ''
+Usando conexión PDO
+SQL a ejecutar (INSERT): INSERT INTO prc_pedidos (folio, producto, presentacion, cantidad, usuario) 
+                    VALUES (:folio, :producto, :presentacion, :cantidad, 'Quinagro')
+SQL de observación (acción): INSERT INTO obs_pedidos (folio, observaciones, usuario) VALUES (:folio, :observaciones, 'Quinagro')
+Observación guardada correctamente
+No se guardó ningún comentario porque no había comentarios
+Respuesta: {"status":"success","folio":"4035047","message":"Producto procesado correctamente","accion":"Agregado nuevo producto: COSTAL RAFIA BLANCO 25 KG \/ 25 Kg - Cantidad: 10"}
+=== FIN DE PETICIÓN ===
+
+=== NUEVA PETICIÓN: 2025-05-14 01:38:51 ===
+POST: Array
+(
+    [ff] => 4035047
+    [pp] => Phelp 19L
+    [pr] => 
+    [cc] => 250
+    [cm] => sin etiqueta
+)
+
+Variables de conexión disponibles:
+- host: localhost
+- username: disponible
+- dbname: agrosant_pedidos
+- pdo: disponible
+Comentarios encontrados en 'cm': 'sin etiqueta'
+Usando conexión PDO
+SQL a ejecutar (INSERT): INSERT INTO prc_pedidos (folio, producto, presentacion, cantidad, usuario) 
+                    VALUES (:folio, :producto, :presentacion, :cantidad, 'Quinagro')
+SQL de observación (acción): INSERT INTO obs_pedidos (folio, observaciones, usuario) VALUES (:folio, :observaciones, 'Quinagro')
+Observación guardada correctamente
+SQL de observación (comentario): INSERT INTO obs_pedidos (folio, observaciones, usuario) VALUES (:folio, :observaciones, 'Quinagro')
+Comentario guardado correctamente
+Respuesta: {"status":"success","folio":"4035047","message":"Producto procesado correctamente","accion":"Agregado nuevo producto: Phelp 19L \/  - Cantidad: 250","comment_status":"Comentario guardado correctamente"}
+=== FIN DE PETICIÓN ===
+
+=== NUEVA PETICIÓN: 2025-05-14 02:35:24 ===
+POST: Array
+(
+    [ff] => 4035049
+    [pp] => Agroacid 5L
+    [pr] => 
+    [cc] => 10
+    [cm] => 
+)
+
+Variables de conexión disponibles:
+- host: localhost
+- username: disponible
+- dbname: agrosant_pedidos
+- pdo: disponible
+Comentarios encontrados en 'cm': ''
+Usando conexión PDO
+SQL a ejecutar (INSERT): INSERT INTO prc_pedidos (folio, producto, presentacion, cantidad, usuario) 
+                    VALUES (:folio, :producto, :presentacion, :cantidad, 'oficina4')
+SQL de observación (acción): INSERT INTO obs_pedidos (folio, observaciones, usuario) VALUES (:folio, :observaciones, 'oficina4')
+Observación guardada correctamente
+No se guardó ningún comentario porque no había comentarios
+Respuesta: {"status":"success","folio":"4035049","message":"Producto procesado correctamente","accion":"Agregado nuevo producto: Agroacid 5L \/  - Cantidad: 10"}
+=== FIN DE PETICIÓN ===
+
+=== NUEVA PETICIÓN: 2025-05-14 02:36:53 ===
+POST: Array
+(
+    [ff] => 4035048
+    [pp] => Balance PH 5L
+    [pr] => 
+    [cc] => 150
+    [cm] => sin etiqueta
+)
+
+Variables de conexión disponibles:
+- host: localhost
+- username: disponible
+- dbname: agrosant_pedidos
+- pdo: disponible
+Comentarios encontrados en 'cm': 'sin etiqueta'
+Usando conexión PDO
+SQL a ejecutar (INSERT): INSERT INTO prc_pedidos (folio, producto, presentacion, cantidad, usuario) 
+                    VALUES (:folio, :producto, :presentacion, :cantidad, 'oficina4')
+SQL de observación (acción): INSERT INTO obs_pedidos (folio, observaciones, usuario) VALUES (:folio, :observaciones, 'oficina4')
+Observación guardada correctamente
+SQL de observación (comentario): INSERT INTO obs_pedidos (folio, observaciones, usuario) VALUES (:folio, :observaciones, 'oficina4')
+Comentario guardado correctamente
+Respuesta: {"status":"success","folio":"4035048","message":"Producto procesado correctamente","accion":"Agregado nuevo producto: Balance PH 5L \/  - Cantidad: 150","comment_status":"Comentario guardado correctamente"}
+=== FIN DE PETICIÓN ===
+

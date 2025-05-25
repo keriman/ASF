@@ -1,0 +1,258 @@
+=== NUEVA PETICIÓN: 2025-03-28 03:25:52 ===
+POST: Array
+(
+    [ff] => 3791001
+    [vv] => Oficina 3
+    [cc] => Edson Keri Barrera 
+    [rr] => Morelia
+    [fs] => 2025/03/28
+    [cm] => 
+)
+
+Comentarios encontrados en 'cm': ''
+SQL a ejecutar: INSERT INTO adm_pedidos (folio, vendedor, cliente, destino, fecha_salida, status, usuario) 
+            VALUES ('3791001', 'Oficina 3', 'Edson Keri Barrera ', 'Morelia', '2025/03/28', 10, 'oficina')
+No se guardó ninguna observación porque no había comentarios
+Respuesta: {"status":"success","folio":"3791001","message":"Pedido guardado correctamente"}
+=== FIN DE PETICIÓN ===
+
+=== NUEVA PETICIÓN: 2025-03-28 03:35:02 ===
+POST: Array
+(
+    [ff] => 3791002
+    [vv] => Oficina 3
+    [cc] => Juan Tapia
+    [rr] => Morelia
+    [fs] => 2025/03/27
+    [cm] => 
+    [usuario] => Oficina 3
+)
+
+Usuario a utilizar: 'Oficina 3'
+Comentarios encontrados en 'cm': ''
+SQL a ejecutar: INSERT INTO adm_pedidos (folio, vendedor, cliente, destino, fecha_salida, status, usuario) 
+            VALUES ('3791002', 'Oficina 3', 'Juan Tapia', 'Morelia', '2025/03/27', 10, 'Oficina 3')
+No se guardó ninguna observación porque no había comentarios
+Respuesta: {"status":"success","folio":"3791002","message":"Pedido guardado correctamente"}
+=== FIN DE PETICIÓN ===
+
+=== NUEVA PETICIÓN: 2025-03-28 03:45:11 ===
+POST: Array
+(
+    [ff] => 3791003
+    [vv] => Oficina3
+    [cc] => Edson Keri 
+    [rr] => Morelia 
+    [fs] => 2025/03/28
+    [cm] => 
+    [usuario] => Oficina3
+)
+
+Usuario a utilizar: 'Oficina3'
+Comentarios encontrados en 'cm': ''
+SQL a ejecutar: INSERT INTO adm_pedidos (folio, vendedor, cliente, destino, fecha_salida, status, usuario) 
+            VALUES ('3791003', 'Oficina3', 'Edson Keri ', 'Morelia ', '2025/03/28', 10, 'Oficina3')
+No se guardó ninguna observación porque no había comentarios
+Respuesta: {"status":"success","folio":"3791003","message":"Pedido guardado correctamente"}
+=== FIN DE PETICIÓN ===
+
+=== NUEVA PETICIÓN: 2025-03-28 03:56:55 ===
+POST: Array
+(
+    [ff] => 3791004
+    [vv] => MARTIN VACA
+    [cc] => Edson Keri 
+    [rr] => Morelia
+    [fs] => 2025/03/28
+    [cm] => 
+    [usuario] => MARTIN VACA
+)
+
+Vendedor a usar: 'MARTIN VACA', Usuario a utilizar: 'MARTIN VACA'
+Comentarios encontrados en 'cm': ''
+SQL a ejecutar: INSERT INTO adm_pedidos (folio, vendedor, cliente, destino, fecha_salida, status, usuario) 
+            VALUES ('3791004', 'MARTIN VACA', 'Edson Keri ', 'Morelia', '2025/03/28', 10, 'MARTIN VACA')
+No se guardó ninguna observación porque no había comentarios
+Respuesta: {"status":"success","folio":"3791004","message":"Pedido guardado correctamente"}
+=== FIN DE PETICIÓN ===
+
+=== NUEVA PETICIÓN: 2025-03-28 04:01:48 ===
+POST: Array
+(
+    [ff] => 3791005
+    [vv] => MARTIN VACA
+    [cc] => Edson Keri 
+    [rr] => Morelia 
+    [fs] => 2025/03/28
+    [cm] => 
+    [usuario] => Oficina3
+)
+
+Parámetros recibidos - Vendedor: 'MARTIN VACA', Usuario: 'Oficina3'
+Comentarios encontrados en 'cm': ''
+SQL a ejecutar: INSERT INTO adm_pedidos (folio, vendedor, cliente, destino, fecha_salida, status, usuario) 
+            VALUES ('3791005', 'MARTIN VACA', 'Edson Keri ', 'Morelia ', '2025/03/28', 10, 'Oficina3')
+No se guardó ninguna observación porque no había comentarios
+Respuesta: {"status":"success","folio":"3791005","message":"Pedido guardado correctamente"}
+=== FIN DE PETICIÓN ===
+
+=== NUEVA PETICIÓN: 2025-03-28 04:03:38 ===
+POST: Array
+(
+    [ff] => 3791006
+    [vv] => MARTIN VACA
+    [cc] => Edson Keri 
+    [rr] => Moroleón 
+    [fs] => 2025/03/29
+    [cm] => 
+    [usuario] => Oficina3
+)
+
+Parámetros recibidos - Vendedor: 'MARTIN VACA', Usuario: 'Oficina3'
+Comentarios encontrados en 'cm': ''
+SQL a ejecutar: INSERT INTO adm_pedidos (folio, vendedor, cliente, destino, fecha_salida, status, usuario) 
+            VALUES ('3791006', 'MARTIN VACA', 'Edson Keri ', 'Moroleón ', '2025/03/29', 10, 'Oficina3')
+No se guardó ninguna observación porque no había comentarios
+Respuesta: {"status":"success","folio":"3791006","message":"Pedido guardado correctamente"}
+=== FIN DE PETICIÓN ===
+
+=== NUEVA PETICIÓN: 2025-03-28 04:14:12 ===
+POST: Array
+(
+    [ff] => 3791007
+    [vv] => MARTIN VACA
+    [cc] => Edson Keri Barrera 
+    [rr] => Morelia 
+    [fs] => 2025/03/28
+    [cm] => 
+    [usuario] => Oficina3
+)
+
+Parámetros recibidos - Vendedor: 'MARTIN VACA', Usuario: 'Oficina3'
+Comentarios encontrados en 'cm': ''
+SQL a ejecutar: INSERT INTO adm_pedidos (folio, vendedor, cliente, destino, fecha_salida, status, usuario) 
+            VALUES ('3791007', 'MARTIN VACA', 'Edson Keri Barrera ', 'Morelia ', '2025/03/28', 10, 'Oficina3')
+No se guardó ninguna observación porque no había comentarios
+Respuesta: {"status":"success","folio":"3791007","message":"Pedido guardado correctamente"}
+=== FIN DE PETICIÓN ===
+
+=== NUEVA PETICIÓN: 2025-03-28 04:37:36 ===
+POST: Array
+(
+    [ff] => 3791001
+    [vv] => MARTIN VACA
+    [cc] => Edson Keri Barrera 
+    [rr] => Morelia
+    [fs] => 2025/03/28
+    [cm] => 
+    [usuario] => Oficina3
+)
+
+Parámetros recibidos - Vendedor: 'MARTIN VACA', Usuario: 'Oficina3'
+Comentarios encontrados en 'cm': ''
+SQL a ejecutar: INSERT INTO adm_pedidos (folio, vendedor, cliente, destino, fecha_salida, status, usuario) 
+            VALUES ('3791001', 'MARTIN VACA', 'Edson Keri Barrera ', 'Morelia', '2025/03/28', 10, 'Oficina3')
+No se guardó ninguna observación porque no había comentarios
+Respuesta: {"status":"success","folio":"3791001","message":"Pedido guardado correctamente"}
+=== FIN DE PETICIÓN ===
+
+=== NUEVA PETICIÓN: 2025-03-28 04:41:36 ===
+POST: Array
+(
+    [ff] => 3791001
+    [vv] => MARTIN VACA
+    [cc] => Edson Keri Barrera 
+    [rr] => Morelia 
+    [fs] => 2025/03/28
+    [cm] => 
+    [usuario] => Oficina3
+)
+
+Parámetros recibidos - Vendedor: 'MARTIN VACA', Usuario: 'Oficina3'
+Comentarios encontrados en 'cm': ''
+SQL a ejecutar: INSERT INTO adm_pedidos (folio, vendedor, cliente, destino, fecha_salida, status, usuario) 
+            VALUES ('3791001', 'MARTIN VACA', 'Edson Keri Barrera ', 'Morelia ', '2025/03/28', 10, 'Oficina3')
+No se guardó ninguna observación porque no había comentarios
+Respuesta: {"status":"success","folio":"3791001","message":"Pedido guardado correctamente"}
+=== FIN DE PETICIÓN ===
+
+=== NUEVA PETICIÓN: 2025-03-28 04:50:37 ===
+POST: Array
+(
+    [ff] => 3791002
+    [vv] => MARTIN VACA
+    [cc] => Edson Keri 
+    [rr] => Morelia 
+    [fs] => 2025/03/29
+    [cm] => 
+    [usuario] => Oficina3
+)
+
+Parámetros recibidos - Vendedor: 'MARTIN VACA', Usuario: 'Oficina3'
+Comentarios encontrados en 'cm': ''
+SQL a ejecutar: INSERT INTO adm_pedidos (folio, vendedor, cliente, destino, fecha_salida, status, usuario) 
+            VALUES ('3791002', 'MARTIN VACA', 'Edson Keri ', 'Morelia ', '2025/03/29', 10, 'Oficina3')
+No se guardó ninguna observación porque no había comentarios
+Respuesta: {"status":"success","folio":"3791002","message":"Pedido guardado correctamente"}
+=== FIN DE PETICIÓN ===
+
+=== NUEVA PETICIÓN: 2025-03-28 04:55:44 ===
+POST: Array
+(
+    [ff] => 3791001
+    [vv] => MARTIN VACA
+    [cc] => Edson Keri Barrera 
+    [rr] => Morelia 
+    [fs] => 2025/03/31
+    [cm] => 
+    [usuario] => Oficina3
+)
+
+Parámetros recibidos - Vendedor: 'MARTIN VACA', Usuario: 'Oficina3'
+Comentarios encontrados en 'cm': ''
+SQL a ejecutar: INSERT INTO adm_pedidos (folio, vendedor, cliente, destino, fecha_salida, status, usuario) 
+            VALUES ('3791001', 'MARTIN VACA', 'Edson Keri Barrera ', 'Morelia ', '2025/03/31', 10, 'Oficina3')
+No se guardó ninguna observación porque no había comentarios
+Respuesta: {"status":"success","folio":"3791001","message":"Pedido guardado correctamente"}
+=== FIN DE PETICIÓN ===
+
+=== NUEVA PETICIÓN: 2025-03-28 05:01:12 ===
+POST: Array
+(
+    [ff] => 3791001
+    [vv] => MARTIN VACA
+    [cc] => Edson Keri Barrera 
+    [rr] => Morelia 
+    [fs] => 2025/03/31
+    [cm] => 
+    [usuario] => Oficina3
+)
+
+Parámetros recibidos - Vendedor: 'MARTIN VACA', Usuario: 'Oficina3'
+Comentarios encontrados en 'cm': ''
+SQL a ejecutar: INSERT INTO adm_pedidos (folio, vendedor, cliente, destino, fecha_salida, status, usuario) 
+            VALUES ('3791001', 'MARTIN VACA', 'Edson Keri Barrera ', 'Morelia ', '2025/03/31', 10, 'Oficina3')
+No se guardó ninguna observación porque no había comentarios
+Respuesta: {"status":"success","folio":"3791001","message":"Pedido guardado correctamente"}
+=== FIN DE PETICIÓN ===
+
+=== NUEVA PETICIÓN: 2025-03-28 05:02:54 ===
+POST: Array
+(
+    [ff] => 3791002
+    [vv] => MARTIN VACA
+    [cc] => Emerson Barrera 
+    [rr] => Querendaro 
+    [fs] => 2025/03/31
+    [cm] => 
+    [usuario] => Oficina3
+)
+
+Parámetros recibidos - Vendedor: 'MARTIN VACA', Usuario: 'Oficina3'
+Comentarios encontrados en 'cm': ''
+SQL a ejecutar: INSERT INTO adm_pedidos (folio, vendedor, cliente, destino, fecha_salida, status, usuario) 
+            VALUES ('3791002', 'MARTIN VACA', 'Emerson Barrera ', 'Querendaro ', '2025/03/31', 10, 'Oficina3')
+No se guardó ninguna observación porque no había comentarios
+Respuesta: {"status":"success","folio":"3791002","message":"Pedido guardado correctamente"}
+=== FIN DE PETICIÓN ===
+

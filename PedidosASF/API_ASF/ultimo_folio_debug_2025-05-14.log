@@ -1,0 +1,842 @@
+=== NUEVA PETICIÓN DE ÚLTIMO FOLIO (MODO DEBUG): 2025-05-14 00:17:43 ===
+Sesión iniciada
+Contenido de la sesión: Array
+(
+    [autentica] => SIP
+    [userid] => c18cd9f0bb5157daf37efe94eb154c5f
+    [username] => Quinagro
+    [tipo] => oficina
+)
+
+Verificando archivo de conexión en: ../../pages/conexion.php
+¿Archivo existe? SÍ
+Intentando incluir conexion.php desde: ../../pages/conexion.php
+Salida al incluir conexion.php: 
+Conexión PDO obtenida correctamente
+Parámetros de conexión: host=localhost, dbname=agrosant_pedidos, username=root
+Consulta SQL: SELECT (MAX(CAST(folio AS UNSIGNED)) + 1) as siguiente_folio FROM adm_pedidos
+Resultado de la consulta: Array
+(
+    [siguiente_folio] => 4035048
+)
+
+Siguiente folio: 4035048
+Enviando respuesta: {"status":"success","nextFolio":"4035048"}
+=== FIN DE PETICIÓN ÚLTIMO FOLIO (MODO DEBUG) ===
+
+=== NUEVA PETICIÓN DE ÚLTIMO FOLIO (MODO DEBUG): 2025-05-14 00:18:33 ===
+Sesión iniciada
+Contenido de la sesión: Array
+(
+    [autentica] => SIP
+    [userid] => c18cd9f0bb5157daf37efe94eb154c5f
+    [username] => Quinagro
+    [tipo] => oficina
+)
+
+Verificando archivo de conexión en: ../../pages/conexion.php
+¿Archivo existe? SÍ
+Intentando incluir conexion.php desde: ../../pages/conexion.php
+Salida al incluir conexion.php: 
+Conexión PDO obtenida correctamente
+Parámetros de conexión: host=localhost, dbname=agrosant_pedidos, username=root
+Consulta SQL: SELECT (MAX(CAST(folio AS UNSIGNED)) + 1) as siguiente_folio FROM adm_pedidos
+Resultado de la consulta: Array
+(
+    [siguiente_folio] => 4035048
+)
+
+Siguiente folio: 4035048
+Enviando respuesta: {"status":"success","nextFolio":"4035048"}
+=== FIN DE PETICIÓN ÚLTIMO FOLIO (MODO DEBUG) ===
+
+=== NUEVA PETICIÓN DE ÚLTIMO FOLIO (MODO DEBUG): 2025-05-14 00:40:15 ===
+Sesión iniciada
+Contenido de la sesión: Array
+(
+    [autentica] => SIP
+    [userid] => c18cd9f0bb5157daf37efe94eb154c5f
+    [username] => Quinagro
+    [tipo] => oficina
+)
+
+Verificando archivo de conexión en: ../../pages/conexion.php
+¿Archivo existe? SÍ
+Intentando incluir conexion.php desde: ../../pages/conexion.php
+Salida al incluir conexion.php: 
+Conexión PDO obtenida correctamente
+Parámetros de conexión: host=localhost, dbname=agrosant_pedidos, username=root
+Consulta SQL: SELECT (MAX(CAST(folio AS UNSIGNED)) + 1) as siguiente_folio FROM adm_pedidos
+Resultado de la consulta: Array
+(
+    [siguiente_folio] => 4035048
+)
+
+Siguiente folio: 4035048
+Enviando respuesta: {"status":"success","nextFolio":"4035048"}
+=== FIN DE PETICIÓN ÚLTIMO FOLIO (MODO DEBUG) ===
+
+=== NUEVA PETICIÓN DE ÚLTIMO FOLIO (MODO DEBUG): 2025-05-14 00:43:14 ===
+Sesión iniciada
+Contenido de la sesión: Array
+(
+    [autentica] => SIP
+    [userid] => c18cd9f0bb5157daf37efe94eb154c5f
+    [username] => Quinagro
+    [tipo] => oficina
+)
+
+Verificando archivo de conexión en: ../../pages/conexion.php
+¿Archivo existe? SÍ
+Intentando incluir conexion.php desde: ../../pages/conexion.php
+Salida al incluir conexion.php: 
+Conexión PDO obtenida correctamente
+Parámetros de conexión: host=localhost, dbname=agrosant_pedidos, username=root
+Consulta SQL: SELECT (MAX(CAST(folio AS UNSIGNED)) + 1) as siguiente_folio FROM adm_pedidos
+Resultado de la consulta: Array
+(
+    [siguiente_folio] => 4035048
+)
+
+Siguiente folio: 4035048
+Enviando respuesta: {"status":"success","nextFolio":"4035048"}
+=== FIN DE PETICIÓN ÚLTIMO FOLIO (MODO DEBUG) ===
+
+=== NUEVA PETICIÓN DE ÚLTIMO FOLIO (MODO DEBUG): 2025-05-14 00:45:46 ===
+Sesión iniciada
+Contenido de la sesión: Array
+(
+    [autentica] => SIP
+    [userid] => c18cd9f0bb5157daf37efe94eb154c5f
+    [username] => Quinagro
+    [tipo] => oficina
+)
+
+Verificando archivo de conexión en: ../../pages/conexion.php
+¿Archivo existe? SÍ
+Intentando incluir conexion.php desde: ../../pages/conexion.php
+Salida al incluir conexion.php: 
+Conexión PDO obtenida correctamente
+Parámetros de conexión: host=localhost, dbname=agrosant_pedidos, username=root
+Consulta SQL: SELECT (MAX(CAST(folio AS UNSIGNED)) + 1) as siguiente_folio FROM adm_pedidos
+Resultado de la consulta: Array
+(
+    [siguiente_folio] => 4035048
+)
+
+Siguiente folio: 4035048
+Enviando respuesta: {"status":"success","nextFolio":"4035048"}
+=== FIN DE PETICIÓN ÚLTIMO FOLIO (MODO DEBUG) ===
+
+=== NUEVA PETICIÓN DE ÚLTIMO FOLIO (MODO DEBUG): 2025-05-14 00:47:09 ===
+Sesión iniciada
+Contenido de la sesión: Array
+(
+    [autentica] => SIP
+    [userid] => c18cd9f0bb5157daf37efe94eb154c5f
+    [username] => Quinagro
+    [tipo] => oficina
+)
+
+Verificando archivo de conexión en: ../../pages/conexion.php
+¿Archivo existe? SÍ
+Intentando incluir conexion.php desde: ../../pages/conexion.php
+Salida al incluir conexion.php: 
+Conexión PDO obtenida correctamente
+Parámetros de conexión: host=localhost, dbname=agrosant_pedidos, username=root
+Consulta SQL: SELECT (MAX(CAST(folio AS UNSIGNED)) + 1) as siguiente_folio FROM adm_pedidos
+Resultado de la consulta: Array
+(
+    [siguiente_folio] => 4035048
+)
+
+Siguiente folio: 4035048
+Enviando respuesta: {"status":"success","nextFolio":"4035048"}
+=== FIN DE PETICIÓN ÚLTIMO FOLIO (MODO DEBUG) ===
+
+=== NUEVA PETICIÓN DE ÚLTIMO FOLIO (MODO DEBUG): 2025-05-14 00:49:04 ===
+Sesión iniciada
+Contenido de la sesión: Array
+(
+    [autentica] => SIP
+    [userid] => c18cd9f0bb5157daf37efe94eb154c5f
+    [username] => Quinagro
+    [tipo] => oficina
+)
+
+Verificando archivo de conexión en: ../../pages/conexion.php
+¿Archivo existe? SÍ
+Intentando incluir conexion.php desde: ../../pages/conexion.php
+Salida al incluir conexion.php: 
+Conexión PDO obtenida correctamente
+Parámetros de conexión: host=localhost, dbname=agrosant_pedidos, username=root
+Consulta SQL: SELECT (MAX(CAST(folio AS UNSIGNED)) + 1) as siguiente_folio FROM adm_pedidos
+Resultado de la consulta: Array
+(
+    [siguiente_folio] => 4035048
+)
+
+Siguiente folio: 4035048
+Enviando respuesta: {"status":"success","nextFolio":"4035048"}
+=== FIN DE PETICIÓN ÚLTIMO FOLIO (MODO DEBUG) ===
+
+=== NUEVA PETICIÓN DE ÚLTIMO FOLIO (MODO DEBUG): 2025-05-14 00:51:18 ===
+Sesión iniciada
+Contenido de la sesión: Array
+(
+    [autentica] => SIP
+    [userid] => c18cd9f0bb5157daf37efe94eb154c5f
+    [username] => Quinagro
+    [tipo] => oficina
+)
+
+Verificando archivo de conexión en: ../../pages/conexion.php
+¿Archivo existe? SÍ
+Intentando incluir conexion.php desde: ../../pages/conexion.php
+Salida al incluir conexion.php: 
+Conexión PDO obtenida correctamente
+Parámetros de conexión: host=localhost, dbname=agrosant_pedidos, username=root
+Consulta SQL: SELECT (MAX(CAST(folio AS UNSIGNED)) + 1) as siguiente_folio FROM adm_pedidos
+Resultado de la consulta: Array
+(
+    [siguiente_folio] => 4035048
+)
+
+Siguiente folio: 4035048
+Enviando respuesta: {"status":"success","nextFolio":"4035048"}
+=== FIN DE PETICIÓN ÚLTIMO FOLIO (MODO DEBUG) ===
+
+=== NUEVA PETICIÓN DE ÚLTIMO FOLIO (MODO DEBUG): 2025-05-14 00:53:35 ===
+Sesión iniciada
+Contenido de la sesión: Array
+(
+    [autentica] => SIP
+    [userid] => c18cd9f0bb5157daf37efe94eb154c5f
+    [username] => Quinagro
+    [tipo] => oficina
+)
+
+Verificando archivo de conexión en: ../../pages/conexion.php
+¿Archivo existe? SÍ
+Intentando incluir conexion.php desde: ../../pages/conexion.php
+Salida al incluir conexion.php: 
+Conexión PDO obtenida correctamente
+Parámetros de conexión: host=localhost, dbname=agrosant_pedidos, username=root
+Consulta SQL: SELECT (MAX(CAST(folio AS UNSIGNED)) + 1) as siguiente_folio FROM adm_pedidos
+Resultado de la consulta: Array
+(
+    [siguiente_folio] => 4035048
+)
+
+Siguiente folio: 4035048
+Enviando respuesta: {"status":"success","nextFolio":"4035048"}
+=== FIN DE PETICIÓN ÚLTIMO FOLIO (MODO DEBUG) ===
+
+=== NUEVA PETICIÓN DE ÚLTIMO FOLIO (MODO DEBUG): 2025-05-14 00:59:59 ===
+Sesión iniciada
+Contenido de la sesión: Array
+(
+    [autentica] => SIP
+    [userid] => c18cd9f0bb5157daf37efe94eb154c5f
+    [username] => Quinagro
+    [tipo] => oficina
+)
+
+Verificando archivo de conexión en: ../../pages/conexion.php
+¿Archivo existe? SÍ
+Intentando incluir conexion.php desde: ../../pages/conexion.php
+Salida al incluir conexion.php: 
+Conexión PDO obtenida correctamente
+Parámetros de conexión: host=localhost, dbname=agrosant_pedidos, username=root
+Consulta SQL: SELECT (MAX(CAST(folio AS UNSIGNED)) + 1) as siguiente_folio FROM adm_pedidos
+Resultado de la consulta: Array
+(
+    [siguiente_folio] => 4035048
+)
+
+Siguiente folio: 4035048
+Enviando respuesta: {"status":"success","nextFolio":"4035048"}
+=== FIN DE PETICIÓN ÚLTIMO FOLIO (MODO DEBUG) ===
+
+=== NUEVA PETICIÓN DE ÚLTIMO FOLIO (MODO DEBUG): 2025-05-14 01:03:56 ===
+Sesión iniciada
+Contenido de la sesión: Array
+(
+    [autentica] => SIP
+    [userid] => c18cd9f0bb5157daf37efe94eb154c5f
+    [username] => Quinagro
+    [tipo] => oficina
+)
+
+Verificando archivo de conexión en: ../../pages/conexion.php
+¿Archivo existe? SÍ
+Intentando incluir conexion.php desde: ../../pages/conexion.php
+Salida al incluir conexion.php: 
+Conexión PDO obtenida correctamente
+Parámetros de conexión: host=localhost, dbname=agrosant_pedidos, username=root
+Consulta SQL: SELECT (MAX(CAST(folio AS UNSIGNED)) + 1) as siguiente_folio FROM adm_pedidos
+Resultado de la consulta: Array
+(
+    [siguiente_folio] => 4035048
+)
+
+Siguiente folio: 4035048
+Enviando respuesta: {"status":"success","nextFolio":"4035048"}
+=== FIN DE PETICIÓN ÚLTIMO FOLIO (MODO DEBUG) ===
+
+=== NUEVA PETICIÓN DE ÚLTIMO FOLIO (MODO DEBUG): 2025-05-14 01:17:18 ===
+Sesión iniciada
+Contenido de la sesión: Array
+(
+    [autentica] => SIP
+    [userid] => c18cd9f0bb5157daf37efe94eb154c5f
+    [username] => Quinagro
+    [tipo] => oficina
+)
+
+Verificando archivo de conexión en: ../../pages/conexion.php
+¿Archivo existe? SÍ
+Intentando incluir conexion.php desde: ../../pages/conexion.php
+Salida al incluir conexion.php: 
+Conexión PDO obtenida correctamente
+Parámetros de conexión: host=localhost, dbname=agrosant_pedidos, username=root
+Consulta SQL: SELECT (MAX(CAST(folio AS UNSIGNED)) + 1) as siguiente_folio FROM adm_pedidos
+Resultado de la consulta: Array
+(
+    [siguiente_folio] => 4035048
+)
+
+Siguiente folio: 4035048
+Enviando respuesta: {"status":"success","nextFolio":"4035048"}
+=== FIN DE PETICIÓN ÚLTIMO FOLIO (MODO DEBUG) ===
+
+=== NUEVA PETICIÓN DE ÚLTIMO FOLIO (MODO DEBUG): 2025-05-14 01:22:57 ===
+Sesión iniciada
+Contenido de la sesión: Array
+(
+    [autentica] => SIP
+    [userid] => c18cd9f0bb5157daf37efe94eb154c5f
+    [username] => Quinagro
+    [tipo] => oficina
+)
+
+Verificando archivo de conexión en: ../../pages/conexion.php
+¿Archivo existe? SÍ
+Intentando incluir conexion.php desde: ../../pages/conexion.php
+Salida al incluir conexion.php: 
+Conexión PDO obtenida correctamente
+Parámetros de conexión: host=localhost, dbname=agrosant_pedidos, username=root
+Consulta SQL: SELECT (MAX(CAST(folio AS UNSIGNED)) + 1) as siguiente_folio FROM adm_pedidos
+Resultado de la consulta: Array
+(
+    [siguiente_folio] => 4035048
+)
+
+Siguiente folio: 4035048
+Enviando respuesta: {"status":"success","nextFolio":"4035048"}
+=== FIN DE PETICIÓN ÚLTIMO FOLIO (MODO DEBUG) ===
+
+=== NUEVA PETICIÓN DE ÚLTIMO FOLIO (MODO DEBUG): 2025-05-14 01:24:52 ===
+Sesión iniciada
+Contenido de la sesión: Array
+(
+    [autentica] => SIP
+    [userid] => c18cd9f0bb5157daf37efe94eb154c5f
+    [username] => Quinagro
+    [tipo] => oficina
+)
+
+Verificando archivo de conexión en: ../../pages/conexion.php
+¿Archivo existe? SÍ
+Intentando incluir conexion.php desde: ../../pages/conexion.php
+Salida al incluir conexion.php: 
+Conexión PDO obtenida correctamente
+Parámetros de conexión: host=localhost, dbname=agrosant_pedidos, username=root
+Consulta SQL: SELECT (MAX(CAST(folio AS UNSIGNED)) + 1) as siguiente_folio FROM adm_pedidos
+Resultado de la consulta: Array
+(
+    [siguiente_folio] => 4035048
+)
+
+Siguiente folio: 4035048
+Enviando respuesta: {"status":"success","nextFolio":"4035048"}
+=== FIN DE PETICIÓN ÚLTIMO FOLIO (MODO DEBUG) ===
+
+=== NUEVA PETICIÓN DE ÚLTIMO FOLIO (MODO DEBUG): 2025-05-14 01:27:32 ===
+Sesión iniciada
+Contenido de la sesión: Array
+(
+    [autentica] => SIP
+    [userid] => c18cd9f0bb5157daf37efe94eb154c5f
+    [username] => Quinagro
+    [tipo] => oficina
+)
+
+Verificando archivo de conexión en: ../../pages/conexion.php
+¿Archivo existe? SÍ
+Intentando incluir conexion.php desde: ../../pages/conexion.php
+Salida al incluir conexion.php: 
+Conexión PDO obtenida correctamente
+Parámetros de conexión: host=localhost, dbname=agrosant_pedidos, username=root
+Consulta SQL: SELECT (MAX(CAST(folio AS UNSIGNED)) + 1) as siguiente_folio FROM adm_pedidos
+Resultado de la consulta: Array
+(
+    [siguiente_folio] => 4035048
+)
+
+Siguiente folio: 4035048
+Enviando respuesta: {"status":"success","nextFolio":"4035048"}
+=== FIN DE PETICIÓN ÚLTIMO FOLIO (MODO DEBUG) ===
+
+=== NUEVA PETICIÓN DE ÚLTIMO FOLIO (MODO DEBUG): 2025-05-14 01:33:10 ===
+Sesión iniciada
+Contenido de la sesión: Array
+(
+    [autentica] => SIP
+    [userid] => c18cd9f0bb5157daf37efe94eb154c5f
+    [username] => Quinagro
+    [tipo] => oficina
+)
+
+Verificando archivo de conexión en: ../../pages/conexion.php
+¿Archivo existe? SÍ
+Intentando incluir conexion.php desde: ../../pages/conexion.php
+Salida al incluir conexion.php: 
+Conexión PDO obtenida correctamente
+Parámetros de conexión: host=localhost, dbname=agrosant_pedidos, username=root
+Consulta SQL: SELECT (MAX(CAST(folio AS UNSIGNED)) + 1) as siguiente_folio FROM adm_pedidos
+Resultado de la consulta: Array
+(
+    [siguiente_folio] => 4035048
+)
+
+Siguiente folio: 4035048
+Enviando respuesta: {"status":"success","nextFolio":"4035048"}
+=== FIN DE PETICIÓN ÚLTIMO FOLIO (MODO DEBUG) ===
+
+=== NUEVA PETICIÓN DE ÚLTIMO FOLIO (MODO DEBUG): 2025-05-14 01:35:54 ===
+Sesión iniciada
+Contenido de la sesión: Array
+(
+    [autentica] => SIP
+    [userid] => c18cd9f0bb5157daf37efe94eb154c5f
+    [username] => Quinagro
+    [tipo] => oficina
+)
+
+Verificando archivo de conexión en: ../../pages/conexion.php
+¿Archivo existe? SÍ
+Intentando incluir conexion.php desde: ../../pages/conexion.php
+Salida al incluir conexion.php: 
+Conexión PDO obtenida correctamente
+Parámetros de conexión: host=localhost, dbname=agrosant_pedidos, username=root
+Consulta SQL: SELECT (MAX(CAST(folio AS UNSIGNED)) + 1) as siguiente_folio FROM adm_pedidos
+Resultado de la consulta: Array
+(
+    [siguiente_folio] => 4035048
+)
+
+Siguiente folio: 4035048
+Enviando respuesta: {"status":"success","nextFolio":"4035048"}
+=== FIN DE PETICIÓN ÚLTIMO FOLIO (MODO DEBUG) ===
+
+=== NUEVA PETICIÓN DE ÚLTIMO FOLIO (MODO DEBUG): 2025-05-14 01:38:29 ===
+Sesión iniciada
+Contenido de la sesión: Array
+(
+    [autentica] => SIP
+    [userid] => c18cd9f0bb5157daf37efe94eb154c5f
+    [username] => Quinagro
+    [tipo] => oficina
+)
+
+Verificando archivo de conexión en: ../../pages/conexion.php
+¿Archivo existe? SÍ
+Intentando incluir conexion.php desde: ../../pages/conexion.php
+Salida al incluir conexion.php: 
+Conexión PDO obtenida correctamente
+Parámetros de conexión: host=localhost, dbname=agrosant_pedidos, username=root
+Consulta SQL: SELECT (MAX(CAST(folio AS UNSIGNED)) + 1) as siguiente_folio FROM adm_pedidos
+Resultado de la consulta: Array
+(
+    [siguiente_folio] => 4035048
+)
+
+Siguiente folio: 4035048
+Enviando respuesta: {"status":"success","nextFolio":"4035048"}
+=== FIN DE PETICIÓN ÚLTIMO FOLIO (MODO DEBUG) ===
+
+=== NUEVA PETICIÓN DE ÚLTIMO FOLIO (MODO DEBUG): 2025-05-14 01:39:35 ===
+Sesión iniciada
+Contenido de la sesión: Array
+(
+    [autentica] => SIP
+    [userid] => c18cd9f0bb5157daf37efe94eb154c5f
+    [username] => Quinagro
+    [tipo] => oficina
+)
+
+Verificando archivo de conexión en: ../../pages/conexion.php
+¿Archivo existe? SÍ
+Intentando incluir conexion.php desde: ../../pages/conexion.php
+Salida al incluir conexion.php: 
+Conexión PDO obtenida correctamente
+Parámetros de conexión: host=localhost, dbname=agrosant_pedidos, username=root
+Consulta SQL: SELECT (MAX(CAST(folio AS UNSIGNED)) + 1) as siguiente_folio FROM adm_pedidos
+Resultado de la consulta: Array
+(
+    [siguiente_folio] => 4035048
+)
+
+Siguiente folio: 4035048
+Enviando respuesta: {"status":"success","nextFolio":"4035048"}
+=== FIN DE PETICIÓN ÚLTIMO FOLIO (MODO DEBUG) ===
+
+=== NUEVA PETICIÓN DE ÚLTIMO FOLIO (MODO DEBUG): 2025-05-14 02:19:10 ===
+Sesión iniciada
+Contenido de la sesión: Array
+(
+)
+
+Verificando archivo de conexión en: ../../pages/conexion.php
+¿Archivo existe? SÍ
+Intentando incluir conexion.php desde: ../../pages/conexion.php
+Salida al incluir conexion.php: 
+Conexión PDO obtenida correctamente
+Parámetros de conexión: host=localhost, dbname=agrosant_pedidos, username=root
+Consulta SQL: SELECT (MAX(CAST(folio AS UNSIGNED)) + 1) as siguiente_folio FROM adm_pedidos
+Resultado de la consulta: Array
+(
+    [siguiente_folio] => 4035048
+)
+
+Siguiente folio: 4035048
+Enviando respuesta: {"status":"success","nextFolio":"4035048"}
+=== FIN DE PETICIÓN ÚLTIMO FOLIO (MODO DEBUG) ===
+
+=== NUEVA PETICIÓN DE ÚLTIMO FOLIO (MODO DEBUG): 2025-05-14 02:19:19 ===
+Sesión iniciada
+Contenido de la sesión: Array
+(
+)
+
+Verificando archivo de conexión en: ../../pages/conexion.php
+¿Archivo existe? SÍ
+Intentando incluir conexion.php desde: ../../pages/conexion.php
+Salida al incluir conexion.php: 
+Conexión PDO obtenida correctamente
+Parámetros de conexión: host=localhost, dbname=agrosant_pedidos, username=root
+Consulta SQL: SELECT (MAX(CAST(folio AS UNSIGNED)) + 1) as siguiente_folio FROM adm_pedidos
+Resultado de la consulta: Array
+(
+    [siguiente_folio] => 4035048
+)
+
+Siguiente folio: 4035048
+Enviando respuesta: {"status":"success","nextFolio":"4035048"}
+=== FIN DE PETICIÓN ÚLTIMO FOLIO (MODO DEBUG) ===
+
+=== NUEVA PETICIÓN DE ÚLTIMO FOLIO (MODO DEBUG): 2025-05-14 02:19:48 ===
+Sesión iniciada
+Contenido de la sesión: Array
+(
+)
+
+Verificando archivo de conexión en: ../../pages/conexion.php
+¿Archivo existe? SÍ
+Intentando incluir conexion.php desde: ../../pages/conexion.php
+Salida al incluir conexion.php: 
+Conexión PDO obtenida correctamente
+Parámetros de conexión: host=localhost, dbname=agrosant_pedidos, username=root
+Consulta SQL: SELECT (MAX(CAST(folio AS UNSIGNED)) + 1) as siguiente_folio FROM adm_pedidos
+Resultado de la consulta: Array
+(
+    [siguiente_folio] => 4035048
+)
+
+Siguiente folio: 4035048
+Enviando respuesta: {"status":"success","nextFolio":"4035048"}
+=== FIN DE PETICIÓN ÚLTIMO FOLIO (MODO DEBUG) ===
+
+=== NUEVA PETICIÓN DE ÚLTIMO FOLIO (MODO DEBUG): 2025-05-14 02:29:58 ===
+Sesión iniciada
+Contenido de la sesión: Array
+(
+)
+
+Verificando archivo de conexión en: ../../pages/conexion.php
+¿Archivo existe? SÍ
+Intentando incluir conexion.php desde: ../../pages/conexion.php
+Salida al incluir conexion.php: 
+Conexión PDO obtenida correctamente
+Parámetros de conexión: host=localhost, dbname=agrosant_pedidos, username=root
+Consulta SQL: SELECT (MAX(CAST(folio AS UNSIGNED)) + 1) as siguiente_folio FROM adm_pedidos
+Resultado de la consulta: Array
+(
+    [siguiente_folio] => 4035049
+)
+
+Siguiente folio: 4035049
+Enviando respuesta: {"status":"success","nextFolio":"4035049"}
+=== FIN DE PETICIÓN ÚLTIMO FOLIO (MODO DEBUG) ===
+
+=== NUEVA PETICIÓN DE ÚLTIMO FOLIO (MODO DEBUG): 2025-05-14 02:34:01 ===
+Sesión iniciada
+Contenido de la sesión: Array
+(
+    [autentica] => SIP
+    [userid] => 513820451d116871401feecac9472525
+    [username] => Oficina1
+    [tipo] => oficina
+)
+
+Verificando archivo de conexión en: ../../pages/conexion.php
+¿Archivo existe? SÍ
+Intentando incluir conexion.php desde: ../../pages/conexion.php
+Salida al incluir conexion.php: 
+Conexión PDO obtenida correctamente
+Parámetros de conexión: host=localhost, dbname=agrosant_pedidos, username=root
+Consulta SQL: SELECT (MAX(CAST(folio AS UNSIGNED)) + 1) as siguiente_folio FROM adm_pedidos
+Resultado de la consulta: Array
+(
+    [siguiente_folio] => 4035049
+)
+
+Siguiente folio: 4035049
+Enviando respuesta: {"status":"success","nextFolio":"4035049"}
+=== FIN DE PETICIÓN ÚLTIMO FOLIO (MODO DEBUG) ===
+
+=== NUEVA PETICIÓN DE ÚLTIMO FOLIO (MODO DEBUG): 2025-05-14 02:35:12 ===
+Sesión iniciada
+Contenido de la sesión: Array
+(
+    [autentica] => SIP
+    [userid] => 513820451d116871401feecac9472525
+    [username] => Oficina1
+    [tipo] => oficina
+)
+
+Verificando archivo de conexión en: ../../pages/conexion.php
+¿Archivo existe? SÍ
+Intentando incluir conexion.php desde: ../../pages/conexion.php
+Salida al incluir conexion.php: 
+Conexión PDO obtenida correctamente
+Parámetros de conexión: host=localhost, dbname=agrosant_pedidos, username=root
+Consulta SQL: SELECT (MAX(CAST(folio AS UNSIGNED)) + 1) as siguiente_folio FROM adm_pedidos
+Resultado de la consulta: Array
+(
+    [siguiente_folio] => 4035049
+)
+
+Siguiente folio: 4035049
+Enviando respuesta: {"status":"success","nextFolio":"4035049"}
+=== FIN DE PETICIÓN ÚLTIMO FOLIO (MODO DEBUG) ===
+
+=== NUEVA PETICIÓN DE ÚLTIMO FOLIO (MODO DEBUG): 2025-05-14 02:35:46 ===
+Sesión iniciada
+Contenido de la sesión: Array
+(
+    [autentica] => SIP
+    [userid] => 513820451d116871401feecac9472525
+    [username] => Oficina1
+    [tipo] => oficina
+)
+
+Verificando archivo de conexión en: ../../pages/conexion.php
+¿Archivo existe? SÍ
+Intentando incluir conexion.php desde: ../../pages/conexion.php
+Salida al incluir conexion.php: 
+Conexión PDO obtenida correctamente
+Parámetros de conexión: host=localhost, dbname=agrosant_pedidos, username=root
+Consulta SQL: SELECT (MAX(CAST(folio AS UNSIGNED)) + 1) as siguiente_folio FROM adm_pedidos
+Resultado de la consulta: Array
+(
+    [siguiente_folio] => 4035050
+)
+
+Siguiente folio: 4035050
+Enviando respuesta: {"status":"success","nextFolio":"4035050"}
+=== FIN DE PETICIÓN ÚLTIMO FOLIO (MODO DEBUG) ===
+
+=== NUEVA PETICIÓN DE ÚLTIMO FOLIO (MODO DEBUG): 2025-05-14 02:37:18 ===
+Sesión iniciada
+Contenido de la sesión: Array
+(
+    [autentica] => SIP
+    [userid] => 513820451d116871401feecac9472525
+    [username] => Oficina1
+    [tipo] => oficina
+)
+
+Verificando archivo de conexión en: ../../pages/conexion.php
+¿Archivo existe? SÍ
+Intentando incluir conexion.php desde: ../../pages/conexion.php
+Salida al incluir conexion.php: 
+Conexión PDO obtenida correctamente
+Parámetros de conexión: host=localhost, dbname=agrosant_pedidos, username=root
+Consulta SQL: SELECT (MAX(CAST(folio AS UNSIGNED)) + 1) as siguiente_folio FROM adm_pedidos
+Resultado de la consulta: Array
+(
+    [siguiente_folio] => 4035050
+)
+
+Siguiente folio: 4035050
+Enviando respuesta: {"status":"success","nextFolio":"4035050"}
+=== FIN DE PETICIÓN ÚLTIMO FOLIO (MODO DEBUG) ===
+
+=== NUEVA PETICIÓN DE ÚLTIMO FOLIO (MODO DEBUG): 2025-05-14 02:39:04 ===
+Sesión iniciada
+Contenido de la sesión: Array
+(
+    [autentica] => SIP
+    [userid] => 513820451d116871401feecac9472525
+    [username] => Oficina1
+    [tipo] => oficina
+)
+
+Verificando archivo de conexión en: ../../pages/conexion.php
+¿Archivo existe? SÍ
+Intentando incluir conexion.php desde: ../../pages/conexion.php
+Salida al incluir conexion.php: 
+Conexión PDO obtenida correctamente
+Parámetros de conexión: host=localhost, dbname=agrosant_pedidos, username=root
+Consulta SQL: SELECT (MAX(CAST(folio AS UNSIGNED)) + 1) as siguiente_folio FROM adm_pedidos
+Resultado de la consulta: Array
+(
+    [siguiente_folio] => 4035050
+)
+
+Siguiente folio: 4035050
+Enviando respuesta: {"status":"success","nextFolio":"4035050"}
+=== FIN DE PETICIÓN ÚLTIMO FOLIO (MODO DEBUG) ===
+
+=== NUEVA PETICIÓN DE ÚLTIMO FOLIO (MODO DEBUG): 2025-05-14 02:39:32 ===
+Sesión iniciada
+Contenido de la sesión: Array
+(
+    [autentica] => SIP
+    [userid] => 513820451d116871401feecac9472525
+    [username] => Oficina1
+    [tipo] => oficina
+)
+
+Verificando archivo de conexión en: ../../pages/conexion.php
+¿Archivo existe? SÍ
+Intentando incluir conexion.php desde: ../../pages/conexion.php
+Salida al incluir conexion.php: 
+Conexión PDO obtenida correctamente
+Parámetros de conexión: host=localhost, dbname=agrosant_pedidos, username=root
+Consulta SQL: SELECT (MAX(CAST(folio AS UNSIGNED)) + 1) as siguiente_folio FROM adm_pedidos
+Resultado de la consulta: Array
+(
+    [siguiente_folio] => 4035050
+)
+
+Siguiente folio: 4035050
+Enviando respuesta: {"status":"success","nextFolio":"4035050"}
+=== FIN DE PETICIÓN ÚLTIMO FOLIO (MODO DEBUG) ===
+
+=== NUEVA PETICIÓN DE ÚLTIMO FOLIO (MODO DEBUG): 2025-05-14 02:40:09 ===
+Sesión iniciada
+Contenido de la sesión: Array
+(
+    [autentica] => SIP
+    [userid] => 513820451d116871401feecac9472525
+    [username] => Oficina1
+    [tipo] => oficina
+)
+
+Verificando archivo de conexión en: ../../pages/conexion.php
+¿Archivo existe? SÍ
+Intentando incluir conexion.php desde: ../../pages/conexion.php
+Salida al incluir conexion.php: 
+Conexión PDO obtenida correctamente
+Parámetros de conexión: host=localhost, dbname=agrosant_pedidos, username=root
+Consulta SQL: SELECT (MAX(CAST(folio AS UNSIGNED)) + 1) as siguiente_folio FROM adm_pedidos
+Resultado de la consulta: Array
+(
+    [siguiente_folio] => 4035050
+)
+
+Siguiente folio: 4035050
+Enviando respuesta: {"status":"success","nextFolio":"4035050"}
+=== FIN DE PETICIÓN ÚLTIMO FOLIO (MODO DEBUG) ===
+
+=== NUEVA PETICIÓN DE ÚLTIMO FOLIO (MODO DEBUG): 2025-05-14 02:40:29 ===
+Sesión iniciada
+Contenido de la sesión: Array
+(
+    [autentica] => SIP
+    [userid] => 513820451d116871401feecac9472525
+    [username] => Oficina1
+    [tipo] => oficina
+)
+
+Verificando archivo de conexión en: ../../pages/conexion.php
+¿Archivo existe? SÍ
+Intentando incluir conexion.php desde: ../../pages/conexion.php
+Salida al incluir conexion.php: 
+Conexión PDO obtenida correctamente
+Parámetros de conexión: host=localhost, dbname=agrosant_pedidos, username=root
+Consulta SQL: SELECT (MAX(CAST(folio AS UNSIGNED)) + 1) as siguiente_folio FROM adm_pedidos
+Resultado de la consulta: Array
+(
+    [siguiente_folio] => 4035050
+)
+
+Siguiente folio: 4035050
+Enviando respuesta: {"status":"success","nextFolio":"4035050"}
+=== FIN DE PETICIÓN ÚLTIMO FOLIO (MODO DEBUG) ===
+
+=== NUEVA PETICIÓN DE ÚLTIMO FOLIO (MODO DEBUG): 2025-05-14 02:58:30 ===
+Sesión iniciada
+Contenido de la sesión: Array
+(
+    [autentica] => SIP
+    [userid] => 513820451d116871401feecac9472525
+    [username] => Oficina1
+    [tipo] => oficina
+)
+
+Verificando archivo de conexión en: ../../pages/conexion.php
+¿Archivo existe? SÍ
+Intentando incluir conexion.php desde: ../../pages/conexion.php
+Salida al incluir conexion.php: 
+Conexión PDO obtenida correctamente
+Parámetros de conexión: host=localhost, dbname=agrosant_pedidos, username=root
+Consulta SQL: SELECT (MAX(CAST(folio AS UNSIGNED)) + 1) as siguiente_folio FROM adm_pedidos
+Resultado de la consulta: Array
+(
+    [siguiente_folio] => 4035050
+)
+
+Siguiente folio: 4035050
+Enviando respuesta: {"status":"success","nextFolio":"4035050"}
+=== FIN DE PETICIÓN ÚLTIMO FOLIO (MODO DEBUG) ===
+
+=== NUEVA PETICIÓN DE ÚLTIMO FOLIO (MODO DEBUG): 2025-05-14 02:58:38 ===
+Sesión iniciada
+Contenido de la sesión: Array
+(
+    [autentica] => SIP
+    [userid] => 513820451d116871401feecac9472525
+    [username] => Oficina1
+    [tipo] => oficina
+)
+
+Verificando archivo de conexión en: ../../pages/conexion.php
+¿Archivo existe? SÍ
+Intentando incluir conexion.php desde: ../../pages/conexion.php
+Salida al incluir conexion.php: 
+Conexión PDO obtenida correctamente
+Parámetros de conexión: host=localhost, dbname=agrosant_pedidos, username=root
+Consulta SQL: SELECT (MAX(CAST(folio AS UNSIGNED)) + 1) as siguiente_folio FROM adm_pedidos
+Resultado de la consulta: Array
+(
+    [siguiente_folio] => 4035050
+)
+
+Siguiente folio: 4035050
+Enviando respuesta: {"status":"success","nextFolio":"4035050"}
+=== FIN DE PETICIÓN ÚLTIMO FOLIO (MODO DEBUG) ===
+

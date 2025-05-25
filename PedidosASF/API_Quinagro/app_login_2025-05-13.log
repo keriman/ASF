@@ -1,0 +1,52 @@
+=== NUEVA PETICIÓN DE LOGIN APP: 2025-05-13 22:24:22 ===
+POST: Array
+(
+    [usuario] => Quinagro
+    [clave] => Quinagro
+)
+
+Usuario recibido: 'Quinagro', Clave: 'Quinagro'
+Detectado usuario de oficina especial: Quinagro
+Autenticación especial exitosa para: Quinagro
+Respuesta JSON: {"success":true,"tipo":"oficina","message":"Autenticaci\u00f3n exitosa"}
+=== FIN DE PETICIÓN LOGIN APP ===
+
+=== NUEVA PETICIÓN DE LOGIN APP: 2025-05-13 22:24:36 ===
+POST: Array
+(
+    [usuario] => Quinagro
+    [clave] => Quinagro
+)
+
+Usuario recibido: 'Quinagro', Clave: 'Quinagro'
+Detectado usuario de oficina especial: Quinagro
+Autenticación especial exitosa para: Quinagro
+Respuesta JSON: {"success":true,"tipo":"oficina","message":"Autenticaci\u00f3n exitosa"}
+=== FIN DE PETICIÓN LOGIN APP ===
+
+=== NUEVA PETICIÓN DE LOGIN APP: 2025-05-13 22:25:53 ===
+POST: Array
+(
+    [usuario] => Quinagro
+    [clave] => Quinagro
+)
+
+Usuario recibido: 'Quinagro', Clave: 'Quinagro'
+Detectado usuario de oficina especial: Quinagro
+Autenticación especial exitosa para: Quinagro
+Respuesta JSON: {"success":true,"tipo":"oficina","message":"Autenticaci\u00f3n exitosa"}
+=== FIN DE PETICIÓN LOGIN APP ===
+
+=== NUEVA PETICIÓN DE LOGIN APP: 2025-05-13 22:26:26 ===
+POST: Array
+(
+    [usuario] => Quinagro
+    [clave] => Quinagro
+)
+
+Usuario recibido: 'Quinagro', Clave: 'Quinagro'
+Detectado usuario de oficina especial: Quinagro
+Autenticación especial exitosa para: Quinagro
+Respuesta JSON: {"success":true,"tipo":"oficina","message":"Autenticaci\u00f3n exitosa"}
+=== FIN DE PETICIÓN LOGIN APP ===
+

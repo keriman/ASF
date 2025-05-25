@@ -1,0 +1,113 @@
+=== NUEVA PETICIÓN: 2025-05-14 01:04:33 ===
+POST: Array
+(
+    [id] => 6477
+    [folio] => 4035047
+    [username] => Quinagro
+)
+
+ID: 6477, Folio: 4035047, Usuario: Quinagro
+Usando conexión PDO
+Respuesta: {"success":true,"message":"Producto eliminado correctamente"}
+=== FIN DE PETICIÓN ===
+
+=== NUEVA PETICIÓN: 2025-05-14 01:04:44 ===
+POST: Array
+(
+    [id] => 6477
+    [folio] => 4035047
+    [username] => Quinagro
+)
+
+ID: 6477, Folio: 4035047, Usuario: Quinagro
+Usando conexión PDO
+Respuesta: {"success":true,"message":"Producto eliminado correctamente"}
+=== FIN DE PETICIÓN ===
+
+=== NUEVA PETICIÓN: 2025-05-14 01:05:44 ===
+POST: Array
+(
+    [id] => 6477
+    [folio] => 4035047
+    [username] => Quinagro
+)
+
+ID: 6477, Folio: 4035047, Usuario: Quinagro
+Usando conexión PDO
+Respuesta: {"success":true,"message":"Producto eliminado correctamente"}
+=== FIN DE PETICIÓN ===
+
+=== NUEVA PETICIÓN: 2025-05-14 01:17:28 ===
+POST: Array
+(
+    [id] => 6477
+    [folio] => 4035047
+    [username] => Quinagro
+)
+
+ID: 6477, Folio: 4035047, Usuario: Quinagro
+Usando conexión PDO
+Respuesta: {"success":true,"message":"Producto eliminado correctamente"}
+=== FIN DE PETICIÓN ===
+
+=== NUEVA PETICIÓN: 2025-05-14 01:23:29 ===
+POST: Array
+(
+    [id] => 6477
+    [folio] => 4035047
+    [username] => Quinagro
+)
+
+ID: 6477, Folio: 4035047, Usuario: Quinagro
+Usando conexión PDO
+Respuesta: {"success":true,"message":"Producto eliminado correctamente"}
+=== FIN DE PETICIÓN ===
+
+=== NUEVA PETICIÓN: 2025-05-14 01:25:08 ===
+POST: Array
+(
+    [id] => 6477
+    [folio] => 4035047
+    [username] => Quinagro
+)
+
+ID: 6477, Folio: 4035047, Usuario: Quinagro
+Usando conexión PDO
+Respuesta: {"success":true,"message":"Producto eliminado correctamente"}
+=== FIN DE PETICIÓN ===
+
+=== NUEVA PETICIÓN: 2025-05-14 01:25:20 ===
+POST: Array
+(
+)
+
+Error: ID y folio son requeridos
+Respuesta: {"success":false,"message":"ID y folio son requeridos"}
+=== FIN DE PETICIÓN ===
+
+=== NUEVA PETICIÓN: 2025-05-14 01:27:41 ===
+POST: Array
+(
+    [id] => 6477
+    [folio] => 4035047
+    [username] => Quinagro
+)
+
+ID: 6477, Folio: 4035047, Usuario: Quinagro
+Usando conexión PDO
+Respuesta: {"success":true,"message":"Producto eliminado correctamente"}
+=== FIN DE PETICIÓN ===
+
+=== NUEVA PETICIÓN: 2025-05-14 01:35:09 ===
+POST: Array
+(
+    [id] => 6478
+    [folio] => 4035047
+    [username] => Quinagro
+)
+
+ID: 6478, Folio: 4035047, Usuario: Quinagro
+Usando conexión PDO
+Respuesta: {"success":true,"message":"Producto eliminado correctamente"}
+=== FIN DE PETICIÓN ===
+

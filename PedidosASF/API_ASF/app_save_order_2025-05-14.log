@@ -1,0 +1,80 @@
+=== NUEVA PETICIÓN: 2025-05-14 02:19:49 ===
+POST: Array
+(
+    [ff] => 4035048
+    [vv] => ASF
+    [cc] => Probar 
+    [rr] => Italia 
+    [rt] => Mar
+    [fs] => 2025/05/14
+    [cm] => 
+    [usuario] => Quinagro
+)
+
+Variables de conexión disponibles:
+- host: localhost
+- username: disponible
+- dbname: agrosant_pedidos
+- pdo: disponible
+Fecha recibida: '2025/05/14'
+Fecha convertida a formato MySQL: '2025-05-14'
+Parámetros recibidos - Vendedor: 'ASF', Usuario: 'Quinagro', Ruta: 'Mar', Fecha salida: '2025-05-14'
+Comentarios encontrados en 'cm': ''
+Usando conexión PDO
+Columnas encontradas en adm_pedidos: folio, vendedor, destino, fecha_salida, status, usuario, FR, cliente, ruta
+SQL a ejecutar (PDO): INSERT INTO adm_pedidos (folio, vendedor, destino, cliente, ruta, fecha_salida, status, usuario) VALUES (:folio, :vendedor, :destino, :cliente, :ruta, :fecha_salida, :status, :usuario)
+Parámetros: Array
+(
+    [:folio] => 4035048
+    [:vendedor] => ASF
+    [:destino] => Italia 
+    [:cliente] => Probar 
+    [:ruta] => Mar
+    [:fecha_salida] => 2025-05-14
+    [:status] => 10
+    [:usuario] => Quinagro
+)
+
+Respuesta: {"status":"success","folio":"4035048","message":"Pedido guardado correctamente"}
+=== FIN DE PETICIÓN ===
+
+=== NUEVA PETICIÓN: 2025-05-14 02:35:12 ===
+POST: Array
+(
+    [ff] => 4035049
+    [vv] => ASF
+    [cc] => El cliente 
+    [rr] => El destino 
+    [rt] => La ruta
+    [fs] => 2025/05/14
+    [cm] => 
+    [usuario] => Oficina1
+)
+
+Variables de conexión disponibles:
+- host: localhost
+- username: disponible
+- dbname: agrosant_pedidos
+- pdo: disponible
+Fecha recibida: '2025/05/14'
+Fecha convertida a formato MySQL: '2025-05-14'
+Parámetros recibidos - Vendedor: 'ASF', Usuario: 'Oficina1', Ruta: 'La ruta', Fecha salida: '2025-05-14'
+Comentarios encontrados en 'cm': ''
+Usando conexión PDO
+Columnas encontradas en adm_pedidos: folio, vendedor, destino, fecha_salida, status, usuario, FR, cliente, ruta
+SQL a ejecutar (PDO): INSERT INTO adm_pedidos (folio, vendedor, destino, cliente, ruta, fecha_salida, status, usuario) VALUES (:folio, :vendedor, :destino, :cliente, :ruta, :fecha_salida, :status, :usuario)
+Parámetros: Array
+(
+    [:folio] => 4035049
+    [:vendedor] => ASF
+    [:destino] => El destino 
+    [:cliente] => El cliente 
+    [:ruta] => La ruta
+    [:fecha_salida] => 2025-05-14
+    [:status] => 10
+    [:usuario] => Oficina1
+)
+
+Respuesta: {"status":"success","folio":"4035049","message":"Pedido guardado correctamente"}
+=== FIN DE PETICIÓN ===
+

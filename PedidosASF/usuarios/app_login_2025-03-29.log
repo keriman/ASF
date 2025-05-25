@@ -1,0 +1,195 @@
+=== NUEVA PETICIÓN DE LOGIN APP: 2025-03-29 02:39:49 ===
+POST: Array
+(
+    [usuario] => Oficina3
+    [clave] => Oficina3
+)
+
+Usuario recibido: 'Oficina3', Clave: 'Oficina3'
+Detectado usuario de oficina especial: Oficina3
+Autenticación especial exitosa para: Oficina3
+Respuesta JSON: {"success":true,"tipo":"oficina","message":"Autenticaci\u00f3n exitosa"}
+=== FIN DE PETICIÓN LOGIN APP ===
+
+=== NUEVA PETICIÓN DE LOGIN APP: 2025-03-29 02:39:49 ===
+POST: Array
+(
+    [usuario] => Oficina3
+    [clave] => Oficina3
+)
+
+Usuario recibido: 'Oficina3', Clave: 'Oficina3'
+Detectado usuario de oficina especial: Oficina3
+Autenticación especial exitosa para: Oficina3
+Respuesta JSON: {"success":true,"tipo":"oficina","message":"Autenticaci\u00f3n exitosa"}
+=== FIN DE PETICIÓN LOGIN APP ===
+
+=== NUEVA PETICIÓN DE LOGIN APP: 2025-03-29 02:39:50 ===
+POST: Array
+(
+    [usuario] => Oficina3
+    [clave] => Oficina3
+)
+
+Usuario recibido: 'Oficina3', Clave: 'Oficina3'
+Detectado usuario de oficina especial: Oficina3
+Autenticación especial exitosa para: Oficina3
+Respuesta JSON: {"success":true,"tipo":"oficina","message":"Autenticaci\u00f3n exitosa"}
+=== FIN DE PETICIÓN LOGIN APP ===
+
+=== NUEVA PETICIÓN DE LOGIN APP: 2025-03-29 02:40:49 ===
+POST: Array
+(
+    [usuario] => Oficina3
+    [clave] => Oficina3
+)
+
+Usuario recibido: 'Oficina3', Clave: 'Oficina3'
+Detectado usuario de oficina especial: Oficina3
+Autenticación especial exitosa para: Oficina3
+Respuesta JSON: {"success":true,"tipo":"oficina","message":"Autenticaci\u00f3n exitosa"}
+=== FIN DE PETICIÓN LOGIN APP ===
+
+=== NUEVA PETICIÓN DE LOGIN APP: 2025-03-29 02:42:32 ===
+POST: Array
+(
+    [usuario] => Oficina4
+    [clave] => Oficina4
+)
+
+Usuario recibido: 'Oficina4', Clave: 'Oficina4'
+Detectado usuario de oficina especial: Oficina4
+Autenticación especial exitosa para: Oficina4
+Respuesta JSON: {"success":true,"tipo":"oficina","message":"Autenticaci\u00f3n exitosa"}
+=== FIN DE PETICIÓN LOGIN APP ===
+
+=== NUEVA PETICIÓN DE LOGIN APP: 2025-03-29 02:42:32 ===
+POST: Array
+(
+    [usuario] => Oficina4
+    [clave] => Oficina4
+)
+
+Usuario recibido: 'Oficina4', Clave: 'Oficina4'
+Detectado usuario de oficina especial: Oficina4
+Autenticación especial exitosa para: Oficina4
+Respuesta JSON: {"success":true,"tipo":"oficina","message":"Autenticaci\u00f3n exitosa"}
+=== FIN DE PETICIÓN LOGIN APP ===
+
+=== NUEVA PETICIÓN DE LOGIN APP: 2025-03-29 02:42:32 ===
+POST: Array
+(
+    [usuario] => Oficina4
+    [clave] => Oficina4
+)
+
+Usuario recibido: 'Oficina4', Clave: 'Oficina4'
+Detectado usuario de oficina especial: Oficina4
+Autenticación especial exitosa para: Oficina4
+Respuesta JSON: {"success":true,"tipo":"oficina","message":"Autenticaci\u00f3n exitosa"}
+=== FIN DE PETICIÓN LOGIN APP ===
+
+=== NUEVA PETICIÓN DE LOGIN APP: 2025-03-29 02:44:14 ===
+POST: Array
+(
+    [usuario] => Oficina4
+    [clave] => Oficina4
+)
+
+Usuario recibido: 'Oficina4', Clave: 'Oficina4'
+Detectado usuario de oficina especial: Oficina4
+Autenticación especial exitosa para: Oficina4
+Respuesta JSON: {"success":true,"tipo":"oficina","message":"Autenticaci\u00f3n exitosa"}
+=== FIN DE PETICIÓN LOGIN APP ===
+
+=== NUEVA PETICIÓN DE LOGIN APP: 2025-03-29 02:47:06 ===
+POST: Array
+(
+    [usuario] => Oficina4
+    [clave] => Oficina4
+)
+
+Usuario recibido: 'Oficina4', Clave: 'Oficina4'
+Detectado usuario de oficina especial: Oficina4
+Autenticación especial exitosa para: Oficina4
+Respuesta JSON: {"success":true,"tipo":"oficina","message":"Autenticaci\u00f3n exitosa"}
+=== FIN DE PETICIÓN LOGIN APP ===
+
+=== NUEVA PETICIÓN DE LOGIN APP: 2025-03-29 08:18:27 ===
+POST: Array
+(
+    [usuario] => Oficina1
+    [clave] => Oficina1
+)
+
+Usuario recibido: 'Oficina1', Clave: 'Oficina1'
+Detectado usuario de oficina especial: Oficina1
+Autenticación especial exitosa para: Oficina1
+Respuesta JSON: {"success":true,"tipo":"oficina","message":"Autenticaci\u00f3n exitosa"}
+=== FIN DE PETICIÓN LOGIN APP ===
+
+=== NUEVA PETICIÓN DE LOGIN APP: 2025-03-29 08:41:52 ===
+POST: Array
+(
+    [usuario] => Oficina1
+    [clave] => Oficina1
+)
+
+Usuario recibido: 'Oficina1', Clave: 'Oficina1'
+Detectado usuario de oficina especial: Oficina1
+Autenticación especial exitosa para: Oficina1
+Respuesta JSON: {"success":true,"tipo":"oficina","message":"Autenticaci\u00f3n exitosa"}
+=== FIN DE PETICIÓN LOGIN APP ===
+
+=== NUEVA PETICIÓN DE LOGIN APP: 2025-03-29 09:10:51 ===
+POST: Array
+(
+    [usuario] => Oficina1
+    [clave] => Oficina1
+)
+
+Usuario recibido: 'Oficina1', Clave: 'Oficina1'
+Detectado usuario de oficina especial: Oficina1
+Autenticación especial exitosa para: Oficina1
+Respuesta JSON: {"success":true,"tipo":"oficina","message":"Autenticaci\u00f3n exitosa"}
+=== FIN DE PETICIÓN LOGIN APP ===
+
+=== NUEVA PETICIÓN DE LOGIN APP: 2025-03-29 09:13:15 ===
+POST: Array
+(
+    [usuario] => Oficina1
+    [clave] => Oficina1
+)
+
+Usuario recibido: 'Oficina1', Clave: 'Oficina1'
+Detectado usuario de oficina especial: Oficina1
+Autenticación especial exitosa para: Oficina1
+Respuesta JSON: {"success":true,"tipo":"oficina","message":"Autenticaci\u00f3n exitosa"}
+=== FIN DE PETICIÓN LOGIN APP ===
+
+=== NUEVA PETICIÓN DE LOGIN APP: 2025-03-29 09:14:00 ===
+POST: Array
+(
+    [usuario] => Oficina1
+    [clave] => Oficina1
+)
+
+Usuario recibido: 'Oficina1', Clave: 'Oficina1'
+Detectado usuario de oficina especial: Oficina1
+Autenticación especial exitosa para: Oficina1
+Respuesta JSON: {"success":true,"tipo":"oficina","message":"Autenticaci\u00f3n exitosa"}
+=== FIN DE PETICIÓN LOGIN APP ===
+
+=== NUEVA PETICIÓN DE LOGIN APP: 2025-03-29 09:14:21 ===
+POST: Array
+(
+    [usuario] => Oficina1
+    [clave] => Oficina1
+)
+
+Usuario recibido: 'Oficina1', Clave: 'Oficina1'
+Detectado usuario de oficina especial: Oficina1
+Autenticación especial exitosa para: Oficina1
+Respuesta JSON: {"success":true,"tipo":"oficina","message":"Autenticaci\u00f3n exitosa"}
+=== FIN DE PETICIÓN LOGIN APP ===
+
