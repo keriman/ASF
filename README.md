@@ -1,187 +1,187 @@
 # ASF - Agro Stock Flow
 
-## General Overview
+## Descripción General
 
-ASF (Agro Stock Flow) is a comprehensive suite of web applications designed to streamline and manage warehouse operations, particularly tailored for agricultural product management. It provides a range of tools to handle various aspects of warehouse management, from inventory control to order processing.
+ASF (Agro Stock Flow) es un conjunto completo de aplicaciones web diseñado para optimizar y gestionar las operaciones de almacén, especialmente adaptado para la gestión de productos agrícolas. Proporciona una gama de herramientas para manejar varios aspectos de la gestión de almacenes, desde el control de inventario hasta el procesamiento de pedidos.
 
-The ASF project consists of the following key modules:
+El proyecto ASF consta de los siguientes módulos clave:
 
-*   **AlmacenASF:** The core warehouse management module, responsible for overseeing storage, organization, and movement of goods within the warehouse.
-*   **GenerarQR:** A utility for generating QR codes, used for item identification, tracking, or linking to product information.
-*   **InventarioASF:** Dedicated to inventory management, this module handles tracking stock levels, managing inventory data, and supporting stocktaking processes.
-*   **PedidosASF:** Focused on order management, this module facilitates the processing of customer orders, from reception to fulfillment. It includes a specific integration for "Quinagro".
+*   **AlmacenASF:** El módulo principal de gestión de almacén, responsable de supervisar el almacenamiento, organización y movimiento de mercancías dentro del almacén.
+*   **GenerarQR:** Una utilidad para generar códigos QR, utilizada para la identificación de artículos, seguimiento o enlace a información de productos.
+*   **InventarioASF:** Dedicado a la gestión de inventarios, este módulo maneja el seguimiento de niveles de stock, gestión de datos de inventario y soporte a procesos de recuento de existencias.
+*   **PedidosASF:** Enfocado en la gestión de pedidos, este módulo facilita el procesamiento de pedidos de clientes, desde la recepción hasta el cumplimiento. Incluye una integración específica para "Quinagro".
 
-The applications within the ASF suite are primarily developed using **PHP** for server-side logic and **Node.js** for certain functionalities or services (specifically AlmacenASF). The user interfaces are built using the **AdminLTE** theme, providing a consistent and responsive user experience.
+Las aplicaciones dentro de la suite ASF están desarrolladas principalmente usando **PHP** para la lógica del lado del servidor y **Node.js** para ciertas funcionalidades o servicios (específicamente AlmacenASF). Las interfaces de usuario están construidas usando el tema **AdminLTE**, proporcionando una experiencia de usuario consistente y responsiva.
 
-## Module Descriptions
+## Descripción de Módulos
 
 ### AlmacenASF
 
-**AlmacenASF** is the central warehouse management system within the ASF suite. It is a **Node.js** application designed to provide comprehensive control over warehouse operations.
+**AlmacenASF** es el sistema central de gestión de almacén dentro de la suite ASF. Es una aplicación de **Node.js** diseñada para proporcionar control completo sobre las operaciones de almacén.
 
-Key features and aspects of AlmacenASF include:
+Las características y aspectos clave de AlmacenASF incluyen:
 
-*   **Core Warehouse Management:** Manages the storage, organization, and movement of goods (as indicated by `warehouse.js`).
-*   **Production Management:** Includes functionalities for tracking or managing production processes (suggested by `production.html` and `assets/js/production.js`).
-*   **Real-time Backend:** Utilizes `backend.js` and `server.js` for handling real-time data processing and communication for warehouse activities.
-*   **User Interface:** Provides a web-based interface (likely `production.html` and `warehouse.html`) for users to interact with the system.
+*   **Gestión Central del Almacén:** Gestiona el almacenamiento, organización y movimiento de mercancías (como indica `warehouse.js`).
+*   **Gestión de Producción:** Incluye funcionalidades para rastrear o gestionar procesos de producción (sugerido por `production.html` y `assets/js/production.js`).
+*   **Backend en Tiempo Real:** Utiliza `backend.js` y `server.js` para manejar el procesamiento de datos en tiempo real y la comunicación para actividades de almacén.
+*   **Interfaz de Usuario:** Proporciona una interfaz basada en web (probablemente `production.html` y `warehouse.html`) para que los usuarios interactúen con el sistema.
 
 ### GenerarQR
 
-**GenerarQR** is a dedicated module for generating and printing QR codes within the ASF suite. It is a **PHP** application that leverages the `phpqrcode` library (located in the project's root `lib/` directory) to create QR codes.
+**GenerarQR** es un módulo dedicado para generar e imprimir códigos QR dentro de la suite ASF. Es una aplicación de **PHP** que aprovecha la biblioteca `phpqrcode` (ubicada en el directorio `lib/` raíz del proyecto) para crear códigos QR.
 
-Key functionalities and scripts include:
+Las funcionalidades y scripts clave incluyen:
 
-*   **QR Code Generation:** Scripts like `generar_qr.php`, `generar_qr_simple.php`, and `generar_qr_simple_q.php` are responsible for creating QR codes based on input data. The `_q` variants likely pertain to the "Quinagro" integration.
-*   **QR Code Printing:** Scripts such as `imprimir.php`, `imprimir_simple.php`, and `imprimir_todos.php` (and their `_q` variants) facilitate the printing of the generated QR codes.
-*   **User Interface:** `index.php` and `indexQ.php` serve as web interfaces for users to trigger QR code generation and printing.
+*   **Generación de Códigos QR:** Scripts como `generar_qr.php`, `generar_qr_simple.php` y `generar_qr_simple_q.php` son responsables de crear códigos QR basados en datos de entrada. Las variantes `_q` probablemente se refieren a la integración "Quinagro".
+*   **Impresión de Códigos QR:** Scripts como `imprimir.php`, `imprimir_simple.php` e `imprimir_todos.php` (y sus variantes `_q`) facilitan la impresión de los códigos QR generados.
+*   **Interfaz de Usuario:** `index.php` e `indexQ.php` sirven como interfaces web para que los usuarios activen la generación e impresión de códigos QR.
 
 ### InventarioASF
 
-**InventarioASF** is the inventory management module of the ASF suite. This **PHP** application provides tools for tracking stock, managing product data, and streamlining inventory operations. It uses an SQLite database (`InventarioASF/assets/db/inventory.db`) for data storage.
+**InventarioASF** es el módulo de gestión de inventarios de la suite ASF. Esta aplicación de **PHP** proporciona herramientas para rastrear stock, gestionar datos de productos y optimizar las operaciones de inventario. Utiliza una base de datos SQLite (`InventarioASF/assets/db/inventory.db`) para el almacenamiento de datos.
 
-Key features and components include:
+Las características y componentes clave incluyen:
 
-*   **Core Inventory Logic:** Handled by scripts like `InventarioASF/process/InventorySystem.php`, which contains the main business logic for inventory operations.
-*   **Barcode Integration:** Extensive barcode functionalities are available through scripts such as `barcode_scanner.php` (for scanning), `assign_barcode.php` (for associating barcodes with products), and `manage_barcodes.php` (for overall barcode management).
-*   **User Authentication:** Secure access is managed via `InventarioASF/auth.php` and the `InventarioASF/login/` directory.
-*   **Batch Operations:** Supports processing of inventory in batches, with scripts like `process_batch.php` for handling batch updates and `batch_history.php` for tracking batch activities.
-*   **Product Management:** Features like `import-products.php` allow for importing product data.
-*   **Real-time Updates:** Incorporates a `InventarioASF/websocket_server/websocket_server.php` component, indicating the use of WebSockets for real-time communication of inventory changes or updates.
-*   **User Interface:** The main user interaction point is `InventarioASF/index.php`.
+*   **Lógica Central de Inventario:** Manejada por scripts como `InventarioASF/process/InventorySystem.php`, que contiene la lógica de negocio principal para las operaciones de inventario.
+*   **Integración de Códigos de Barras:** Funcionalidades extensas de códigos de barras están disponibles a través de scripts como `barcode_scanner.php` (para escanear), `assign_barcode.php` (para asociar códigos de barras con productos) y `manage_barcodes.php` (para la gestión general de códigos de barras).
+*   **Autenticación de Usuario:** El acceso seguro se gestiona vía `InventarioASF/auth.php` y el directorio `InventarioASF/login/`.
+*   **Operaciones por Lotes:** Soporta el procesamiento de inventario en lotes, con scripts como `process_batch.php` para manejar actualizaciones por lotes y `batch_history.php` para rastrear actividades de lotes.
+*   **Gestión de Productos:** Características como `import-products.php` permiten la importación de datos de productos.
+*   **Actualizaciones en Tiempo Real:** Incorpora un componente `InventarioASF/websocket_server/websocket_server.php`, indicando el uso de WebSockets para comunicación en tiempo real de cambios o actualizaciones de inventario.
+*   **Interfaz de Usuario:** El punto principal de interacción del usuario es `InventarioASF/index.php`.
 
 ### PedidosASF
 
-**PedidosASF** is the order management module of the ASF suite. This **PHP** application is designed to handle customer orders, from creation through to fulfillment, and includes specialized integrations.
+**PedidosASF** es el módulo de gestión de pedidos de la suite ASF. Esta aplicación de **PHP** está diseñada para manejar pedidos de clientes, desde la creación hasta el cumplimiento, e incluye integraciones especializadas.
 
-Key features and components include:
+Las características y componentes clave incluyen:
 
-*   **Order and Product Management Core:** The `PedidosASF/pedidos/` directory, particularly `PedidosASF/pedidos/alta/alta_pedidos.php` and `PedidosASF/pedidos/alta/alta_productos.php`, forms the core for creating and managing orders and products.
-*   **API Endpoints:**
-    *   `PedidosASF/API_ASF/`: Provides a range of API functionalities including product creation (`app_alta_productos.php`), order saving (`app_save_order.php`), user login (`app_login.php`), and retrieving sales data (`get_ventas.php`).
-    *   `PedidosASF/API_Quinagro/`: A parallel API structure specifically for "Quinagro", mirroring many of the ASF API functionalities. This suggests Quinagro might be a distinct client or a specialized operational mode requiring its own API set.
-*   **Administration Interface:** The `PedidosASF/admin/` directory likely provides administrative tools, including vendor management (`vendedores.php`).
-*   **Warehouse Operations Interface:** The `PedidosASF/almacen/` directory offers functionalities tailored for warehouse staff, including order processing and product management, with distinct versions for ASF and Quinagro (e.g., `procesar_vendedores.php` vs `procesar_vendedoresq.php`).
-*   **Database Connectivity:** Database connections are managed centrally via `PedidosASF/conexiones/database.php`.
-*   **User Management and Authentication:** User access and login are handled by scripts in the `PedidosASF/usuarios/` directory and various root login files within `PedidosASF/` (e.g., `login.php`, `login2.php`).
-*   **Reporting/Export:** Features like `exportar_excel.php` in `PedidosASF/almacen/` and `PedidosASF/gerencia/` indicate capabilities for data export.
-*   **Main User Interface:** `PedidosASF/index.php` serves as the primary entry point for users interacting with this module.
+*   **Núcleo de Gestión de Pedidos y Productos:** El directorio `PedidosASF/pedidos/`, particularmente `PedidosASF/pedidos/alta/alta_pedidos.php` y `PedidosASF/pedidos/alta/alta_productos.php`, forma el núcleo para crear y gestionar pedidos y productos.
+*   **Endpoints de API:**
+    *   `PedidosASF/API_ASF/`: Proporciona una gama de funcionalidades de API incluyendo creación de productos (`app_alta_productos.php`), guardado de pedidos (`app_save_order.php`), login de usuario (`app_login.php`) y recuperación de datos de ventas (`get_ventas.php`).
+    *   `PedidosASF/API_Quinagro/`: Una estructura de API paralela específicamente para "Quinagro", reflejando muchas de las funcionalidades de la API ASF. Esto sugiere que Quinagro podría ser un cliente distinto o un modo operacional especializado que requiere su propio conjunto de API.
+*   **Interfaz de Administración:** El directorio `PedidosASF/admin/` probablemente proporciona herramientas administrativas, incluyendo gestión de vendedores (`vendedores.php`).
+*   **Interfaz de Operaciones de Almacén:** El directorio `PedidosASF/almacen/` ofrece funcionalidades adaptadas para el personal de almacén, incluyendo procesamiento de pedidos y gestión de productos, con versiones distintas para ASF y Quinagro (ej., `procesar_vendedores.php` vs `procesar_vendedoresq.php`).
+*   **Conectividad de Base de Datos:** Las conexiones de base de datos se gestionan centralmente vía `PedidosASF/conexiones/database.php`.
+*   **Gestión de Usuarios y Autenticación:** El acceso de usuarios y login se maneja por scripts en el directorio `PedidosASF/usuarios/` y varios archivos de login raíz dentro de `PedidosASF/` (ej., `login.php`, `login2.php`).
+*   **Reportes/Exportación:** Características como `exportar_excel.php` en `PedidosASF/almacen/` y `PedidosASF/gerencia/` indican capacidades para exportación de datos.
+*   **Interfaz Principal de Usuario:** `PedidosASF/index.php` sirve como el punto de entrada principal para usuarios que interactúan con este módulo.
 
-## Shared Components and Root Directory Structure
+## Componentes Compartidos y Estructura del Directorio Raíz
 
-Beyond the specific modules, several components and files in the root directory of the project play crucial roles in the overall ASF ecosystem:
+Más allá de los módulos específicos, varios componentes y archivos en el directorio raíz del proyecto juegan roles cruciales en el ecosistema general de ASF:
 
-*   **`api/`**: This directory houses PHP scripts that likely serve as a general-purpose API for common operations such as inventory lookups (`inventory.php`), product data retrieval (`products.php`), and finalizing processes (`finalize.php`). It also contains a `config.php` file, suggesting a centralized configuration point for these API services.
+*   **`api/`**: Este directorio alberga scripts PHP que probablemente sirven como una API de propósito general para operaciones comunes como búsquedas de inventario (`inventory.php`), recuperación de datos de productos (`products.php`) y finalización de procesos (`finalize.php`). También contiene un archivo `config.php`, sugiriendo un punto de configuración centralizado para estos servicios de API.
 
-*   **AdminLTE Theme (`build/`, `dist/`, `docs/`, `plugins/`, `pages/`)**: A significant portion of the root directory is dedicated to the AdminLTE theme, which forms the basis of the user interface for the PHP applications.
-    *   `build/`: Contains build scripts and configurations for the AdminLTE theme.
-    *   `dist/`: Holds the distributable (compiled) CSS, JavaScript, and image files for AdminLTE.
-    *   `docs/`: Includes documentation for the AdminLTE theme.
-    *   `plugins/`: Contains various jQuery plugins and other JavaScript libraries used by AdminLTE to provide rich UI components (e.g., date pickers, charts, data tables).
-    *   `pages/`: Contains example pages and UI element demonstrations provided by AdminLTE, which may have been used as templates or references.
+*   **Tema AdminLTE (`build/`, `dist/`, `docs/`, `plugins/`, `pages/`)**: Una porción significativa del directorio raíz está dedicada al tema AdminLTE, que forma la base de la interfaz de usuario para las aplicaciones PHP.
+    *   `build/`: Contiene scripts de construcción y configuraciones para el tema AdminLTE.
+    *   `dist/`: Contiene los archivos CSS, JavaScript e imágenes distribuibles (compilados) para AdminLTE.
+    *   `docs/`: Incluye documentación para el tema AdminLTE.
+    *   `plugins/`: Contiene varios plugins jQuery y otras bibliotecas JavaScript utilizadas por AdminLTE para proporcionar componentes de UI ricos (ej., selectores de fecha, gráficos, tablas de datos).
+    *   `pages/`: Contiene páginas de ejemplo y demostraciones de elementos de UI proporcionadas por AdminLTE, que pueden haber sido utilizadas como plantillas o referencias.
 
-*   **`lib/phpqrcode/`**: This directory contains the `phpqrcode` library, used by the `GenerarQR` module (and potentially other parts of the system) for generating QR codes.
+*   **`lib/phpqrcode/`**: Este directorio contiene la biblioteca `phpqrcode`, utilizada por el módulo `GenerarQR` (y potencialmente otras partes del sistema) para generar códigos QR.
 
-*   **Root PHP Files**: Many PHP files exist in the root directory. These can be broadly categorized:
-    *   **Entry Points & Core Functionality:**
-        *   `index.php`: Likely the main landing page or central dashboard for the entire ASF application suite.
-        *   `login.php`: The primary login page for user authentication.
-        *   `almacen.php`, `pedidos.php`, `inventario.php`: These files appear to be main entry points or controllers for accessing the functionalities of the Almacen, Pedidos, and Inventario sections/modules respectively.
-    *   **Product and Vendor Management:**
-        *   `altaProductos.php`: Script for adding new products.
-        *   `bajaProductos.php`: Script for removing or deactivating products.
-        *   `products/`: This directory (containing `get_products.php`) seems related to product data management.
-        *   `vendedores.php`, `vendedoresq.php`: Scripts for managing vendors, with `vendedoresq.php` likely specific to Quinagro.
-    *   **Generation & Registration:**
-        *   `generador.php`, `generadorq.php`: Alternative or direct access points for QR code generation, with `generadorq.php` specific to Quinagro.
-        *   `register.php`: User registration page.
-    *   **Other Utilities:**
-        *   `production.php`: Could be a script related to viewing production status or managing production-related data.
-        *   `assets/`: Contains shared static assets like images, JavaScript (e.g. `moment-with-locales.min.js`), and CSS used across different PHP scripts in the root.
-        *   `temp/qrcodes/`: A temporary directory for storing generated QR code images.
+*   **Archivos PHP Raíz**: Muchos archivos PHP existen en el directorio raíz. Estos pueden ser categorizados ampliamente:
+    *   **Puntos de Entrada y Funcionalidad Central:**
+        *   `index.php`: Probablemente la página de aterrizaje principal o panel central para toda la suite de aplicaciones ASF.
+        *   `login.php`: La página de login principal para autenticación de usuario.
+        *   `almacen.php`, `pedidos.php`, `inventario.php`: Estos archivos parecen ser puntos de entrada principales o controladores para acceder a las funcionalidades de las secciones/módulos de Almacén, Pedidos e Inventario respectivamente.
+    *   **Gestión de Productos y Vendedores:**
+        *   `altaProductos.php`: Script para agregar nuevos productos.
+        *   `bajaProductos.php`: Script para eliminar o desactivar productos.
+        *   `products/`: Este directorio (conteniendo `get_products.php`) parece relacionado con la gestión de datos de productos.
+        *   `vendedores.php`, `vendedoresq.php`: Scripts para gestionar vendedores, con `vendedoresq.php` probablemente específico para Quinagro.
+    *   **Generación y Registro:**
+        *   `generador.php`, `generadorq.php`: Puntos de acceso alternativos o directos para generación de códigos QR, con `generadorq.php` específico para Quinagro.
+        *   `register.php`: Página de registro de usuario.
+    *   **Otras Utilidades:**
+        *   `production.php`: Podría ser un script relacionado con ver el estado de producción o gestionar datos relacionados con producción.
+        *   `assets/`: Contiene activos estáticos compartidos como imágenes, JavaScript (ej. `moment-with-locales.min.js`) y CSS utilizados a través de diferentes scripts PHP en la raíz.
+        *   `temp/qrcodes/`: Un directorio temporal para almacenar imágenes de códigos QR generados.
 
-*   **Configuration & Logs:**
-    *   `.htaccess`: Apache server configuration file, likely for URL rewriting or access control.
-    *   `composer.json`: Configuration for PHP (Composer) package management, primarily for AdminLTE build tools in this context.
-    *   `package.json`, `package-lock.json`: Configuration for Node.js (npm) package management, likely for AlmacenASF and AdminLTE build tools.
-    *   `php_errors.log`: A log file for PHP errors occurring in the root-level scripts.
+*   **Configuración y Logs:**
+    *   `.htaccess`: Archivo de configuración del servidor Apache, probablemente para reescritura de URL o control de acceso.
+    *   `composer.json`: Configuración para gestión de paquetes PHP (Composer), principalmente para herramientas de construcción AdminLTE en este contexto.
+    *   `package.json`, `package-lock.json`: Configuración para gestión de paquetes Node.js (npm), probablemente para AlmacenASF y herramientas de construcción AdminLTE.
+    *   `php_errors.log`: Un archivo de log para errores PHP que ocurren en los scripts de nivel raíz.
 
-## Setup and Running the Project
+## Configuración y Ejecución del Proyecto
 
-This section provides general instructions for setting up and running the ASF project. Note that the ASF suite is a collection of distinct modules, and the specific setup for each can vary and might be complex.
+Esta sección proporciona instrucciones generales para configurar y ejecutar el proyecto ASF. Note que la suite ASF es una colección de módulos distintos, y la configuración específica para cada uno puede variar y podría ser compleja.
 
-### Common Prerequisites
+### Prerrequisitos Comunes
 
-*   **Web Server:** A web server like Apache or Nginx with PHP support is required for the PHP-based modules and root scripts.
-*   **PHP:** Necessary for `GenerarQR`, `InventarioASF`, `PedidosASF`, and various root-level scripts. Specific version requirements are not detailed but should be compatible with the AdminLTE version and used libraries.
-*   **Node.js & npm:** Required for the `AlmacenASF` module and potentially for AdminLTE build processes.
-*   **Database System:**
-    *   SQLite: Used by `InventarioASF` (`InventarioASF/assets/db/inventory.db`).
-    *   Other RDBMS (e.g., MySQL, PostgreSQL): Likely required for `PedidosASF` (configure in `PedidosASF/conexiones/database.php`) and potentially other PHP components.
-*   **Web Browser:** For accessing the web interfaces.
+*   **Servidor Web:** Se requiere un servidor web como Apache o Nginx con soporte PHP para los módulos basados en PHP y scripts de nivel raíz.
+*   **PHP:** Necesario para `GenerarQR`, `InventarioASF`, `PedidosASF` y varios scripts de nivel raíz. Los requisitos de versión específicos no se detallan pero deberían ser compatibles con la versión AdminLTE y bibliotecas utilizadas.
+*   **Node.js & npm:** Requerido para el módulo `AlmacenASF` y potencialmente para procesos de construcción AdminLTE.
+*   **Sistema de Base de Datos:**
+    *   SQLite: Utilizado por `InventarioASF` (`InventarioASF/assets/db/inventory.db`).
+    *   Otros RDBMS (ej., MySQL, PostgreSQL): Probablemente requerido para `PedidosASF` (configurar en `PedidosASF/conexiones/database.php`) y potencialmente otros componentes PHP.
+*   **Navegador Web:** Para acceder a las interfaces web.
 
-### General Steps
+### Pasos Generales
 
-1.  **Clone the Repository:**
+1.  **Clonar el Repositorio:**
     ```bash
-    git clone <repository_url>
-    cd <repository_directory>
+    git clone <url_del_repositorio>
+    cd <directorio_del_repositorio>
     ```
 
-2.  **Web Server Configuration:**
-    *   Configure your web server (Apache, Nginx, etc.) to serve the project. The document root should typically be the project's root directory.
-    *   Ensure `.htaccess` (if using Apache) is enabled for features like URL rewriting.
+2.  **Configuración del Servidor Web:**
+    *   Configure su servidor web (Apache, Nginx, etc.) para servir el proyecto. La raíz del documento debería típicamente ser el directorio raíz del proyecto.
+    *   Asegúrese de que `.htaccess` (si usa Apache) esté habilitado para características como reescritura de URL.
 
-3.  **Module-Specific Setup:**
+3.  **Configuración Específica del Módulo:**
 
-    *   **`AlmacenASF` (Node.js Module):**
-        1.  Navigate to the module's directory: `cd AlmacenASF/`
-        2.  Install dependencies: `npm install`
-        3.  Start the application: A command like `npm start` or `node server.js` (or `node backend.js`) would typically be used. Refer to `AlmacenASF/package.json` for specific run scripts.
+    *   **`AlmacenASF` (Módulo Node.js):**
+        1.  Navegue al directorio del módulo: `cd AlmacenASF/`
+        2.  Instale dependencias: `npm install`
+        3.  Inicie la aplicación: Un comando como `npm start` o `node server.js` (o `node backend.js`) típicamente se usaría. Consulte `AlmacenASF/package.json` para scripts de ejecución específicos.
 
-    *   **PHP Modules (`GenerarQR`, `InventarioASF`, `PedidosASF`, root PHP scripts):**
-        1.  **Database Configuration:**
-            *   For `PedidosASF`, create the necessary database and configure connection details in `PedidosASF/conexiones/database.php`.
-            *   For `InventarioASF`, the SQLite database is `InventarioASF/assets/db/inventory.db`. The script `InventarioASF/assets/db/setup.php` might be used for initial table creation; review its contents before running.
-            *   The root `api/config.php` might also need database configuration.
-        2.  **Permissions:** Ensure that the web server has write permissions for directories where files might be created or modified, such as `temp/qrcodes/` and potentially log file locations.
+    *   **Módulos PHP (`GenerarQR`, `InventarioASF`, `PedidosASF`, scripts PHP raíz):**
+        1.  **Configuración de Base de Datos:**
+            *   Para `PedidosASF`, cree la base de datos necesaria y configure los detalles de conexión en `PedidosASF/conexiones/database.php`.
+            *   Para `InventarioASF`, la base de datos SQLite es `InventarioASF/assets/db/inventory.db`. El script `InventarioASF/assets/db/setup.php` podría usarse para la creación inicial de tablas; revise su contenido antes de ejecutar.
+            *   El `api/config.php` raíz también podría necesitar configuración de base de datos.
+        2.  **Permisos:** Asegúrese de que el servidor web tenga permisos de escritura para directorios donde los archivos podrían crearse o modificarse, como `temp/qrcodes/` y potencialmente ubicaciones de archivos de log.
             ```bash
-            chmod -R 775 temp/qrcodes/ # Example, adjust permissions as necessary
-            # Ensure the web server user (e.g., www-data) has appropriate ownership/write access
+            chmod -R 775 temp/qrcodes/ # Ejemplo, ajuste permisos según sea necesario
+            # Asegúrese de que el usuario del servidor web (ej., www-data) tenga acceso de propiedad/escritura apropiado
             ```
-        3.  **PHP Dependencies (Composer):**
-            *   The root `composer.json` primarily seems related to AdminLTE build tools.
-            *   Individual PHP modules (like `InventarioASF/websocket_server/`) might have their own `composer.json` files. Navigate to these directories and run `composer install` if applicable.
+        3.  **Dependencias PHP (Composer):**
+            *   El `composer.json` raíz principalmente parece relacionado con herramientas de construcción AdminLTE.
+            *   Los módulos PHP individuales (como `InventarioASF/websocket_server/`) podrían tener sus propios archivos `composer.json`. Navegue a estos directorios y ejecute `composer install` si es aplicable.
 
-4.  **Accessing the Applications:**
-    *   The main entry point for the PHP applications is likely the root `index.php`.
-    *   Module-specific interfaces can be accessed via their respective `index.php` files (e.g., `PedidosASF/index.php`, `InventarioASF/index.php`).
-    *   `AlmacenASF` will run as a separate Node.js service, typically on a different port, accessible via `http://localhost:<port>` (the specific port will be defined in its server configuration).
+4.  **Accediendo a las Aplicaciones:**
+    *   El punto de entrada principal para las aplicaciones PHP es probablemente el `index.php` raíz.
+    *   Las interfaces específicas del módulo pueden accederse vía sus archivos `index.php` respectivos (ej., `PedidosASF/index.php`, `InventarioASF/index.php`).
+    *   `AlmacenASF` ejecutará como un servicio Node.js separado, típicamente en un puerto diferente, accesible vía `http://localhost:<puerto>` (el puerto específico se definirá en su configuración del servidor).
 
-### Important Note
+### Nota Importante
 
-This README provides a high-level overview. Detailed setup for each module, especially database schemas and initial data, may require further code inspection. Error logs (`php_errors.log`, module-specific logs, and web server logs) will be crucial for troubleshooting.
+Este README proporciona una visión general de alto nivel. La configuración detallada para cada módulo, especialmente esquemas de base de datos y datos iniciales, puede requerir inspección adicional del código. Los logs de error (`php_errors.log`, logs específicos del módulo y logs del servidor web) serán cruciales para la resolución de problemas.
 
-## Contributing
+## Contribuir
 
-We welcome contributions to the ASF project! If you'd like to help improve the suite, please follow these general guidelines:
+¡Damos la bienvenida a las contribuciones al proyecto ASF! Si desea ayudar a mejorar la suite, por favor siga estas pautas generales:
 
-1.  **Reporting Bugs or Requesting Features:**
-    *   If you find a bug or have an idea for a new feature, please open an issue on the project's issue tracker (if available, otherwise communicate through appropriate channels).
-    *   Provide a clear and detailed description of the bug (including steps to reproduce if possible) or the feature request.
+1.  **Reportar Errores o Solicitar Características:**
+    *   Si encuentra un error o tiene una idea para una nueva característica, por favor abra un issue en el rastreador de issues del proyecto (si está disponible, de lo contrario comuníquese a través de canales apropiados).
+    *   Proporcione una descripción clara y detallada del error (incluyendo pasos para reproducir si es posible) o la solicitud de característica.
 
-2.  **Making Changes:**
-    *   **Fork the Repository:** Start by forking the main ASF repository to your own account.
-    *   **Create a Branch:** For any new feature or bug fix, create a new branch in your forked repository. This helps keep your changes organized (e.g., `git checkout -b feature/your-feature-name` or `git checkout -b fix/issue-description`).
-    *   **Code Quality:**
-        *   Write clear and concise code.
-        *   Ensure your code is well-commented, especially in complex areas.
-        *   Try to maintain consistency with the existing codebase style.
-    *   **Commit Your Changes:** Make small, logical commits with clear messages.
+2.  **Realizar Cambios:**
+    *   **Hacer Fork del Repositorio:** Comience haciendo fork del repositorio principal ASF a su propia cuenta.
+    *   **Crear una Rama:** Para cualquier nueva característica o corrección de error, cree una nueva rama en su repositorio forkeado. Esto ayuda a mantener sus cambios organizados (ej., `git checkout -b feature/nombre-de-su-caracteristica` o `git checkout -b fix/descripcion-del-issue`).
+    *   **Calidad del Código:**
+        *   Escriba código claro y conciso.
+        *   Asegúrese de que su código esté bien comentado, especialmente en áreas complejas.
+        *   Trate de mantener consistencia con el estilo del código base existente.
+    *   **Confirmar Sus Cambios:** Haga commits pequeños y lógicos con mensajes claros.
 
-3.  **Submitting Pull Requests:**
-    *   Once your changes are complete and tested, submit a pull request (PR) from your branch to the main ASF repository.
-    *   Provide a clear title and a detailed description of the changes included in your PR. Explain the problem you're solving or the feature you're adding.
-    *   Reference any relevant issue numbers in your PR description.
+3.  **Enviar Pull Requests:**
+    *   Una vez que sus cambios estén completos y probados, envíe un pull request (PR) desde su rama al repositorio principal ASF.
+    *   Proporcione un título claro y una descripción detallada de los cambios incluidos en su PR. Explique el problema que está resolviendo o la característica que está agregando.
+    *   Referencie cualquier número de issue relevante en la descripción de su PR.
 
-Thank you for your interest in contributing to ASF!
+¡Gracias por su interés en contribuir a ASF!
