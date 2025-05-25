@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Strings existentes -->
+    <string name="app_name">ASF Pedidos</string>
+
+    <!-- Strings para el Navigation Drawer -->
+    <string name="navigation_drawer_open">Abrir menú de navegación</string>
+    <string name="navigation_drawer_close">Cerrar menú de navegación</string>
+
+    <!-- Títulos de secciones -->
+    <string name="title_registro">Registro</string>
+    <string name="title_ventas">Ventas</string>
+    <string name="title_acerca">Acerca de</string>
+</resources>

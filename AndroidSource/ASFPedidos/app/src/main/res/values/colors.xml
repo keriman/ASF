@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base colors -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Brand colors from logo -->
+    <color name="brand_pink">#ED0A8E</color>     <!-- Magenta/pink from the flower -->
+    <color name="brand_green">#00A651</color>    <!-- Green from the text/stem -->
+
+    <!-- Dark theme palette -->
+    <color name="background_dark">#121212</color>        <!-- Dark background -->
+    <color name="surface_dark">#1E1E1E</color>           <!-- Slightly lighter surface -->
+    <color name="card_background">#2D2D2D</color>        <!-- Card backgrounds -->
+
+    <!-- Text colors on dark background -->
+    <color name="text_primary">#FFFFFF</color>           <!-- Primary text (white) -->
+    <color name="text_secondary">#B3FFFFFF</color>       <!-- Secondary text (70% white) -->
+    <color name="text_disabled">#66FFFFFF</color>        <!-- Disabled text (40% white) -->
+
+    <!-- Accent colors -->
+    <color name="accent_green_light">#4DCA88</color>     <!-- Lighter green for highlights -->
+    <color name="accent_pink_light">#FF5BC0</color>      <!-- Lighter pink for highlights -->
+
+    <!-- Additional UI colors -->
+    <color name="divider">#1FFFFFFF</color>              <!-- Dividers (12% white) -->
+    <color name="background_secondary">#262626</color>   <!-- Secondary background -->
+    <color name="error">#CF6679</color>                  <!-- Error color -->
+</resources>

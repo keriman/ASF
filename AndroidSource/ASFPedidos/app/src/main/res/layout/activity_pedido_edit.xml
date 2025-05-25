@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <!-- ProgressBar -->
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <!-- ScrollView -->
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/btnGuardar">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <!-- Información no editable -->
+            <TextView
+                android:id="@+id/tvFolio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Folio: "
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintTop_toTopOf="parent"/>
+
+            <TextView
+                android:id="@+id/tvVendedor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Vendedor: "
+                android:textSize="16sp"
+                android:layout_marginTop="8dp"
+                app:layout_constraintTop_toBottomOf="@id/tvFolio"/>
+
+            <TextView
+                android:id="@+id/tvEstado"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Estado: "
+                android:textSize="16sp"
+                android:layout_marginTop="8dp"
+                app:layout_constraintTop_toBottomOf="@id/tvVendedor"/>
+
+            <!-- Campos editables -->
+            <TextView
+                android:id="@+id/tvClienteLabel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cliente:"
+                android:layout_marginTop="16dp"
+                app:layout_constraintTop_toBottomOf="@id/tvEstado"/>
+
+            <EditText
+                android:id="@+id/etCliente"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:background="@drawable/edit_text_background"
+                android:padding="12dp"
+                android:layout_marginTop="4dp"
+                app:layout_constraintTop_toBottomOf="@id/tvClienteLabel"/>
+
+            <TextView
+                android:id="@+id/tvDestinoLabel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Destino:"
+                android:layout_marginTop="16dp"
+                app:layout_constraintTop_toBottomOf="@id/etCliente"/>
+
+            <EditText
+                android:id="@+id/etDestino"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:background="@drawable/edit_text_background"
+                android:padding="12dp"
+                android:layout_marginTop="4dp"
+                app:layout_constraintTop_toBottomOf="@id/tvDestinoLabel"/>
+
+            <TextView
+                android:id="@+id/tvRutaLabel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ruta:"
+                android:layout_marginTop="16dp"
+                app:layout_constraintTop_toBottomOf="@id/etDestino"/>
+
+            <EditText
+                android:id="@+id/etRuta"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:background="@drawable/edit_text_background"
+                android:padding="12dp"
+                android:layout_marginTop="4dp"
+                app:layout_constraintTop_toBottomOf="@id/tvRutaLabel"/>
+
+            <TextView
+                android:id="@+id/tvFechaLabel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fecha de Salida:"
+                android:layout_marginTop="16dp"
+                app:layout_constraintTop_toBottomOf="@id/etRuta"/>
+
+            <EditText
+                android:id="@+id/etFechaSalida"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="date"
+                android:background="@drawable/edit_text_background"
+                android:padding="12dp"
+                android:layout_marginTop="4dp"
+                android:drawableEnd="@drawable/ic_calendar"
+                app:layout_constraintTop_toBottomOf="@id/tvFechaLabel"/>
+
+            <!-- Sección de Productos -->
+            <TextView
+                android:id="@+id/tvProductosTitulo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Productos"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginTop="24dp"
+                app:layout_constraintTop_toBottomOf="@id/etFechaSalida"/>
+
+            <Button
+                android:id="@+id/btnAgregarProducto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Agregar Producto"
+                android:layout_marginTop="8dp"
+                app:layout_constraintTop_toBottomOf="@id/tvProductosTitulo"
+                app:layout_constraintEnd_toEndOf="parent"/>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rvProductos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:nestedScrollingEnabled="false"
+                app:layout_constraintTop_toBottomOf="@id/btnAgregarProducto"/>
+
+            <TextView
+                android:id="@+id/tvNoProductos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="No hay productos en este pedido"
+                android:textAlignment="center"
+                android:visibility="gone"
+                android:layout_marginTop="16dp"
+                app:layout_constraintTop_toBottomOf="@id/btnAgregarProducto"/>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+    <!-- Botón Guardar -->
+    <Button
+        android:id="@+id/btnGuardar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Guardar Cambios"
+        android:layout_marginTop="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

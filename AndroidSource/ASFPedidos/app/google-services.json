@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "575205632625",
+    "project_id": "agrosantafe-d83fe",
+    "storage_bucket": "agrosantafe-d83fe.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:575205632625:android:e3cce5873c6b93e63949d0",
+        "android_client_info": {
+          "package_name": "mx.com.ksolutions.asf_pedidos"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlH_DJdE8enGh0X9QidY7A0WYOLpHRG3s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

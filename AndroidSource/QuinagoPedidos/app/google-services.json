@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "801530498245",
+    "project_id": "quinagro-93aa4",
+    "storage_bucket": "quinagro-93aa4.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:801530498245:android:8ddc7a22288eb148e974ac",
+        "android_client_info": {
+          "package_name": "mx.com.ksolutions.quinagro_pedidos"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBItjJFZ0OmQU7Pc3gBG06c7JHlnFwPDiA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

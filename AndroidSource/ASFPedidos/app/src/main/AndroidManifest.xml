@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ASFPedidos"
+        android:forceDarkAllowed="false"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+        <activity
+            android:name=".ProfileActivity"
+            android:exported="false" />
+        <!-- Reemplazar MainActivity con DrawerActivity -->
+        <activity
+            android:name=".DrawerActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+
+        <!-- Mantener MainActivity para compatibilidad de transición -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".PedidoDetallesActivity"
+            android:exported="false"
+            android:theme="@style/Theme.ASFPedidos"
+            android:label="Detalle de Pedido" />
+        <!-- Agrega esto dentro del tag <application> en tu AndroidManifest.xml -->
+        <activity
+            android:name=".PedidoEditActivity"
+            android:label="Editar Pedido"
+            android:parentActivityName=".PedidoDetallesActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".PedidoDetallesActivity" />
+        </activity>
+
+        <activity
+            android:name=".AddProductActivity"
+            android:label="Agregar Producto"
+            android:parentActivityName=".PedidoEditActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".PedidoEditActivity" />
+        </activity>
+    </application>
+
+</manifest>

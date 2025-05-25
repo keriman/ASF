@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <!-- ProgressBar -->
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <!-- Layout principal de contenido -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/contentLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <!-- Información del Pedido -->
+        <TextView
+            android:id="@+id/tvPedidoTitulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Detalles del Pedido"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <TextView
+            android:id="@+id/tvPedidoInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Folio: \nCliente: \nDestino: \nRuta: \nFecha: \nEstado: "
+            android:background="#262626"
+            android:padding="8dp"
+            app:layout_constraintTop_toBottomOf="@id/tvPedidoTitulo"/>
+
+        <!-- Título de Productos -->
+        <TextView
+            android:id="@+id/tvProductosTitulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Productos"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            app:layout_constraintTop_toBottomOf="@id/tvPedidoInfo"/>
+
+        <!-- RecyclerView para Productos -->
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvProductos"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@id/tvProductosTitulo"
+            app:layout_constraintBottom_toTopOf="@id/tvObservacionesTitulo"/>
+
+        <!-- Mensaje de no productos -->
+        <TextView
+            android:id="@+id/tvNoProductos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="No hay productos para este pedido"
+            android:textAlignment="center"
+            android:visibility="gone"
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@id/tvProductosTitulo"/>
+
+        <!-- Observaciones Título -->
+        <TextView
+            android:id="@+id/tvObservacionesTitulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Observaciones"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            app:layout_constraintBottom_toTopOf="@id/rvObservaciones"
+            app:layout_constraintTop_toBottomOf="@id/rvProductos"/>
+
+        <!-- Mensaje de no observaciones -->
+        <TextView
+            android:id="@+id/tvNoObservaciones"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="No hay observaciones para este pedido"
+            android:textAlignment="center"
+            android:visibility="gone"
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@id/tvObservacionesTitulo"/>
+
+        <!-- RecyclerView para Observaciones -->
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvObservaciones"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tvObservacionesTitulo"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_registro"
+            android:icon="@android:drawable/ic_menu_edit"
+            android:title="Registro" />
+        <item
+            android:id="@+id/nav_ventas"
+            android:icon="@android:drawable/ic_menu_sort_by_size"
+            android:title="Ventas" />
+        <item
+            android:id="@+id/nav_acerca"
+            android:icon="@android:drawable/ic_menu_info_details"
+            android:title="Acerca de" />
+    </group>
+    <item android:title="Cuenta">
+        <menu>
+            <item
+                android:id="@+id/nav_cambiar_vendedor"
+                android:icon="@android:drawable/ic_menu_manage"
+                android:title="Cambiar Vendedor" />
+        </menu>
+    </item>
+</menu>
